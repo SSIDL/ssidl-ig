@@ -5,37 +5,39 @@ Source: SsidlObservationDefinitionLaboratoryTestDefinition
 Target: "http://ssidl.umed.pl/models/ssidl-knowledgeBase"
 // TODO: Add version attribute to "Badanie" entity
 * version -> ""
-// TODO: Add 'analyte' coded attribute to "Badanie" entity
+// TODO: Add "Analit" coded attribute to "Badanie" entity
 * extension[analyteCode].valueCoding.code -> ""
+// TODO: Add 'Id' unique identifier attribute to "Badanie" entity
 * identifier.value -> "Badanie.ID"
 * title -> "LOINC_Przypisanie.FullySpecifiedName"
-* performerType.coding.code -> "Definicja badania laboratoryjnego.rodzaj pracowni"
-* category -> "Definicja badania laboratoryjnego.kategoria"
+// TODO: Add "RodzajPracowni" coded attribute to "Badanie" entity
+* performerType.coding.code -> ""
+// TODO: Add "Kategoria" coded attribute to "Badanie" entity
+* category -> ""
 * code.coding[loincCode].code -> "LOINC_Przypisanie.LOINC_Kod"
 * code.coding[icd9plCode].code -> "ICD9.Kod"
-//TODO: Add 'code' attribute to "Metoda" entity
+//TODO: Add 'Kod' attribute to "Metoda" entity
 * method.code -> "Metoda.Kod"
 * method.display -> "Metoda.NazwaMetody"
 * preferredReportName -> "Badanie.NazwaBadania | BadanieWieloparametrowe.NazwaBadania"
-// TODO Add 'code' attribute to "Jednostka" entity
+// TODO Add 'Kod' attribute to "Jednostka" entity
 * component.code.coding.code -> "LOINC_Przypisanie.LOINC_Kod"
 * component.permittedDataType -> ""
 * component.permittedUnit.code -> ""
-// component.qualifiedValue -> Wartości referencyjne
 * component.qualifiedValue.context -> "WartoscReferencyjna.TypWartosci"
-// TODO: Add 'isPregnancy' attribute to "WartoscReferencyjna" entity
+// TODO: Add 'CzyCiaza' attribute to "WartoscReferencyjna" entity
 * component.qualifiedValue.appliesTo -> ""
 * component.qualifiedValue.gender -> "WartoscReferencyjna.Plec"
 * component.qualifiedValue.age.low -> "WartoscReferencyjna.WiekOd"
 * component.qualifiedValue.age.high -> "WartoscReferencyjna.WiekDo"
-// TODO: Add 'code' attribute to "JednostkaWieku" entity
+// TODO: Add 'Kod' attribute to "JednostkaWieku" entity
 * component.qualifiedValue.age.unit -> "WartoscReferencyjna.DlaWiekuW.KodJednostkiWieku"
 * component.qualifiedValue.condition -> "WartoscReferencyjna.SlownaWartosc"
 * component.qualifiedValue.range.low -> "WartoscReferencyjna.Przedzial_URL_Min"
-// TODO Add 'code' attribute to "Jednostka" entity
+// TODO Add 'Kod' attribute to "Jednostka" entity
 * component.qualifiedValue.range.low.unit -> "WartoscReferencyjna.JednostkaPrzedzial.KodJednostki"
 * component.qualifiedValue.range.high -> "WartoscReferencyjna.Przedzial_URL_Max"
-// TODO Add 'code' attribute to "Jednostka" entity
+// TODO Add 'Kod' attribute to "Jednostka" entity
 * component.qualifiedValue.range.high.unit -> "WartoscReferencyjna.JednostkaPrzedzial.KodJednostki"
 * component.qualifiedValue.validCodedValueSet -> "Wartoscreferencyjna.BinarnaWartosc"
 
@@ -63,7 +65,7 @@ Source: SsidlConditionDefinitionReasonForTest
 Target: "http://ssidl.umed.pl/models/ssidl-knowledgeBase"
 * title -> "CelWykonania.AspektDiagnostyczny"
 * description -> "CelWykonania.Opis"
-// TODO: Add 'display' or 'name' attribute to "ICD11" entity
+// TODO: Add 'Nazwa' or 'Opis' attribute to "ICD11" entity
 // TODO: Use ICD-10 terminology codes instead of ICD-11
 * code.coding.code -> "ICD11.Kod"
 
@@ -73,9 +75,11 @@ Title: "Mapping of specimen definition (SpecimenDefinition) profile to SSIDL kno
 Source: SsidlSpecimenDefinition
 Target: "http://ssidl.umed.pl/models/ssidl-prototype"
 * identifier.value -> ""
-* typeCollected.coding.code -> ""
-* patientPreparation.text -> ""
-* typeTested.type.text -> ""
+// TODO: Add "Kod" attribute to "Material" entity
+* typeCollected.coding.code -> "Material.Kod"
+* typeCollected.coding.display -> "Material.NazwaMaterialu"
+* patientPreparation.text -> "CzynnikPrzedanalityczny_Przypisanie.OpisCzynnikaWartosciPrzedanalitycznej (where Czynnik.NazwaCzynnika = 'Przygotowanie pacjenta')"
+* typeTested.type.text -> "CzynnikPrzedanalityczny_Przypisanie.OpisCzynnikaWartosciPrzedanalitycznej (where Czynnik.NazwaCzynnika = 'Rodzaj materiału badanego')"
 * typeTested.requirement -> ""
 * typeTested.handling.temperatureQualifier.text -> ""
 * typeTested.handling.temperatureRange.low -> ""
