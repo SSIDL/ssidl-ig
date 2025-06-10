@@ -1,7 +1,7 @@
-Logical: ReasonForExam
+Logical: ReasonForTest
 Parent: Base
-Id: pl-lab-reasonForExam
-Title: "Reason for exam"
+Id: ssidl-reasonForTest
+Title: "Reason for test"
 Description: ""
 Characteristics: #can-be-target
 * name 1..1 string "Reason for exam name" "Reason for exam name"

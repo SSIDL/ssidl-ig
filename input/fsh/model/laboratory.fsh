@@ -1,6 +1,6 @@
 Logical: Laboratory
 Parent: Base
-Id: pl-lab-laboratory
+Id: ssidl-laboratory
 Title: "Laboratory"
 Description: "Laboratory"
 Characteristics: #can-be-target

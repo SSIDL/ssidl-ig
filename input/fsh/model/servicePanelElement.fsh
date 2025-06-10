@@ -1,6 +1,6 @@
 Logical: ServicePanelElement
 Parent: Base
-Id: pl-lab-servicePanelElement
+Id: ssidl-servicePanelElement
 Title: "Service panel element"
 Description: ""
 * referenceService 1..1 Reference(ReferenceCatalogService) "Reference catalog service" "Reference catalog service"

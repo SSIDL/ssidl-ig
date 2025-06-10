@@ -1,6 +1,6 @@
 Logical: MedicalProvider
 Parent: Base
-Id: pl-lab-medicalProvider
+Id: ssidl-medicalProvider
 Title: "Medical provider"
 Description: "Medical provider"
 * identifier 0..1 Identifier "Medical provider identifier" "Medical provider identifier"

@@ -1,6 +1,6 @@
 Logical: ServicePanel
 Parent: Base
-Id: pl-lab-servicePanel
+Id: ssidl-servicePanel
 Title: "Service panel"
 Description: "Service panel"
 Characteristics: #can-be-target
