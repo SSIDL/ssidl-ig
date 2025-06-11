@@ -75,9 +75,6 @@ Title: "Mapping of specimen definition (SpecimenDefinition) profile to SSIDL kno
 Source: SsidlSpecimenDefinition
 Target: "http://ssidl.umed.pl/models/ssidl-prototype"
 * identifier.value -> ""
-// TODO: Add "Kod" attribute to "Material" entity
-* typeCollected.coding.code -> "Material.Kod"
-* typeCollected.coding.display -> "Material.NazwaMaterialu"
 * patientPreparation.text -> "CzynnikPrzedanalityczny_Przypisanie.OpisCzynnikaWartosciPrzedanalitycznej (where Czynnik.NazwaCzynnika = 'Przygotowanie pacjenta')"
 * typeTested.type.text -> "CzynnikPrzedanalityczny_Przypisanie.OpisCzynnikaWartosciPrzedanalitycznej (where Czynnik.NazwaCzynnika = 'Rodzaj materiału badanego')"
 * typeTested.requirement -> ""

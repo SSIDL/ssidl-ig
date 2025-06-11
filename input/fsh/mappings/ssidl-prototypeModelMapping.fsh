@@ -65,7 +65,6 @@ Title: "Mapping of specimen definition (SpecimenDefinition) profile to SSIDL pro
 Source: SsidlSpecimenDefinition
 Target: "http://ssidl.umed.pl/models/ssidl-prototype"
 * identifier.value -> "Czynnik przedanalityczny.identyfikator"
-* typeCollected.coding.code -> "Definicja badania laboratoryjnego.materiał"
 * patientPreparation.text -> "Przygotowanie pacjenta.opis"
 * typeTested.type.text -> "Rodzaj materiału badanego.opis"
 * typeTested.requirement -> "Specjalne.opis"
