@@ -4,7 +4,6 @@ Id: ssidl-observationDefinition-laboratoryTestDefinition
 Title: "ObservationDefinition: Laboratory Test Definition (SSIDL)"
 Description: "Reference catalog service (PL: Definicja badania laboratoryjnego)"
 * extension contains
-    ObservationDefinitionAnalyteCode named analyte 1..1 MS and
     ObservationDefinitionReasonReference named reason 0..* MS and
     ObservationDefinitionUnitConversion named unitConversion 0..* MS
 * identifier 1..1 MS 

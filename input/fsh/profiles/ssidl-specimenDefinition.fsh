@@ -33,14 +33,7 @@ Description: "Definition of specimen for laboratory test definition"
 * approvalDate 0..0
 * lastReviewDate 0..0
 * effectivePeriod 0..0
-* typeCollected 1..1 MS
-* typeCollected from LaboratoryMaterialTypeVS
-* typeCollected.coding 1..1 MS
-* typeCollected.coding.system 1..1 MS
-* typeCollected.coding.version 0..0
-* typeCollected.coding.code 1..1 MS
-* typeCollected.coding.display 1..1 MS
-* typeCollected.coding.userSelected 0..0
+* typeCollected 0..0 MS
 * typeCollected.text 0..0
 * patientPreparation 0..* MS
 * patientPreparation.coding 0..1 MS
