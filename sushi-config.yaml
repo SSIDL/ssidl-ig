@@ -52,6 +52,8 @@ pages:
     title: Przypadki użycia
   model.md:
     title: Model logiczny
+  examples.md:
+    title: Przykłady
 #   implementation.xml:
 #   examples.xml:
 #     title: Examples Overview
@@ -85,6 +87,7 @@ menu:
   Przypadki użycia: usecases.html
   Model logiczny: model.html
   Definicje: artifacts.html
+  Przykłady: examples.html
 
 # ╭───────────────────────────Less Common Implementation Guide Properties──────────────────────────╮
 # │  Uncomment the properties below to configure additional properties on the ImplementationGuide  │
