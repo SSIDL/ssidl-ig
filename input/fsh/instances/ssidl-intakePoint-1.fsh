@@ -1,5 +1,5 @@
 Instance: SsidlLocationIntakePoint-1
-InstanceOf: PLLabLocationIntakePoint
+InstanceOf: SsidlLocationIntakePoint
 Title: "IntakePoint: Punkt pobrań Superdiagnostyki"
 Usage: #example
 * text.status = #generated

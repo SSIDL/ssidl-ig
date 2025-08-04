@@ -1,5 +1,5 @@
 Instance: SsidlCitation-1
-InstanceOf: PLLabCitationSourceInfo
+InstanceOf: SsidlCitationSourceInfo
 Title: "Citation: Przykład 1"
 Usage: #example
 * text.status = #generated

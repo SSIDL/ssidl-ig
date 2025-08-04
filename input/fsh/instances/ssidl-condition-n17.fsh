@@ -1,5 +1,5 @@
 Instance: SsidlCondition-N17
-InstanceOf: PLLabConditionDefinitionReasonForTest
+InstanceOf: SsidlConditionDefinitionReasonForTest
 Title: "ConditionDefinition: N17"
 Usage: #example
 * text.status = #generated
@@ -7,7 +7,7 @@ Usage: #example
 * id = "n17"
 * title = "Ostra niewydolność nerek"
 * status = #active
-* useContext.code = $usage-context-type#workflow
+* useContext.code = $usage-context-type#workflow "Workflow Setting"
 * useContext.valueCodeableConcept = $reason-type#ROZP "Rozpoznanie"
 * code = $icd-10#N17 "Ostra niewydolność nerek"
 * hasBodySite = false

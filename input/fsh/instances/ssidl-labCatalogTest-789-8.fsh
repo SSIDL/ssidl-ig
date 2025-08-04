@@ -6,13 +6,14 @@ Usage: #example
 * text.div = "<div></div>"
 * url = "http://loinc-ssidl.umed.pl/fhir/ig/ssidl/ObservationDefinition/ssidl-labCatalogTest-789-8"
 * version = "1"
-* title = "Erytrocyty"
+* title = "Erytrocyty: stężenie liczbowe: punkt w czasie: krew: ilościowy: automatyczne liczenie"
 * status = #active
 * useContext.code = $usage-context-type#workflow "Workflow Setting"
 * useContext.valueCodeableConcept.coding = $def-use#KU "Katalog usług"
-* code.coding = $loinc#789-8 "Erytrocyty: stężenie liczbowe: punkt w czasie: krew: ilościowy: automatyczne liczenie"
-* method.coding = $loinc-part#LP6141-8 "Automatyczne zliczanie"
+* code.coding[loincCode] = $loinc#789-8 "Erytrocyty: stężenie liczbowe: punkt w czasie: krew: ilościowy: automatyczne liczenie"
+* method.coding[+] = $loinc-part#LP6141-8 "Automatyczne zliczanie"
 * permittedDataType = #Quantity
+* preferredReportName = "Erytrocyty"
 * permittedUnit = $ucum#/uL "na mikrolitr"
 * qualifiedValue[+].context.coding = $ref-range-meaning#normal "Wartości normalne"
 * qualifiedValue[=].gender = #female
@@ -20,7 +21,7 @@ Usage: #example
 * qualifiedValue[=].range.low.unit = $ucum#/uL "na mikrolitr"
 * qualifiedValue[=].range.high.value = 5.8
 * qualifiedValue[=].range.high.unit = $ucum#/uL "na mikrolitr"
-* qualifiedValue[+].context.coding = $ref-range-meaning#normal "Wartości normalne"
+* qualifiedValue[=].context.coding = $ref-range-meaning#normal "Wartości normalne"
 * qualifiedValue[=].gender = #male
 * qualifiedValue[=].range.low.value = 4.5
 * qualifiedValue[=].range.low.unit = $ucum#/uL "na mikrolitr"

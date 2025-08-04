@@ -7,12 +7,10 @@ Usage: #example
 * url = "http://loinc-ssidl.umed.pl/fhir/ig/ssidl/ActivityDefinition/ssidl-labServiceDefinition-2160-0"
 * extension[reason][+].valueReference = Reference(SsidlCondition-N17)
 * extension[reason][+].valueReference = Reference(SsidlCondition-N18)
-* extension[unitConversion][+].extension[targetUnit][+].valueCoding = $ucum#umol/L "mikromol na Litr"
-* extension[unitConversion][=].extension[conversionFactor][+].valueDecimal = 88.4
-* extension[nfzGuaranteedServiceCode][+].extension[code][+].valueCoding = $nfz-guaranteed#1.6.2.9 "kreatynina"
-* extension[nfzGuaranteedServiceCode][=].extension[explicite][+].valueBoolean = true
-* extension[nfzGuaranteedServiceCode][+].extension[code][+].valueCoding = $nfz-guaranteed#5.1.1.3 "kreatynina"
-* extension[nfzGuaranteedServiceCode][=].extension[explicite][+].valueBoolean = true
+* extension[nfzGuaranteedServiceCode][+].extension[code].valueCoding = $nfz-guaranteed#1.6.2.9 "kreatynina"
+* extension[nfzGuaranteedServiceCode][=].extension[explicite].valueBoolean = true
+* extension[nfzGuaranteedServiceCode][+].extension[code].valueCoding = $nfz-guaranteed#5.1.1.3 "kreatynina"
+* extension[nfzGuaranteedServiceCode][=].extension[explicite].valueBoolean = true
 * version = "1"
 * title = "Kreatynina"
 * status = #active

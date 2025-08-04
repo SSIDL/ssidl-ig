@@ -1,5 +1,5 @@
 Instance: SsidlLocationLaboratory-1
-InstanceOf: PLLabLocationLaboratory
+InstanceOf: SsidlLocationLaboratory
 Title: "Laboratory: Laboratorium nr 1 we Wrocławiu"
 Usage: #example
 * text.status = #generated

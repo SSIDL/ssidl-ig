@@ -1,5 +1,5 @@
 Instance: SsidlCondition-N18
-InstanceOf: PLLabConditionDefinitionReasonForTest
+InstanceOf: SsidlConditionDefinitionReasonForTest
 Title: "ConditionDefinition: N18"
 Usage: #example
 * text.status = #generated
@@ -7,7 +7,7 @@ Usage: #example
 * id = "n18"
 * title = "Przewlekła niewydolność nerek"
 * status = #active
-* useContext.code = $usage-context-type#workflow
+* useContext.code = $usage-context-type#workflow "Workflow Setting"
 * useContext.valueCodeableConcept = $reason-type#ROZP "Rozpoznanie"
 * code = $icd-10#N18 "Przewlekła niewydolność nerek"
 * hasBodySite = false
