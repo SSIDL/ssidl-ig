@@ -1,16 +1,11 @@
 Profile: SsidlSpecimenDefinition
 Parent: SpecimenDefinition
-Id: ssidl-specimenDefinition
+Id: ssidl-specimenDefinition-alt
 Title: "SubstanceDefinition (SSIDL)"
-Description: "Definition of specimen for laboratory test definition"
-* url 0..0
-* identifier 1..1 MS 
-* identifier.use 0..0
-* identifier.type 0..0
-* identifier.system 1..1 MS
-* identifier.value 1..1 MS
-* identifier.period 0..0
-* identifier.assigner 0..0
+Description: "Definicja czynników przedanalitycznych dla definicji badania laboratoryjnego"
+* ^version = "0.1.0"
+* url 1..1
+* identifier 0..0
 * version 0..0
 * versionAlgorithm[x] 0..0
 * name 0..0
@@ -36,13 +31,23 @@ Description: "Definition of specimen for laboratory test definition"
 * typeCollected 0..0 MS
 * typeCollected.text 0..0
 * patientPreparation 0..* MS
-* patientPreparation.coding 0..1 MS
-* patientPreparation.coding.system 1..1 MS
-* patientPreparation.coding.version 0..0
-* patientPreparation.coding.code 1..1 MS
-* patientPreparation.coding.display 1..1 MS
-* patientPreparation.coding.userSelected 0..0
+* patientPreparation.coding 0..0
+// * patientPreparation.coding 0..1 MS
+// * patientPreparation.coding.system 1..1 MS
+// * patientPreparation.coding.version 0..0
+// * patientPreparation.coding.code 1..1 MS
+// * patientPreparation.coding.display 1..1 MS
+// * patientPreparation.coding.userSelected 0..0
+// * patientPreparation.coding from SsidlPatientPreparationVS
 * patientPreparation.text 0..1
+* typeCollected.coding 0..1 MS
+* typeCollected.coding.system 1..1 MS
+* typeCollected.coding.version 0..0
+* typeCollected.coding.code 1..1 MS
+* typeCollected.coding.display 1..1 MS
+* typeCollected.coding.userSelected 0..0
+* typeCollected.coding from LaboratoryMaterialTypeVS
+* typeCollected.text 0..0
 * timeAspect 0..0
 * collection 0..0
 * typeTested 0..* MS
@@ -55,7 +60,8 @@ Description: "Definition of specimen for laboratory test definition"
 * typeTested.type.coding.display 1..1 MS
 * typeTested.type.coding.userSelected 0..0
 * typeTested.type.text 0..1
-* typeTested.preference 0..0
+* typeTested.preference 1..1 MS
+* typeTested.preference = #preferred
 * typeTested.container 0..0
 * typeTested.requirement 0..1 MS
 * typeTested.retentionTime 0..0
@@ -67,7 +73,7 @@ Description: "Definition of specimen for laboratory test definition"
 * typeTested.handling.temperatureQualifier.text 1..1
 * typeTested.handling.temperatureRange 0..1 MS
 * typeTested.handling.maxDuration 0..1 MS
-* typeTested.handling.instruction 0..0
+* typeTested.handling.instruction 0..1 MS
 * typeTested.testingDestination 0..0
 
 

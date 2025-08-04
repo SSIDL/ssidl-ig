@@ -1,8 +1,9 @@
 Profile: SsidlCitationSourceInfo
 Parent: Citation
 Id: ssidl-citation-sourceInfo
-Title: "Citation: Source information (SSIDL)"
-Description: "Source information in a form of Citation resource"
+Title: "Citation: Source information"
+Description: "Informacje źródłowe dla wartości referencyjnych definicji badania laboratoryjnego"
+* ^version = "0.1.0"
 * url 0..0
 * identifier 1..1 MS 
 * identifier.use 0..0

@@ -1,8 +1,10 @@
 Profile: SsidlConditionDefinitionReasonForTest
 Parent: ConditionDefinition
 Id: ssidl-conditionDefinition-reasonForTest
-Title: "SubstanceDefinition: Reason for test"
-Description: "Definition of the reason for test condition for laboratory services"
+Title: "ConditionDefinition: Reason for test (SSIDL)"
+Description: "Powód wykonania badania dla definicji badania laboratoryjnego"
+* ^version = "0.1.0"
+* id 1..1
 * url 0..0
 * identifier 0..0
 * version 0..0
@@ -10,16 +12,19 @@ Description: "Definition of the reason for test condition for laboratory service
 * name 0..0
 * title 1..1 MS
 * subtitle 0..0
-* status 0..0
+* status 1..1 MS
 * experimental 0..0
 * date 0..0
 * publisher 0..0
 * contact 0..0
 * description 0..1 MS
-* useContext 0..0
+* useContext.code 1..1 MS
+* useContext.code = $usage-context-type#workflow "Workflow Setting"
+* useContext.value[x] only CodeableConcept
+* useContext.valueCodeableConcept from SsidlReasonForTestTypeVS
 * jurisdiction 0..0
 * code 1..1 MS
-* code from ReasonForTestCodeVS
+* code from SsidlReasonForTestTypeVS
 * code.coding 1..1 MS
 * code.coding.system 1..1 MS
 * code.coding.version 0..1 MS

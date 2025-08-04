@@ -26,7 +26,7 @@ Description: "CodeSystem constraints for SSIDL prototype"
 * jurisdiction 1..1
 * jurisdiction.coding 1..1 MS
 * jurisdiction.coding.system 1..1 MS
-* jurisdiction.coding.system = $iso3166
+* jurisdiction.coding.system = $iso3166-1-2
 * jurisdiction.coding.version 0..0
 * jurisdiction.coding.code 1..1 MS
 * jurisdiction.coding.code = #PL
