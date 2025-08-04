@@ -10,7 +10,7 @@ Usage: #example
 * status = #active
 * useContext.code = $usage-context-type#workflow "Workflow Setting"
 * useContext.valueCodeableConcept.coding = $def-use#KU "Katalog usług"
-* code.coding[+] = $loinc#6690-2 "Leukocyty: stężenie liczbowe: punkt w czasie: krew: ilościowy: automatyczne liczenie"
+* code.coding[loincCode] = $loinc#6690-2 "Leukocyty: stężenie liczbowe: punkt w czasie: krew: ilościowy: automatyczne liczenie"
 * method.coding[+] = $loinc-part#LP6141-8 "Automatyczne zliczanie"
 * permittedDataType = #Quantity
 * preferredReportName = "Leukocyty"
