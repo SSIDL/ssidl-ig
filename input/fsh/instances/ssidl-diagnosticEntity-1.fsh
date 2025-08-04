@@ -1,5 +1,5 @@
 Instance: SsidlOrganizationDiagnosticEntity-1
-InstanceOf: PLLabOrganizationDiagnosticEntity
+InstanceOf: SsidlOrganizationDiagnosticEntity
 Title: "DiagnosticEntity: Superdiagnostyka"
 Usage: #example
 * text.status = #generated

@@ -17,7 +17,6 @@ Description: "Informacje źródłowe dla wartości referencyjnych definicji bada
 * name 0..0
 * title 0..0
 * status 1..1 MS
-* status = #active
 * experimental 0..0
 * date 0..0
 * publisher 0..0

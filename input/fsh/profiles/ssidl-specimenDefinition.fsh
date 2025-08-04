@@ -28,7 +28,13 @@ Description: "Definicja czynników przedanalitycznych dla definicji badania labo
 * approvalDate 0..0
 * lastReviewDate 0..0
 * effectivePeriod 0..0
-* typeCollected 0..0 MS
+* typeCollected.coding 0..1 MS
+* typeCollected.coding.system 1..1 MS
+* typeCollected.coding.version 0..0
+* typeCollected.coding.code 1..1 MS
+* typeCollected.coding.display 1..1 MS
+* typeCollected.coding.userSelected 0..0
+* typeCollected.coding from LaboratoryMaterialTypeVS
 * typeCollected.text 0..0
 * patientPreparation 0..* MS
 * patientPreparation.coding 0..0
@@ -40,14 +46,6 @@ Description: "Definicja czynników przedanalitycznych dla definicji badania labo
 // * patientPreparation.coding.userSelected 0..0
 // * patientPreparation.coding from SsidlPatientPreparationVS
 * patientPreparation.text 0..1
-* typeCollected.coding 0..1 MS
-* typeCollected.coding.system 1..1 MS
-* typeCollected.coding.version 0..0
-* typeCollected.coding.code 1..1 MS
-* typeCollected.coding.display 1..1 MS
-* typeCollected.coding.userSelected 0..0
-* typeCollected.coding from LaboratoryMaterialTypeVS
-* typeCollected.text 0..0
 * timeAspect 0..0
 * collection 0..0
 * typeTested 0..* MS
