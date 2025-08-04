@@ -76,7 +76,7 @@ Description: "Definicja testu laboratoryjnego według laboratorium"
 * device 0..0
 * preferredReportName 1..1 MS
 * permittedUnit 1..1 MS
-* permittedUnit from $ucum-codes-vs
+* permittedUnit from SsidlUcumUnitsVS
 * qualifiedValue 1..1 MS
 * qualifiedValue.context 1..1 MS
 * qualifiedValue.context.coding 1..1 MS
@@ -109,10 +109,10 @@ Description: "Definicja testu laboratoryjnego według laboratorium"
 * qualifiedValue.range 0..1 MS
 * qualifiedValue.range.low 0..1 MS
 * qualifiedValue.range.low.unit 1..1 MS
-* qualifiedValue.range.low.unit from $ucum-codes-vs
+* qualifiedValue.range.low.unit from SsidlUcumUnitsVS
 * qualifiedValue.range.high 0..1 MS
 * qualifiedValue.range.high.unit 1..1 MS
-* qualifiedValue.range.high.unit from $ucum-codes-vs
+* qualifiedValue.range.high.unit from SsidlUcumUnitsVS
 * qualifiedValue.validCodedValueSet 0..1 MS
 * qualifiedValue.validCodedValueSet
 * qualifiedValue.normalCodedValueSet 0..0
