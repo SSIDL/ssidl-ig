@@ -6,7 +6,7 @@ Description: "Definicja testu laboratoryjnego według laboratorium"
 //TODO: Referencja do SsidlObservationDefinitionLabTestDefinition
 * extension contains
     ObservationDefinitionUnitConversion named unitConversion 0..* MS
-* identifier 1..1 MS
+* identifier 0..0
 // TODO: Czy uwględniać wersję definicji testu?
 * version 1..1 MS
 * versionAlgorithm[x] 0..0
@@ -78,6 +78,8 @@ Description: "Definicja testu laboratoryjnego według laboratorium"
 * permittedUnit 1..1 MS
 * permittedUnit from SsidlUcumUnitsVS
 * qualifiedValue 1..1 MS
+* qualifiedValue.extension contains
+    ObservationDefinitionQualifiedValueSourceInfoReference named sourceInfo 0..* MS 
 * qualifiedValue.context 1..1 MS
 * qualifiedValue.context.coding 1..1 MS
 * qualifiedValue.context.coding.system 1..1 MS
