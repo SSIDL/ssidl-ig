@@ -1,0 +1,46 @@
+## FHIRPlant configuration
+
+# inputDir: /path/to/directory/with/StructureDefinition/resources
+inputDir: ./fsh-generated
+# outputDir: /path/to/generated/model
+outputDir: ./model-generated
+# defaultView: (true | false) - should FHIRPlant generate default view diagram with all classes
+defaultView: false
+# views: generate custom view diagrams with selected classes
+#   - name: view name (resulting in the name of generated model file)
+#     classes: list of classes that should be included in the view 
+views:
+  - name: main
+    classes:
+      - ReferenceCatalogService
+      - ReferenceCatalogServiceParameter
+      - Analyte
+      - ServicePanel
+      - ServicePanelElement
+      - ReferenceRange
+      - ReasonForExam
+      - PreAnalyticFactor
+      - MedicalProvider
+      - Laboratory
+  - name: reference-service
+    classes:
+      - ReferenceCatalogService
+      - ReferenceCatalogServiceParameter
+      - Analyte
+      - ServicePanel
+      - ServicePanelElement
+  - name: reference-service-reference-range
+    classes:
+      - ReferenceCatalogService
+      - ReferenceCatalogServiceParameter
+      - ReferenceRange
+  - name: reference-service-other
+    classes:
+      - ReferenceCatalogService
+      - ReferenceCatalogServiceParameter
+      - ReasonForExam
+      - PreAnalyticFactor
+  - name: medical-provider
+    classes:
+      - MedicalProvider
+      - Laboratory
