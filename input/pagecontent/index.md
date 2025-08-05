@@ -1,3 +1,3 @@
-# .
+### Wprowadzenie
 
-Feel free to modify this index page with your own awesome content!
+Specyfikacja powstała w ramach projektu ""Wdrożenie słownika LOINC w obszarze diagnostyki laboratoryjnej oraz opracowanie prototypu Systemu Standaryzacji Informacji w Diagnostyce Laboratoryjnej" finansowany ze środków Krajowego Planu Odbudowy i Zwiększania Odporności Komponent D Efektywność, dostępność i jakość systemu ochrony zdrowia Inwestycja D3.1.1 Kompleksowy rozwój badań w zakresie nauk medycznych i nauk o zdrowiu. Nr umowy: 2024/ABM/03/KPO/KPOD.07.07-IW.07-0171/24-00"

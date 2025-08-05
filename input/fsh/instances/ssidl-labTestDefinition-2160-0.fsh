@@ -3,7 +3,20 @@ InstanceOf: SsidlObservationDefinitionLabTestDefinition
 Title: "SSIDL LabTestDefinition: Kreatynina"
 Usage: #example
 * text.status = #generated
-* text.div = "<div></div>"
+* text.div = "<div><p><strong>Definicja testu laboratoryjnego</strong></p>
+<div>
+<div>
+<div><strong>[2160-0] Kreatynina:stężenie masowe:punkt w czasie:surowica lub osocze:ilościowy</strong></div>
+</div>
+</div>
+<p>Jednostka wyniku: <strong>mg/dL 'miligram na decylitr'</strong></p>
+<ul>
+<li><strong>Wartości normalne: 0.6-1.3 umol/L</strong></li>
+</ul>
+<p><strong>Przelicznik jednostek:</strong></p>
+<ul>
+<li><strong>88.4 (umol/L &gt; mg/dL)</strong></li>
+</ul></div>"
 * extension[unitConversion][+].extension[targetUnit].valueCoding = $ucum#umol/L "mikromol na Litr"
 * extension[unitConversion][=].extension[conversionFactor].valueDecimal = 88.4
 * url = "http://loinc-ssidl.umed.pl/fhir/ig/ssidl/ObservationDefinition/ssidl-labTestDefinition-2160-0"
