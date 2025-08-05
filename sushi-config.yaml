@@ -54,6 +54,8 @@ pages:
     title: Model logiczny
   examples.md:
     title: Przykłady
+  example-1.md:
+    title: Przykład nr 1
 #   implementation.xml:
 #   examples.xml:
 #     title: Examples Overview

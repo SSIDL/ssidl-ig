@@ -1,7 +1,7 @@
 ### Baza wiedzy SSIDL
 
 * Przykłady definicji badań w bazie wiedzy
-    * [Kreatynina]()
+    * [Kreatynina](example-1.html)
     * [Morfologia krwi (panel)]()
     * [Płytki krwi]()
 
