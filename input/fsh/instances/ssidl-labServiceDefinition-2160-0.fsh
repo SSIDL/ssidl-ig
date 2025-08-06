@@ -5,12 +5,11 @@ Usage: #example
 * text.status = #generated
 * text.div = "<div><div>
 <p><strong>Definicja usługi laboratoryjnej</strong></p>
-<p><strong>Kreatynina</strong></p>
+<p><strong>Kreatynina w surowicy/osoczu</strong></p>
 <ul>
 <li>LOINC: <strong>[2160-0]&nbsp;Kreatynina:stężenie masowe:punkt w czasie:surowica lub osocze:ilościowy</strong></li>
 <li>ICD-9-PL: [<strong>M37] Kreatynina</strong></li>
 </ul>
-<p>Materiał pobierany:&nbsp;<strong>krew</strong></p>
 <p><strong>Cel badania</strong></p>
 <ul>
 <li>Rozpoznanie<strong> [N17] Ostra niewydoloność nerek</strong></li>
@@ -30,7 +29,7 @@ Usage: #example
 * extension[nfzGuaranteedServiceCode][+].extension[code].valueCoding = $nfz-guaranteed#5.1.1.3 "kreatynina"
 * extension[nfzGuaranteedServiceCode][=].extension[explicite].valueBoolean = true
 * version = "1"
-* title = "Kreatynina"
+* title = "Kreatynina w surowicy/osoczu"
 * status = #active
 * useContext.code = $usage-context-type#workflow "Workflow Setting"
 * useContext.valueCodeableConcept.coding = $def-use#BW "Baza wiedzy SSIDL"

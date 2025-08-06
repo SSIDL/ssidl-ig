@@ -2,10 +2,13 @@ Instance: SsidlLabTestDefinition-14682-9
 InstanceOf: SsidlObservationDefinitionLabTestDefinition
 Title: "SSIDL LabTestDefinition: Kreatynina"
 Usage: #example
-* text.status = #generated
+* text.status = #extensions
 * text.div = "<div>
 <p><strong>Definicja testu laboratoryjnego</strong></p>
-<div><strong>[14682-9] Kreatynina:stężenie molowe:punkt w czasie:surowica lub osocze:ilościowy</strong></div>
+<div>
+<p>Sugerowana nazwa na wyniku badania: <strong>Kreatynina</strong></p>
+<p>LOINC: <strong>[14682-9] Kreatynina:stężenie masowe:punkt w czasie:surowica lub osocze:ilościowy</strong></p>
+</div>
 <p>Jednostka wyniku: <strong>umol/L 'mikromol na Litr'</strong></p>
 <p><strong>Wartości referencyjne</strong></p>
 <ul>

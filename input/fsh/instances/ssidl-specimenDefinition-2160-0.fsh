@@ -6,6 +6,7 @@ Usage: #example
 * text.div = "<div>
 <p><strong>Czynniki przedanalityczne</strong></p>
 <ul>
+<li>Materiał pobierany:&nbsp;<strong>[LP7057-5] krew</strong></li>
 <li>Przygotowanie pacjenta:<strong><strong><strong>&nbsp;Pobranie w godzinach porannych</strong></strong></strong></li>
 <li>Przechowywanie i transport pr&oacute;bki:<strong><strong><strong>&nbsp;&nbsp;</strong></strong>Transport w temperaturze pokojowej (15-25 st. C max. 2h)</strong></li>
 </ul>
@@ -13,7 +14,7 @@ Usage: #example
 * url = "http://loinc-ssidl.umed.pl/fhir/ig/ssidl/SpecimenDefinition/ssidl-specimenDefinition-2160-0"
 * status = #active
 * typeCollected.coding[+] = $loinc-part#LP7057-5 "krew"
-* patientPreparation.text = "W godzinach porannych"
+* patientPreparation.text = "Pobranie w godzinach porannych"
 * typeTested[+].preference = #preferred
 * typeTested[=].handling[+].temperatureQualifier.text = "Transport w temperaturze pokojowej"
 * typeTested[=].handling[=].temperatureRange.low.value = 15

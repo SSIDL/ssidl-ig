@@ -15,7 +15,7 @@ Podstawowym elementem bazy wiedzy SSIDL jest definicja badania laboratoryjnego, 
         * [przelicznika jednostek wyniku](StructureDefinition-pl-lab-przelicznikJednostek.html)
         * [wartości referencyjnych](StructureDefinition-pl-lab-wartosciReferencyjne.html)
 
-        i określeniem ich źródła:
+            i określeniem ich źródła:
 
            * [źródło](StructureDefinition-pl-lab-zrodlo.html)
 
@@ -44,29 +44,5 @@ Definicja badania laboratoryjnego może być powiązana z kodami świadczeń i p
 
 ![](assets\Definicja_testu_BW.png)
 
-
 ##### Wartości referencyjne
-
-
-
-### Katalog usług
-
-#### Laboratorium
-
-![](assets\Laboratorium.png)
-
-#### Usługa katalogowa
-
-![](assets\Katalog_usług.png)
-
-Usługa katalogowa ma podobną strukturę jak definicja badania w bazie wiedzy SSIDL. Może zawierać informacje o 
-
-
-
-
-
-
-
-
-
 
