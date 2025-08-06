@@ -1,0 +1,11 @@
+{
+  "name": "ssidl-template",
+  "version": "0.1",
+  "type": "fhir.template",
+  "license": "CC0-1.0",
+  "description": "Custom FHIR IG template for SSIDL project",
+  "base": "fhir.base.template",
+  "dependencies": {
+    "fhir.base.template" : "current"
+  }
+}
