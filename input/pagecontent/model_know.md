@@ -17,7 +17,7 @@ Podstawowym elementem bazy wiedzy SSIDL jest definicja badania laboratoryjnego, 
 
             i określeniem ich źródła:
 
-           * [źródło](StructureDefinition-pl-lab-zrodlo.html)
+        * [źródło](StructureDefinition-pl-lab-zrodlo.html)
 
 
 ![](assets\Definicja_usługi_BW.png)
