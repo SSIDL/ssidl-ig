@@ -3,17 +3,7 @@ InstanceOf: SsidlObservationDefinitionLabTestDefinition
 Title: "SSIDL LabTestDefinition: MCHC"
 Usage: #example
 * text.status = #generated
-* text.div = "<div><p><strong>Definicja testu laboratoryjnego</strong></p>
-<div>
-<p>Sugerowana nazwa na wyniku badania:&nbsp;<strong>MCHC</strong></p>
-<p>LOINC: <strong>[786-4]&nbsp;Średnie stężenie hemoglobiny w erytrocycie: stężenie masowe: punkt w czasie: krwinki czerwone: ilościowy: automatyczne liczenie</strong></p>
-<p><strong>Metoda:&nbsp;[LP6141-8] Automatyczne zliczanie</strong></p>
-<p>Jednostka wyniku:<strong>&nbsp;g/dL 'gram na decylitr'</strong></p>
-</div>
-<p><strong>Wartości referencyjne</strong></p>
-<ul>
-<li><strong>Wartości normalne: 32.0-37.0&nbsp;g/dL</strong></li>
-</ul></div>"
+* text.div = "<div></div>"
 * url = "http://loinc-ssidl.umed.pl/fhir/ig/ssidl/ObservationDefinition/ssidl-labTestDefinition-786-4"
 * version = "1"
 * title = "Średnie stężenie hemoglobiny w erytrocycie: stężenie masowe: punkt w czasie: krwinki czerwone: ilościowy: automatyczne liczenie"

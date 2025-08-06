@@ -2,18 +2,8 @@ Instance: SsidlLabTestDefinition-777-3
 InstanceOf: SsidlObservationDefinitionLabTestDefinition
 Title: "SSIDL LabTestDefinition: Płytki krwi"
 Usage: #example
-* text.status = #extensions
-* text.div = "<div><p><strong>Definicja testu laboratoryjnego</strong></p>
-<div>
-<p>Sugerowana nazwa na wyniku badania: <strong>Płytki krwi</strong></p>
-<p>LOINC: <strong>[777-3]&nbsp;Płytki krwi: stężenie liczbowe: punkt w czasie: krew: ilościowy: automatyczne liczenie</strong></p>
-</div>
-<p><strong>Metoda: [LP6141-8] Automatyczne zliczanie</strong></p>
-<p>Jednostka wyniku: <strong>/uL 'na mikrolitr'</strong></p>
-<p><strong>Wartości referencyjne</strong></p>
-<ul>
-<li><strong>Wartości normalne: 150-400&nbsp;<strong>/uL</strong></strong></li>
-</ul></div>"
+* text.status = #generated
+* text.div = "<div></div>"
 * url = "http://loinc-ssidl.umed.pl/fhir/ig/ssidl/ObservationDefinition/ssidl-labTestDefinition-777-3"
 * version = "1"
 * title = "Płytki krwi: stężenie liczbowe: punkt w czasie: krew: ilościowy: automatyczne liczenie"

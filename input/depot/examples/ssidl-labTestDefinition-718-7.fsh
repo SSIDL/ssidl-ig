@@ -2,21 +2,11 @@ Instance: SsidlLabTestDefinition-718-7
 InstanceOf: SsidlObservationDefinitionLabTestDefinition
 Title: "SSIDL LabTestDefinition: Hemoglobina"
 Usage: #example
-* text.status = #extensions
-* text.div = "<div><p><strong>Definicja testu laboratoryjnego</strong></p>
-<div>
-<p>Sugerowana nazwa na wyniku badania:&nbsp;<strong>Hemoglobina</strong></p>
-<p>LOINC: <strong>[718-7]&nbsp;Hemoglobina: stężenie masowe: punkt w czasie: krew: ilościowy</strong></p>
-<p>Jednostka wyniku: <strong>g/dL 'gram na decylitr'</strong></p>
-</div>
-<p><strong>Wartości referencyjne</strong></p>
-<ul>
-<li><strong>Wartości normalne: kobieta 11.5-16.5 g/dL</strong></li>
-<li><strong>Wartości normalne:&nbsp;mężczyzna&nbsp;13.0-18.0 g/dL</strong></li>
-</ul></div>"
+* text.status = #generated
+* text.div = "<div></div>"
 * url = "http://loinc-ssidl.umed.pl/fhir/ig/ssidl/ObservationDefinition/ssidl-labTestDefinition-718-7"
 * version = "1"
-* title = "Hemoglobina: stężenie masowe: punkt w czasie: krew: ilościowy"
+* title = "HemHemoglobina: stężenie masowe: punkt w czasie: krew: ilościowyoglobina"
 * status = #active
 * useContext.code = $usage-context-type#workflow "Workflow Setting"
 * useContext.valueCodeableConcept.coding = $def-use#BW "Baza wiedzy SSIDL"

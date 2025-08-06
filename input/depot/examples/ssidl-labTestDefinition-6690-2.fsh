@@ -2,18 +2,8 @@ Instance: SsidlLabTestDefinition-6690-2
 InstanceOf: SsidlObservationDefinitionLabTestDefinition
 Title: "SSIDL LabTestDefinition: Leukocyty"
 Usage: #example
-* text.status = #extensions
-* text.div = "<div><p><strong>Definicja testu laboratoryjnego</strong></p>
-<div>
-<p>Sugerowana nazwa na wyniku badania:&nbsp;<strong>Leukocyty</strong></p>
-<p>LOINC: <strong>[6690-2]&nbsp;Leukocyty: stężenie liczbowe: punkt w czasie: krew: ilościowy: automatyczne liczenie</strong></p>
-<p>Metoda<strong>:&nbsp;[LP6141-8] Automatyczne zliczanie</strong></p>
-<p>Jednostka wyniku:<strong>&nbsp;/uL 'na mirolitr'</strong></p>
-</div>
-<p><strong>Wartości referencyjne</strong></p>
-<ul>
-<li><strong>Wartości normalne: 3.8-10.0 /uL</strong></li>
-</ul></div>"
+* text.status = #generated
+* text.div = "<div></div>"
 * url = "http://loinc-ssidl.umed.pl/fhir/ig/ssidl/ObservationDefinition/ssidl-labTestDefinition-6690-2"
 * version = "1"
 * title = "Leukocyty: stężenie liczbowe: punkt w czasie: krew: ilościowy: automatyczne liczenie"

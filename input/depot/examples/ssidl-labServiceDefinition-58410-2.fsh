@@ -3,18 +3,7 @@ InstanceOf: SsidlActivityDefinitionLabServiceDefinition
 Title: "LabServiceDefinition: Morfologia krwi"
 Usage: #example
 * text.status = #generated
-* text.div = "<div><p><strong>Definicja usługi laboratoryjnej</strong></p>
-<div>
-<div><strong>Morfologia krwi 8-parametrowa</strong></div>
-</div>
-<ul>
-<li>LOINC: <strong><strong>[58410-2</strong></strong><strong><strong>]&nbsp;</strong>[Brak pozycji w polskiej wersji]</strong></li>
-<li>ICD-9-PL: <strong>[C53] <strong>Morfologia krwi 8-parametrowa</strong></strong></li>
-</ul>
-<p><strong>Świadczenia gwarantowane&nbsp;NFZ</strong></p>
-<ul>
-<li><strong>[5.1.1.1]&nbsp;morfologia krwi 8-parametrowa</strong></li>
-</ul></div>"
+* text.div = "<div><h2>Baza wiedzy SSIDL</h2><h3>Definicja badania laboratoryjnego</h3><h4>Nazwa i kod badania: <strong>Kreatynina</strong></h4><ul><li>LOINC: <strong>[67373-0]&nbsp;</strong><strong>Kreatynina:stężenie molowe:punkt w czasie:surowica lub osocze:ilościowy</strong></li><li>ICD-9-PL:<strong>&nbsp;[M37] Kreatynina</strong></li></ul><p>&nbsp; &nbsp; &nbsp; &nbsp;Materiał pobierany: <strong>[LP7057-5]&nbsp;<strong><strong>krew</strong></strong></strong></p><h4><strong>Cel badania</strong></h4><ul><li><strong>Rozpoznanie [N17] Ostra niewydolość nerek</strong></li><li><strong>Rozpoznanie [N18]&nbsp;Przewlekła niewydolość nerek</strong></li></ul><h4>Kody rozliczeniowe NFZ</h4><ul><li><div><div><strong>[1.6.2.9] kreatynina (explicite)</strong></div><div><strong>[5.1.1.3] kreatynina (explicite)</strong></div></div></li></ul></div>"
 * url = "http://loinc-ssidl.umed.pl/fhir/ig/ssidl/ActivityDefinition/ssidl-labServiceDefinition-58410-2"
 * extension[nfzGuaranteedServiceCode][+].extension[code][+].valueCoding = $nfz-guaranteed#5.1.1.1 "morfologia krwi 8-parametrowa"
 * extension[nfzGuaranteedServiceCode][=].extension[explicite][+].valueBoolean = true

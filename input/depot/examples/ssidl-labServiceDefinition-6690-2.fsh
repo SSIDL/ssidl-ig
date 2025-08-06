@@ -3,13 +3,7 @@ InstanceOf: SsidlActivityDefinitionLabServiceDefinition
 Title: "SSIDL LabServiceDefinition: Leukocyty"
 Usage: #example
 * text.status = #generated
-* text.div = "<div><p><strong>Definicja usługi laboratoryjnej</strong></p>
-<div>
-<div><strong>Leukocyty we krwi obwodowej</strong></div>
-</div>
-<ul>
-<li>LOINC: <strong><strong><strong>[</strong></strong></strong><strong><strong><strong><strong>6690-2</strong>]&nbsp;</strong></strong></strong><strong>Leukocyty: stężenie liczbowe: punkt w czasie: krew: ilościowy: automatyczne liczenie</strong></li>
-</ul></div>"
+* text.div = "<div></div>"
 * url = "http://loinc-ssidl.umed.pl/fhir/ig/ssidl/ActivityDefinition/ssidl-labServiceDefinition-6690-2"
 * version = "1"
 * title = "Leukocyty"

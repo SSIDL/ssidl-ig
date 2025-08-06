@@ -3,18 +3,7 @@ InstanceOf: SsidlObservationDefinitionLabTestDefinition
 Title: "SSIDL LabTestDefinition: Hematokryt"
 Usage: #example
 * text.status = #generated
-* text.div = "<div><p><strong>Definicja testu laboratoryjnego</strong></p>
-<div>
-<p>Sugerowana nazwa na wyniku badania:&nbsp;<strong>Hematokryt</strong></p>
-<p>LOINC: <strong>[789-8]&nbsp;[Brak pozycji w polskiej wersji]</strong></p>
-<p>Metoda<strong>:&nbsp;[LP6141-8] Automatyczne zliczanie</strong></p>
-<p>Jednostka wyniku:<strong>&nbsp;% 'procent'</strong></p>
-</div>
-<p><strong>Wartości referencyjne</strong></p>
-<ul>
-<li><strong>Wartości normalne: kobieta 37.0-47.0&nbsp;%</strong></li>
-<li><strong>Wartości normalne: mężczyzna 40.0-54.0&nbsp;%<br /></strong></li>
-</ul></div>"
+* text.div = "<div></div>"
 * url = "http://loinc-ssidl.umed.pl/fhir/ig/ssidl/ObservationDefinition/ssidl-labTestDefinition-4544-3"
 * version = "1"
 * title = "[Brak pozycji w polskiej wersji]"
@@ -22,7 +11,6 @@ Usage: #example
 * useContext.code = $usage-context-type#workflow "Workflow Setting"
 * useContext.valueCodeableConcept.coding = $def-use#BW "Baza wiedzy SSIDL"
 * code.coding[loincCode] = $loinc#4544-3 "[Brak pozycji w polskiej wersji]"
-* method.coding[+] = $loinc-part#LP6141-8 "Automatyczne zliczanie"
 * permittedDataType = #Quantity
 * preferredReportName = "Hematokryt"
 * permittedUnit = $ucum#% "procent"

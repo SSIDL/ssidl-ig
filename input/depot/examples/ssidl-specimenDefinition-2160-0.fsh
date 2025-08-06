@@ -1,6 +1,6 @@
-Instance: SsidlSpecimenDefinition-58410-2
+Instance: SsidlSpecimenDefinition-2160-0
 InstanceOf: SsidlSpecimenDefinition
-Title: "SSIDL SpecimenDefinition: Morfologia krwi"
+Title: "SSIDL SpecimenDefinition: Kreatynina"
 Usage: #example
 * text.status = #generated
 * text.div = "<div>
@@ -11,7 +11,7 @@ Usage: #example
 <li>Przechowywanie i transport pr&oacute;bki:<strong><strong><strong>&nbsp;&nbsp;</strong></strong>Transport w temperaturze pokojowej (15-25 st. C max. 2h)</strong></li>
 </ul>
 </div>"
-* url = "http://loinc-ssidl.umed.pl/fhir/ig/ssidl/SpecimenDefinition/ssidl-specimenDefinition-58410-2"
+* url = "http://loinc-ssidl.umed.pl/fhir/ig/ssidl/SpecimenDefinition/ssidl-specimenDefinition-2160-0"
 * status = #active
 * typeCollected.coding[+] = $loinc-part#LP7057-5 "krew"
 * patientPreparation.text = "Pobranie w godzinach porannych"
