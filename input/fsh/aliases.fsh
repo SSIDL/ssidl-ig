@@ -54,5 +54,3 @@ Alias: $ucum-codes-vs = http://loinc-ssidl.umed.pl/fhir/ig/ssidl/ValueSet/ssidl-
 Alias: $patient-prep = http://loinc-ssidl.umed.pl/fhir/ig/ssidl/ValueSet/ssidl-patientPreparation-VS
 Alias: $reason-type = http://loinc-ssidl.umed.pl/fhir/ig/ssidl/CodeSystem/ssidl-reasonForTestType-CS
 Alias: $def-use = http://loinc-ssidl.umed.pl/fhir/ig/ssidl/CodeSystem/ssidl-definitionUseContext-CS
-
-// Remove this comment
