@@ -1,0 +1,58 @@
+<ul xmlns="http://www.w3.org/1999/xhtml" class="nav navbar-nav">
+  <li>
+    <a href="index.html">Strona główna</a>
+  </li>
+  <li>
+    <a href="usecases.html">Przypadki użycia</a>
+      <ul>
+        <li>
+          <a href="usecases_term.html">Usługi terminologiczne</a>
+        </li>
+        <li>
+          <a href="usecases_cat.html">Usługi katalogowe</a>
+        </li>
+      </ul>   
+  </li>
+  <li>
+    <a href="model.html">Model logiczny</a>
+      <ul>
+        <li>
+          <a href="model_term.html">Serwer terminologii</a>
+        </li>
+        <li>
+          <a href="model_know.html">Baza wiedzy SSIDL</a>
+        </li>
+        <li>
+          <a href="model_cat.html">Katalog usług</a>
+        </li>
+      </ul>    
+  </li>
+  <li>
+    <a href="artifacts.html">Definicje</a>
+      <!-- <ul>
+        <li>
+          <a href="artifacts.html#logical-models">logiczne</a>
+        </li>
+        <li>
+          <a href="artifacts.html#profiles">profile</a>
+        </li>
+        <li>
+          <a href="artifacts.html#extensions">rozszerzenia</a>
+        </li>
+        <li>
+          <a href="artifacts.html#terminology">słowniki</a>
+        </li>
+      </ul>     -->
+  </li>
+  <li>
+    <a href="examples.html">Przykłady</a>
+      <ul>
+        <li>
+          <a href="examples.html#baza-wiedzy">Baza wiedzy</a>
+        </li>
+        <li>
+          <a href="examples.html#profiles">Laboratorium</a>
+        </li>
+      </ul>    
+  </li>
+</ul>

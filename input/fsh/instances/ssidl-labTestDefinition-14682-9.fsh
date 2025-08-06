@@ -2,10 +2,25 @@ Instance: SsidlLabTestDefinition-14682-9
 InstanceOf: SsidlObservationDefinitionLabTestDefinition
 Title: "SSIDL LabTestDefinition: Kreatynina"
 Usage: #example
-* text.status = #generated
-* text.div = "<div><h3><strong>Definicja testu laboratoryjnego</strong></h3><div><strong>[14682-9] Kreatynina:stężenie molowe:punkt w czasie:surowica lub osocze:ilościowy</strong></div><p>Jednostka wyniku: <strong>umol/L 'mikromol na Litr'</strong></p><h4><strong>Wartości referencyjne</strong></h4><ul><li><strong>Wartości normalne: 53-115&nbsp;umol/L</strong></li></ul><p><strong>Przelicznik jednostek:</strong></p><ul><li><strong>88.4 (umol/L &gt; mg/dL)</strong></li></ul></div>"
+* text.status = #extensions
+* text.div = "<div>
+<p><strong>Definicja testu laboratoryjnego</strong></p>
+<div>
+<p>Sugerowana nazwa na wyniku badania: <strong>Kreatynina</strong></p>
+<p>LOINC: <strong>[14682-9] Kreatynina:stężenie masowe:punkt w czasie:surowica lub osocze:ilościowy</strong></p>
+</div>
+<p>Jednostka wyniku: <strong>umol/L 'mikromol na Litr'</strong></p>
+<p><strong>Wartości referencyjne</strong></p>
+<ul>
+<li><strong>Wartości normalne: 53-115&nbsp;umol/L</strong></li>
+</ul>
+<p><strong>Przelicznik jednostek:</strong></p>
+<ul>
+<li><strong>0.0113 (umol/L &gt; mg/dL)</strong></li>
+</ul>
+</div>"
 * extension[unitConversion][+].extension[targetUnit].valueCoding = $ucum#mg/dL "miligram na decylitr"
-* extension[unitConversion][=].extension[conversionFactor].valueDecimal = 88.4
+* extension[unitConversion][=].extension[conversionFactor].valueDecimal = 0.0113
 * url = "http://loinc-ssidl.umed.pl/fhir/ig/ssidl/ObservationDefinition/ssidl-labTestDefinition-14682-9"
 * version = "1"
 * title = "Kreatynina:stężenie molowe:punkt w czasie:surowica lub osocze:ilościowy"

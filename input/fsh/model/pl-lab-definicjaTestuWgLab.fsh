@@ -7,8 +7,6 @@ Characteristics: #can-be-target
 * kodTestu 0..1 Coding "Kod testu" "Kod LOINC testu laboratoryjnego"
 * kodTestu from LoincLaboratoryServiceCodeVS
 * nazwaWgLoinc 1..1 string "Nazwa wg LOINC" "Nazwa wg LOINC"
-* material 1..1 Coding "Kod materiału" "Kod rodzaju materiału do pobrania"
-* material from LaboratoryMaterialTypeVS
 * metoda 0..1 Coding "Kod metody" "Kod metody oznaczenia badania laboratoryjnego"
 * metoda from LaboratoryMethodTypeVS
 * jednostkaWyniku 0..1 Coding "Jednostka wyniku" "Jednostka wyniku parametru definicji badania laboratoryjnego"

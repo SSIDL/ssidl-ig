@@ -12,4 +12,4 @@ Characteristics: #can-be-target
 * nazwaKliniczna 1..1 string "Nazwa kliniczna" "Nazwa kliniczna"
 * definicjaTestuBW 1..* Reference(DefinicjaTestuBW) "Definicja testu w bazie wiedzy" "Definicja testu w bazie wiedzy SSIDL"
 * celBadania 0..* Reference(CelBadania) "Cel badania" "Cel wykonania badania w definicji badania laboratoryjnego"
-* czynnikiPrzedanalityczne 0..* Reference(CzynnikiPrzedanalityczne) "Czynniki przedanalityczne" "Czynniki przedanalityczne"
+* czynnikiPrzedanalityczne 1..* Reference(CzynnikiPrzedanalityczne) "Czynniki przedanalityczne" "Czynniki przedanalityczne"
