@@ -48,10 +48,22 @@ dependencies:
 pages:
   index.md:
     title: Strona główna
+  # toc.md:
+  #   title: Spis treści
   usecases.md:
     title: Przypadki użycia
+  usecases_term.md:
+    title: Usługi terminologiczne
+  usecases_cat.md:
+    title: Usługi katalogowe
   model.md:
     title: Model logiczny
+  model_term.md:
+    title: Serwer terminologii
+  model_know.md:
+    title: Baza wiedzy SSIDL
+  model_cat.md:
+    title: Katalog usług
   examples.md:
     title: Przykłady
   example-1.md:
@@ -84,12 +96,12 @@ pages:
 # │ input/includes. To use a provided input/includes/menu.xml file, delete the "menu"              │
 # │ property below.                                                                                │
 # ╰────────────────────────────────────────────────────────────────────────────────────────────────╯
-menu:
-  Strona główna: index.html
-  Przypadki użycia: usecases.html
-  Model logiczny: model.html
-  Definicje: artifacts.html
-  Przykłady: examples.html
+# menu:
+#   Strona główna: index.html
+#   Przypadki użycia: usecases.html
+#   Model logiczny: model.html
+#   Definicje: artifacts.html
+#   Przykłady: examples.html
 
 # ╭───────────────────────────Less Common Implementation Guide Properties──────────────────────────╮
 # │  Uncomment the properties below to configure additional properties on the ImplementationGuide  │
