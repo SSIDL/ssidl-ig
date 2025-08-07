@@ -7,7 +7,7 @@ id: hl7.fhir.pl.ssidl
 canonical: http://loinc-ssidl.umed.pl/fhir/ig/ssidl
 name: hl7.fhir.pl.ssidl
 title: Specyfikacja interoperacyjności prototypu SSIDL
-description: Specyfikacja interoperacyjności prototypu SSIDL
+description: Specyfikacja interoperacyjności dla prototypu Systemu Stnadaryzacji w Diagnostyce Laboratoryjnej (SSIDL)
 status: draft # draft | active | retired | unknown
 version: 0.1.0
 fhirVersion: 5.0.0 # https://www.hl7.org/fhir/valueset-FHIR-version.html
@@ -51,14 +51,14 @@ pages:
     title: Strona główna
   # toc.md:
   #   title: Spis treści
-  usecases.md:
-    title: Przypadki użycia
+  # usecases.md:
+  #   title: Przypadki użycia
   usecases_term.md:
     title: Usługi terminologiczne
   usecases_cat.md:
     title: Usługi katalogowe
-  model.md:
-    title: Model logiczny
+  # model.md:
+  #   title: Model logiczny
   model_term.md:
     title: Serwer terminologii
   model_know.md:

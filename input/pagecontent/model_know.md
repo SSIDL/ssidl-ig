@@ -1,5 +1,3 @@
-### Baza wiedzy SSIDL
-
 W ramach projektu LOINC-SSIDL powstaje baza wiedzy z zakresu diagnostyki laboratoryjnej, która ma stanowić uzupełnienie informacji na temat poszczególnych badań laboratoryjnych znajdujących się w słowniku LOINC.
 
 #### Definicja badania laboratoryjnego w bazie wiedzy prototypu SSIDL

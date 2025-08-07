@@ -3,7 +3,7 @@
     <a href="index.html">Strona główna</a>
   </li>
   <li>
-    <a href="usecases.html">Przypadki użycia</a>
+    <a>Przypadki użycia</a>
       <ul>
         <li>
           <a href="usecases_term.html">Usługi terminologiczne</a>
@@ -14,7 +14,7 @@
       </ul>   
   </li>
   <li>
-    <a href="model.html">Model logiczny</a>
+    <a>Model logiczny</a>
       <ul>
         <li>
           <a href="model_term.html">Serwer terminologii</a>
@@ -45,13 +45,13 @@
       </ul>     -->
   </li>
   <li>
-    <a href="examples.html">Przykłady</a>
+    <a>Przykłady</a>
       <ul>
         <li>
-          <a href="examples.html#baza-wiedzy">Baza wiedzy</a>
+          <a href="examples_term.html">Baza wiedzy</a>
         </li>
         <li>
-          <a href="examples.html#profiles">Laboratorium</a>
+          <a href="examples_cat.html">Laboratorium</a>
         </li>
       </ul>    
   </li>

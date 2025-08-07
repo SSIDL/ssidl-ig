@@ -1,6 +1,4 @@
-### Model logiczny danych dla Serwera terminologii
-
-Komponent **Serwer terminologii** przechowuje w sposób trwały słowniki, zbiory wartości i mapowania pomiędzy pozycjami słowników.
+Komponent Serwer terminologii przechowuje w sposób trwały słowniki, zbiory wartości i mapowania pomiędzy pozycjami słowników.
 
 #### Słowniki i zbiory wartości dla osi LOINC
 
