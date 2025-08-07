@@ -1,6 +1,6 @@
 Instance: SsidlLabProcedureDefinition-14682-9
 InstanceOf: Bundle
-Title: "LabProcedureDefinition: Kreatynina"
+Title: "SSIDL LabProcedureDefinition: Kreatynina"
 Usage: #example
 * type = #transaction
 * entry[+].fullUrl = "SsidlLabServiceDefinition-14682-9"

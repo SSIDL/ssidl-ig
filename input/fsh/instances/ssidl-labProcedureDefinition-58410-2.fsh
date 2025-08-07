@@ -1,6 +1,6 @@
 Instance: SsidlLabProcedureDefinition-58410-2
 InstanceOf: Bundle
-Title: "LabProcedureDefinition: Morfologia 8-parametrowa"
+Title: "SSIDL LabProcedureDefinition: Morfologia 8-parametrowa"
 Usage: #example
 * type = #transaction
 * entry[+].fullUrl = "SsidlLabServiceDefinition-58410-2"
