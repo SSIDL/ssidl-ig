@@ -65,10 +65,10 @@ pages:
     title: Baza wiedzy SSIDL
   model_cat.md:
     title: Katalog usług
-  examples.md:
-    title: Przykłady
-  example-1.md:
-    title: Przykład nr 1
+  examples_term.md:
+    title: Baza wiedzy
+  examples_cat.md:
+    title: Laboratorium
 #   implementation.xml:
 #   examples.xml:
 #     title: Examples Overview
