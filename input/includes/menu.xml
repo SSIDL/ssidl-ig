@@ -27,20 +27,26 @@
         </li>
       </ul>    
   </li>
-  <li>
-    <a href="artifacts.html">Definicje</a>
-      <!-- <ul>
+  <li class="dropdown">
+    <a href="#" class="dropdown-toggle" data-toggle="dropdown">Definicje <b class="caret"></b></a>
+      <ul class="dropdown-menu">        
         <li>
-          <a href="artifacts.html#logical-models">logiczne</a>
+          <a href="artifacts.html#1">Logiczne</a>
         </li>
         <li>
-          <a href="artifacts.html#profiles">profile</a>
+          <a href="artifacts.html#2">Profile</a>
         </li>
         <li>
-          <a href="artifacts.html#extensions">rozszerzenia</a>
+          <a href="artifacts.html#3">Rozszerzenia</a>
         </li>
         <li>
-          <a href="artifacts.html#terminology">słowniki</a>
+          <a href="artifacts.html#4">Zbiory wartości</a>
+        </li>
+        <li>
+          <a href="artifacts.html#5">Słowniki</a>
+        </li>
+        <li>
+          <a href="artifacts.html#6">Przykłady</a>
         </li>
       </ul>     -->
   </li>
