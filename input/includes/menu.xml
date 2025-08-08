@@ -28,27 +28,21 @@
       </ul>    
   </li>
   <li>
-    <a>Definicje</a>
-      <ul>
+    <a href="artifacts.html">Definicje</a>
+      <!-- <ul>
         <li>
-          <a href="artifacts.html#logical-models#1">logiczne</a>
+          <a href="artifacts.html#logical-models">logiczne</a>
         </li>
         <li>
-          <a href="artifacts.html#2">profile</a>
+          <a href="artifacts.html#profiles">profile</a>
         </li>
         <li>
-          <a href="artifacts.html#3">rozszerzenia</a>
+          <a href="artifacts.html#extensions">rozszerzenia</a>
         </li>
         <li>
-          <a href="artifacts.html#4">zbiory wartości</a>
+          <a href="artifacts.html#terminology">słowniki</a>
         </li>
-        <li>
-          <a href="artifacts.html#5">słowniki</a>
-        </li>
-        <li>
-          <a href="artifacts.html#6">przykłady</a>
-        </li>               
-      </ul>    
+      </ul>     -->
   </li>
   <li>
     <a>Przykłady</a>
