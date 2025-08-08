@@ -2,6 +2,7 @@ Logical: CzynnikiPrzedanalityczne
 Parent: Base
 Id: pl-lab-czynnikiPrzedanalityczne
 Title: "Czynniki przedanalityczne"
+Description: "Zestaw czynników przedanalitycznych zdefiniowanych w bazie wiedzy"
 Characteristics: #can-be-target
 * przygotowaniePacjenta 0..* string "Przygotowanie pacjenta" "Przygotowanie pacjenta"
 * warunkiWirowania 0..1 string "Warunki wirowania" "Warunki wirowania"

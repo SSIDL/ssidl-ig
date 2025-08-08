@@ -13,3 +13,4 @@ Characteristics: #can-be-target
 * definicjaTestuBW 1..* Reference(DefinicjaTestuBW) "Definicja testu w bazie wiedzy" "Definicja testu w bazie wiedzy SSIDL"
 * celBadania 0..* Reference(CelBadania) "Cel badania" "Cel wykonania badania w definicji badania laboratoryjnego"
 * czynnikiPrzedanalityczne 1..* Reference(CzynnikiPrzedanalityczne) "Czynniki przedanalityczne" "Czynniki przedanalityczne"
+* kodSwiadczeniaGwarantowanegoNFZ 0..* Reference(KodSwiadczeniaGwarantowanegoNfz) "Kod świadczenia gwarnatowanego NFZ" "Kod świadczenia gwarantowanego NFZ"
