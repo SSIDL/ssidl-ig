@@ -1,4 +1,4 @@
-Instance: SsidlSExportLab
+Instance: SsidlExportLab
 InstanceOf: OperationDefinition
 Title: "SSIDL Operation: $export-lab"
 Usage: #example

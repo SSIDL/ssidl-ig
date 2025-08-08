@@ -1,8 +1,8 @@
-Instance: SsidlIntakePoints
+Instance: SsidlSearchIntakePoints
 InstanceOf: OperationDefinition
 Title: "SSIDL Operation: $search-intake-points"
 Usage: #example
-* name = "SerachIntakePoints"
+* name = "SearchIntakePoints"
 * status = #draft 
 * kind = #operation
 * code = #search-intake-points

@@ -1,6 +1,3 @@
-![](assets\Serwer_terminologii_zewn.png)
-
-
 ### T-01: Pobierz listę dostępnych pakietów terminologicznych
 
 Serwer terminologii umożliwia pobranie (za pomocą interfejsu programistycznego zgodnego ze standardem FHIR) listy dostępnych pakietów terminologicznych. Przypadek użycia jest dostępny dla wszystkich uprawnionych systemów zewnętrznych i wewnętrznych.
@@ -120,6 +117,3 @@ Powiązane klasy logicznego modelu danych:
 ### T-09: Zapisz słowniki własne
 
 Słowniki własne pochodzące z aplikacji do tworzenia bazy wiedzy są przekazywane do Rejestru pakietów Serwera terminologii w postaci pakietu terminologicznego zawierającego zasoby FHIR typu CodeSystem i ValueSet. Przypadek użycia jest dostępny dla aplikacji do tworzenia bazy wiedzy.
-
-Powiązane przypadki użycia:
-* [K-14: Importuj definicje badań laboratoryjnych](#k-14-importuj-definicje-badań-laboratoryjnych)
