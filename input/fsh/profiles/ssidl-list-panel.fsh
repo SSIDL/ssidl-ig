@@ -1,7 +1,7 @@
 Profile: SsidlListPanel
 Parent: List
 Id: ssidl-list-panel
-Title: "List: Panel (SSIDL)"
+Title: "Panel (SSIDL)"
 Description: "Panel definicji badań laboratoryjnych"
 * identifier 0..0
 * status 1..1 MS

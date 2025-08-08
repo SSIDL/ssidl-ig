@@ -1,6 +1,6 @@
 Extension: ObservationDefinitionUnitConversion
 Id: observationDefinition-unitConversion
-Title: "ObservationDefinition: Unit conversion"
+Title: "Przelicznik jednostek (SSIDL)"
 Description: "Przelicznik jednostek dla definicji obserwacji w bazie wiedzy SSIDL"
 Context: ObservationDefinition
 * extension ^slicing.discriminator.type = #value

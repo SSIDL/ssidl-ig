@@ -1,6 +1,6 @@
 Instance: SsidlLabProcedureDefinition-777-3
 InstanceOf: Bundle
-Title: "SSIDL LabProcedureDefinition: Płytki krwi"
+Title: "Definicja badania wg SSIDL: Płytki krwi"
 Usage: #example
 * type = #transaction
 * entry[+].fullUrl = "SsidlLabServiceDefinition-777-3"

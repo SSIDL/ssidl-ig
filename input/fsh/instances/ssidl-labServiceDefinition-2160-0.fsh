@@ -1,6 +1,6 @@
 Instance: SsidlLabServiceDefinition-2160-0
 InstanceOf: SsidlActivityDefinitionLabServiceDefinition
-Title: "SSIDL LabServiceDefinition: Kreatynina (stęż. mas.)"
+Title: "Definicja usługi wg SSIDL: Kreatynina (stęż. mas.)"
 Usage: #example
 * text.status = #generated
 * text.div = "<div><div>

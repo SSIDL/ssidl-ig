@@ -1,6 +1,6 @@
 Instance: SsidlSGetCatalog
 InstanceOf: OperationDefinition
-Title: "SSIDL Operation: $get-catalog"
+Title: "Operacja SSIDL: $get-catalog"
 Usage: #example
 * name = "GetCatalog"
 * status = #draft 

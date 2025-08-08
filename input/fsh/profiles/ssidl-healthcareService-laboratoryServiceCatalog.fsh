@@ -1,7 +1,7 @@
 Profile: SsidlHealthcareServiceLaboratoryServiceCatalog
 Parent: HealthcareService
 Id: ssidl-healthcareService-laboratoryServiceCatalog
-Title: "HealthcareService: Laboratory Service Catalog (SSIDL)"
+Title: "Katalog usług laboratorium (SSIDL)"
 Description: "Katalog usług laboratorium"
 * ^version = "0.1.0"
 * extension contains

@@ -1,6 +1,6 @@
 Instance: SsidlSpecimenDefinition-2160-0
 InstanceOf: SsidlSpecimenDefinition
-Title: "SSIDL SpecimenDefinition: Kreatynina"
+Title: "Czynniki przedanalityczne wg SSIDL: Kreatynina"
 Usage: #example
 * text.status = #generated
 * text.div = "<div>

@@ -1,7 +1,7 @@
 Profile: SsidlSpecimenDefinition
 Parent: SpecimenDefinition
 Id: ssidl-specimenDefinition-alt
-Title: "SubstanceDefinition (SSIDL)"
+Title: "Czynniki przedanalityczne (SSIDL)"
 Description: "Definicja czynników przedanalitycznych dla definicji badania laboratoryjnego"
 * ^version = "0.1.0"
 * url 1..1

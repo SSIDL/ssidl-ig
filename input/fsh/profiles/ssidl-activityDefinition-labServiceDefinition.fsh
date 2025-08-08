@@ -1,7 +1,7 @@
 Profile: SsidlActivityDefinitionLabServiceDefinition
 Parent: ActivityDefinition
 Id: ssidl-activityDefinition-labServiceDefinition
-Title: "ActivityDefinition: Lab Service Definition (SSIDL)"
+Title: "Definicja usługi laboratoryjnej w bazie wiedzy (SSIDL)"
 Description: "Definicja usługi laboratoryjnej w bazie wiedzy SSIDL"
 * extension contains
     ActivityDefinitionReasonReference named reason 0..* MS and

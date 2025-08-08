@@ -1,6 +1,6 @@
 Instance: SsidlGetPackage
 InstanceOf: OperationDefinition
-Title: "SSIDL Operation: $get-package"
+Title: "Operacja SSIDL: $get-package"
 Usage: #example
 * name = "GetPackage"
 * status = #draft 

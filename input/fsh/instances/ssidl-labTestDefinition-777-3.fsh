@@ -1,6 +1,6 @@
 Instance: SsidlLabTestDefinition-777-3
 InstanceOf: SsidlObservationDefinitionLabTestDefinition
-Title: "SSIDL LabTestDefinition: Płytki krwi"
+Title: "Definicja testu wg SSIDL: Płytki krwi"
 Usage: #example
 * text.status = #extensions
 * text.div = "<div><p><strong>Definicja testu laboratoryjnego</strong></p>

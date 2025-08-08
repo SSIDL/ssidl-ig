@@ -1,6 +1,6 @@
 Instance: SsidlLabTestDefinition-718-7
 InstanceOf: SsidlObservationDefinitionLabTestDefinition
-Title: "SSIDL LabTestDefinition: Hemoglobina"
+Title: "Definicja testu wg SSIDL: Hemoglobina"
 Usage: #example
 * text.status = #extensions
 * text.div = "<div><p><strong>Definicja testu laboratoryjnego</strong></p>

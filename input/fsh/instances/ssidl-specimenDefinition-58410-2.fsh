@@ -1,6 +1,6 @@
 Instance: SsidlSpecimenDefinition-58410-2
 InstanceOf: SsidlSpecimenDefinition
-Title: "SSIDL SpecimenDefinition: Morfologia krwi"
+Title: "Czynniki przedanalityczne wg SSIDL: Morfologia krwi"
 Usage: #example
 * text.status = #generated
 * text.div = "<div>

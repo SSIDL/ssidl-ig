@@ -1,6 +1,6 @@
 Instance: SsidlSpecimenDefinition-6690-2
 InstanceOf: SsidlSpecimenDefinition
-Title: "SSIDL SpecimenDefinition: Leukocyty"
+Title: "Czynniki przedanalityczne wg SSIDL: Leukocyty"
 Usage: #example
 * text.status = #generated
 * text.div = "<div>

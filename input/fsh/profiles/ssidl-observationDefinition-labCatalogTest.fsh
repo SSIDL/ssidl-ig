@@ -1,8 +1,8 @@
 Profile: SsidlObservationDefinitionLabCatalogTest
 Parent: ObservationDefinition
 Id: ssidl-observationDefinition-labCatalogTest
-Title: "ObservationDefinition: Lab Catalog Test (SSIDL)"
-Description: "Definicja testu laboratoryjnego według laboratorium"
+Title: "Test laboratoryjny według laboratorium (SSIDL)"
+Description: "Test laboratoryjny według laboratorium"
 //TODO: Referencja do SsidlObservationDefinitionLabTestDefinition
 * extension contains
     ObservationDefinitionUnitConversion named unitConversion 0..* MS

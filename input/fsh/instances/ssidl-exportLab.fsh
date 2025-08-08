@@ -1,6 +1,6 @@
 Instance: SsidlExportLab
 InstanceOf: OperationDefinition
-Title: "SSIDL Operation: $export-lab"
+Title: "Operacja SSIDL: $export-lab"
 Usage: #example
 * name = "ExportLab"
 * status = #draft 

@@ -1,7 +1,7 @@
 Profile: SsidlLocationIntakePoint
 Parent: PLBaseLocation
 Id: ssidl-location-intakePoint
-Title: "Location: Intake Point (SSIDL)"
+Title: "Punkt pobrań (SSIDL)"
 Description: "Punkt pobrań"
 * identifier 1..1 MS 
 * identifier.use 0..0

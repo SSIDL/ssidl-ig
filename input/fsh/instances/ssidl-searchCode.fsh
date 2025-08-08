@@ -1,6 +1,6 @@
 Instance: SsidlSearchCode
 InstanceOf: OperationDefinition
-Title: "SSIDL Operation: $search-code"
+Title: "Operacja SSIDL: $search-code"
 Usage: #example
 * name = "SearchCode"
 * status = #draft 

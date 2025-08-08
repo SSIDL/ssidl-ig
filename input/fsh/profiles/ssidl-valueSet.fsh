@@ -1,8 +1,8 @@
 Profile: SsidlValueSet
 Parent: ValueSet
 Id: ssidl-valueSet
-Title: "ValueSet (SSIDL)"
-Description: "ValueSet constraints for SSIDL prototype"
+Title: "Zbiór wartości (SSIDL)"
+Description: "Zbiór wartości zdefiniowany na potrzeby SSIDL"
 * url 1..1 MS
 * identifier 1..1 MS
 * identifier.use 0..0

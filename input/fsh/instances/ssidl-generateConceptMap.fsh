@@ -1,6 +1,6 @@
 Instance: SsidlGenerateConceptMap
 InstanceOf: OperationDefinition
-Title: "SSIDL Operation: $generate-concept-map"
+Title: "Operacja SSIDL: $generate-concept-map"
 Usage: #example
 * name = "GenerateConceptMap"
 * status = #draft 

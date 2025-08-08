@@ -1,6 +1,6 @@
 Extension: ActivityDefinitionNfzGuaranteedServiceCode
 Id: activityDefinition-nfzGuaranteedServiceCode
-Title: "ActivityDefinition: NFZ Guaranteed Service Code (PL)"
+Title: "Kod świadczenia gwarantowanego NFZ (PL)"
 Description: "Kod świadczenia gwarantowanego NFZ"
 Context: ActivityDefinition
 * extension ^slicing.discriminator.type = #value

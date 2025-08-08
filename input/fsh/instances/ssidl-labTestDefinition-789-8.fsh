@@ -1,6 +1,6 @@
 Instance: SsidlLabTestDefinition-789-8
 InstanceOf: SsidlObservationDefinitionLabTestDefinition
-Title: "SSIDL LabTestDefinition: Erytrocyty"
+Title: "Definicja testu wg SSIDL: Erytrocyty"
 Usage: #example
 * text.status = #extensions
 * text.div = "<div><p><strong>Definicja testu laboratoryjnego</strong></p>
