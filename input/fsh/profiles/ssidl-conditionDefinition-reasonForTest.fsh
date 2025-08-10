@@ -1,8 +1,8 @@
 Profile: SsidlConditionDefinitionReasonForTest
 Parent: ConditionDefinition
 Id: ssidl-conditionDefinition-reasonForTest
-Title: "ConditionDefinition: Reason for test (SSIDL)"
-Description: "Powód wykonania badania dla definicji badania laboratoryjnego"
+Title: "Cel badania (SSIDL)"
+Description: "Cel badania dla definicji badania laboratoryjnego"
 * ^version = "0.1.0"
 * id 1..1
 * url 0..0

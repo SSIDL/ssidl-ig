@@ -1,6 +1,6 @@
 Instance: SsidlSpecimenDefinition-777-3
 InstanceOf: SsidlSpecimenDefinition
-Title: "SSIDL SpecimenDefinition: Płytki krwi"
+Title: "Czynniki przedanalityczne wg SSIDL: Płytki krwi"
 Usage: #example
 * text.status = #generated
 * text.div = "<div>

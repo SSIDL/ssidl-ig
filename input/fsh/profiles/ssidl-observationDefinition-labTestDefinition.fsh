@@ -1,8 +1,8 @@
 Profile: SsidlObservationDefinitionLabTestDefinition
 Parent: ObservationDefinition
 Id: ssidl-observationDefinition-labTestDefinition
-Title: "ObservationDefinition: Lab Test Definition (SSIDL)"
-Description: "Definicja usługi laboratoryjnej w bazie wiedzy SSIDL"
+Title: "Definicja testu laboratoryjnego w bazie wiedzy (SSIDL)"
+Description: "Definicja testu laboratoryjnego w bazie wiedzy SSIDL"
 * extension contains
     ObservationDefinitionUnitConversion named unitConversion 0..* MS
 * identifier 0..0

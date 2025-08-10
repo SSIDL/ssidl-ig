@@ -1,8 +1,8 @@
 Profile: SsidlCodeSystem
 Parent: CodeSystem
 Id: ssidl-codeSystem
-Title: "CodeSystem (SSIDL)"
-Description: "CodeSystem constraints for SSIDL prototype"
+Title: "Słownik (SSIDL)"
+Description: "Słownik (system kodowania) zdefinowany w SSIDL"
 * url 1..1 MS
 * identifier 1..1 MS
 * identifier.use 0..0

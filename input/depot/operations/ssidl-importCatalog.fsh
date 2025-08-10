@@ -1,6 +1,6 @@
 Instance: SsidlSImportCatalog
 InstanceOf: OperationDefinition
-Title: "SSIDL Operation: $import-catalog"
+Title: "Operacja SSIDL: $import-catalog"
 Usage: #example
 * name = "ImportCatalog"
 * status = #draft 

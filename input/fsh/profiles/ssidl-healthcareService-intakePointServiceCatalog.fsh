@@ -1,7 +1,7 @@
 Profile: SsidlHealthcareServiceIntakePointServiceCatalog
 Parent: HealthcareService
 Id: ssidl-healthcareService-intakePointServiceCatalog
-Title: "HealthcareService: Intake Point Service Catalog (SSIDL)"
+Title: "Katalog usług punktu pobrań (SSIDL)"
 Description: "Katalog usług punktu pobrań"
 * ^version = "0.1.0"
 * extension contains

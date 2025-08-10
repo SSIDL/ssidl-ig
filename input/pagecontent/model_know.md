@@ -2,23 +2,17 @@ W ramach projektu LOINC-SSIDL powstaje baza wiedzy z zakresu diagnostyki laborat
 
 #### Definicja badania laboratoryjnego w bazie wiedzy prototypu SSIDL
 
-Podstawowym elementem bazy wiedzy SSIDL jest definicja badania laboratoryjnego, składająca sie z:
-* [definicji usługi laboratoryjnej](StructureDefinition-pl-lab-definicjaUslugiLaboratoryjnejBW.html)
-    * [definicji celu badania](StructureDefinition-pl-lab-celBadania.html)
-    * [definicji czynników przedanalitycznych](StructureDefinition-pl-lab-czynnikiPrzedanalityczne.html)
-
-    oraz jednej lub wielu (w przypadku panelu):
-
-    * [definicji testu laboratoryjnego](StructureDefinition-pl-lab-definicjaTestBW.html)
-        * [przelicznika jednostek wyniku](StructureDefinition-pl-lab-przelicznikJednostek.html)
-        * [wartości referencyjnych](StructureDefinition-pl-lab-wartosciReferencyjne.html)
-
-            i określeniem ich źródła:
-
-            * [źródło](StructureDefinition-pl-lab-zrodlo.html)
-
-
 ![](assets\Definicja_usługi_BW.png)
+
+Podstawowym elementem bazy wiedzy SSIDL jest definicja badania laboratoryjnego, składająca się z:
+* [definicji usługi laboratoryjnej](StructureDefinition-pl-lab-definicjaUslugiLaboratoryjnejBW.html) powiązanej z:
+    * [definicją celu badania](StructureDefinition-pl-lab-celBadania.html)
+    * [definicją czynników przedanalitycznych](StructureDefinition-pl-lab-czynnikiPrzedanalityczne.html)
+
+    oraz jedną (lub wieloma w przypadku panelu):
+
+    * [definicją testu laboratoryjnego](StructureDefinition-pl-lab-definicjaTestBW.html)
+
 
 ##### Czynniki przedanalityczne
 
@@ -36,11 +30,15 @@ Definicja usługi laboratoryjnej może zawierać określenie następujących czy
 
 ##### Powiązania z kodami rozliczeniowymi NFZ
 
-Definicja badania laboratoryjnego może być powiązana z kodami świadczeń i produktów NFZ, w ramach których może być realizowana. Prototyp SSIDL uwzględnia powiązania z kodami świadczeń gwarantowanych NFZ z oznaczeniem, czy dane powiązanie jest wymienione explicite w regulacjach NFZ.
+Definicja badania laboratoryjnego może być powiązana z kodami świadczeń gwarantowanych NFZ, w ramach których może być realizowana. Powiązania z kodami świadczeń gwarantowanych NFZ wskazują czy dane powiązanie jest wymienione explicite w regulacjach NFZ.
 
 ##### Definicja testu laboratoryjnego
 
 ![](assets\Definicja_testu_BW.png)
 
-##### Wartości referencyjne
+* [Definicja testu laboratoryjnego](StructureDefinition-pl-lab-definicjaTestBW.html) jest powiązana z:
+    * [przelicznikiem jednostek wyniku](StructureDefinition-pl-lab-przelicznikJednostek.html)
+    * [wartościami referencyjnymi](StructureDefinition-pl-lab-wartosciReferencyjne.html)
+        i określeniem ich źródła:
+        * [źródło](StructureDefinition-pl-lab-zrodlo.html)
 

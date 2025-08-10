@@ -1,7 +1,7 @@
 Profile: SsidlOrganizationDiagnosticEntity
 Parent: PLBaseOrganization
 Id: ssidl-organization-diagnosticEntity
-Title: "Organization: Diagnostic Entity (SSIDL)"
+Title: "Podmiot diagnostyczny (SSIDL)"
 Description: "Podmiot diagnostyczny"
 * identifier 1..1 MS 
 * identifier.use 0..0

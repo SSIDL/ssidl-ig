@@ -1,8 +1,8 @@
 Profile: SsidlLocationLaboratory
 Parent: PLBaseLocation
 Id: ssidl-location-laboratory
-Title: "Location: Laboratory (SSIDL)"
-Description: "Laboratotium"
+Title: "Laboratorium (SSIDL)"
+Description: "Laboratorium"
 * identifier 1..1 MS 
 * identifier.use 0..0
 * identifier.type 0..0

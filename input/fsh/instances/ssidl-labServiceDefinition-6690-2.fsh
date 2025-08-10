@@ -1,6 +1,6 @@
 Instance: SsidlLabServiceDefinition-6690-2
 InstanceOf: SsidlActivityDefinitionLabServiceDefinition
-Title: "SSIDL LabServiceDefinition: Leukocyty"
+Title: "Definicja usługi wg SSIDL: Leukocyty"
 Usage: #example
 * text.status = #generated
 * text.div = "<div><p><strong>Definicja usługi laboratoryjnej</strong></p>

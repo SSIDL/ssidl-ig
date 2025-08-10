@@ -1,11 +1,11 @@
-Instance: SsidlSImportLab
+Instance: SsidlExportLab
 InstanceOf: OperationDefinition
-Title: "Operacja SSIDL: $import-lab"
+Title: "Operacja SSIDL: $export-lab"
 Usage: #example
-* name = "ImportLab"
+* name = "ExportLab"
 * status = #draft 
 * kind = #operation
-* code = #import-lab
+* code = #export-lab
 * system = true
 * type = false
 * instance = false

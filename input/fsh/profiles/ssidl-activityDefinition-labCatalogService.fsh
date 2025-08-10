@@ -1,8 +1,8 @@
 Profile: SsidlActivityDefinitionLabCatalogService
 Parent: ActivityDefinition
 Id: ssidl-activityDefinition-labCatalogService
-Title: "ActivityDefinition: Lab Catalog Service (SSIDL)"
-Description: "Definicja usługi katalogowej laboratorium"
+Title: "Usługa katalogowa laboratorium (SSIDL)"
+Description: "Usługa katalogowa laboratorium"
 * extension contains
     ActivityDefinitionReasonReference named reason 0..* MS and
     ActivityDefinitionNfzGuaranteedServiceCode named nfzGuaranteedServiceCode 0..* MS
