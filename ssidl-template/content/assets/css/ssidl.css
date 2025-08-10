@@ -1,0 +1,12 @@
+
+
+.inner-wrapper p img {
+    display:block;
+    float: none;;
+}
+
+:root {
+    --ig-status-text-color: #2B2A29; /* 1. IG Title and status text color */
+    --navbar-bg-color: #3880C3; /* 2. Header container color */
+    --footer-container-bg-color: #3880C3; /* 4. Footer container color */
+}
