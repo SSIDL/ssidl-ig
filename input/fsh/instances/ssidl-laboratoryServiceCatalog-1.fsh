@@ -1,6 +1,7 @@
 Instance: SsidlLaboratoryServiceCatalog-1
 InstanceOf: SsidlHealthcareServiceLaboratoryServiceCatalog
 Title: "LaboratoryServiceCatalog: Przykład"
+Description: "Przykład katalogu usług laboratorium"
 Usage: #example
 * text.status = #generated
 * text.div = "<div></div>"

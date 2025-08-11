@@ -1,6 +1,7 @@
 Instance: SsidlLabProcedureDefinition-2160-0
 InstanceOf: Bundle
 Title: "Definicja badania wg SSIDL: Kreatynina"
+Description: "Przykład definicji badania"
 Usage: #example
 * type = #transaction
 * entry[+].fullUrl = "SsidlLabServiceDefinition-2160-0"

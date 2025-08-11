@@ -1,6 +1,7 @@
 Instance: SsidlLocationLaboratory-1
 InstanceOf: SsidlLocationLaboratory
 Title: "Laboratory: Laboratorium nr 1 we Wrocławiu"
+Description: "Przykład laboratorium"
 Usage: #example
 * text.status = #generated
 * text.div = "<div><p><strong>Laboratorium nr 1 we Wrocławiu</strong></p>

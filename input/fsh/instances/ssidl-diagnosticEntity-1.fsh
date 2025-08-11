@@ -1,6 +1,7 @@
 Instance: SsidlOrganizationDiagnosticEntity-1
 InstanceOf: SsidlOrganizationDiagnosticEntity
 Title: "DiagnosticEntity: Superdiagnostyka"
+Description: "Przykład podmiotu diagnostycznego"
 Usage: #example
 * text.status = #generated
 * text.div = "<div><p><strong>Podmiot diagnostyczny</strong></p>

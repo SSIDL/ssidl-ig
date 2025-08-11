@@ -1,6 +1,7 @@
 Instance: SsidlCitation-1
 InstanceOf: SsidlCitationSourceInfo
 Title: "Źródło: Przykład 1"
+Description: "Przykład referencji do źródła informacji"
 Usage: #example
 * text.status = #generated
 * text.div = "<div><p><strong>Źr&oacute;dło</strong></p>

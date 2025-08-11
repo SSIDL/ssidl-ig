@@ -1,6 +1,7 @@
 Instance: SsidlLocationIntakePoint-1
 InstanceOf: SsidlLocationIntakePoint
 Title: "IntakePoint: Punkt pobrań Superdiagnostyki"
+Description: "Przykład punktu pobrań"
 Usage: #example
 * text.status = #generated
 * text.div = "<div><p><strong>Punkt pobrań nr 2 we Wrocławiu</strong></p>

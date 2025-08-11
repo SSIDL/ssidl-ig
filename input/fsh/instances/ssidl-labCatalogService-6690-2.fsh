@@ -1,6 +1,7 @@
 Instance: SsidlLabCatalogService-6690-2
 InstanceOf: SsidlActivityDefinitionLabCatalogService
 Title: "SSIDL LabCatalogService: Leukocyty"
+Description: "Przykład usługi katalogowej laboratorium"
 Usage: #example
 * text.status = #generated
 * text.div = "<div></div>"

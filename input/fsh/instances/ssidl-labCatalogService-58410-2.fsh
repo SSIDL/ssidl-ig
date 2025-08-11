@@ -1,6 +1,7 @@
 Instance: SsidlLabCatalogService-58410-2
 InstanceOf: SsidlActivityDefinitionLabCatalogService
 Title: "LabCatalogService: Morfologia krwi"
+Description: "Przykład usługi katalogowej laboratorium"
 Usage: #example
 * text.status = #generated
 * text.div = "<div></div>"

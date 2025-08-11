@@ -1,6 +1,7 @@
 Instance: SsidlIntakePointServiceCatalog-1
 InstanceOf: SsidlHealthcareServiceLaboratoryServiceCatalog
 Title: "IntakePointServiceCatalog: Przykład"
+Description: "Przykład katalogu usług punktu pobrań"
 Usage: #example
 * text.status = #generated
 * text.div = "<div></div>"

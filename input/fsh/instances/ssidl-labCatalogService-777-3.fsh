@@ -1,6 +1,7 @@
 Instance: SsidlLabCatalogService-777-3
 InstanceOf: SsidlActivityDefinitionLabCatalogService
 Title: "SSIDL LabCatalogService: Płytki krwi"
+Description: "Przykład usługi katalogowej laboratorium"
 Usage: #example
 * text.status = #generated
 * text.div = "<div></div>"
