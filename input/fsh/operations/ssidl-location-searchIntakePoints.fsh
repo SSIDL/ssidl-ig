@@ -56,7 +56,7 @@ Usage: #example
 * parameter[=].max = "1"
 * parameter[=].documentation = "Identyfikator usługi katalogowej laboratorium"
 * parameter[=].searchType = #token
-* parameter[+].name = #service-definition-Id
+* parameter[+].name = #service-definition-id
 * parameter[=].use = #in
 * parameter[=].min = 0
 * parameter[=].max = "1"
