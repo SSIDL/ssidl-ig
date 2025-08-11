@@ -4,17 +4,16 @@ Title: "IntakePointServiceCatalog: Przykład"
 Description: "Przykład katalogu usług punktu pobrań"
 Usage: #example
 * text.status = #extensions
-* text.div = "<div><div>
-<div><strong>Katalog usług punktu pobrań Superdiagnostyki we Wrocławiu</strong></div>
-</div>
-<p>Podmiot diagnostyczny:<strong> Superdiagnostyka Sp. z o.o.</strong></p>
-<p>Punkt pobrań: P<strong>unkt pobrań nr 2 we Wrocławiu</strong></p>
+* text.div = "<div>
+<p><strong>Katalog usług punktu pobrań Superdiagnostyki we Wrocławiu</strong></p>
+<p>Podmiot diagnostyczny:<strong>Superdiagnostyka Sp. z o.o.</strong></p>
+<p>Punkt pobrań: <strong>Punkt pobrań nr 2 we Wrocławiu</strong></p>
 <p>Usługi katalogowe:</p>
-<ul>
+<p><ul>
 <li><a href=\"ActivityDefinition-SsidlLabCatalogService-58410-2.html\">[58410-2] Morfologia 8-parametrowa</a></li>
-<li><a href=\"ActivityDefinition-SsidlLabCatalogService-6690-2.html\">[6690-2] Leukocyty</li>
-<li><a href=\"ActivityDefinition-SsidlLabCatalogService-777-3.html\">[777-3] Płytki krwi</li>
-</ul>
+<li><a href=\"ActivityDefinition-SsidlLabCatalogService-6690-2.html\">[6690-2] Leukocyty</a></li>
+<li><a href=\"ActivityDefinition-SsidlLabCatalogService-777-3.html\">[777-3] Płytki krwi</a></li>
+</ul></p>
 <p>&nbsp;</p></div>"
 * extension[serviceDefinition][+].valueReference = Reference(SsidlLabCatalogService-58410-2)
 * extension[serviceDefinition][+].valueReference = Reference(SsidlLabCatalogService-6690-2)
