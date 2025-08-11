@@ -1,6 +1,7 @@
 Instance: SsidlSpecimenDefinition-14682-9
 InstanceOf: SsidlSpecimenDefinition
 Title: "Czynniki przedanalityczne wg SSIDL: Kreatynina"
+Description: "Przykład czynników przedanalitycznych"
 Usage: #example
 * text.status = #generated
 * text.div = "<div>

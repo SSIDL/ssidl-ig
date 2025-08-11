@@ -1,6 +1,7 @@
 Instance: SsidlLabTestDefinition-787-2
 InstanceOf: SsidlObservationDefinitionLabTestDefinition
 Title: "Definicja testu wg SSIDL: MCV"
+Description: "Przykład definicji testu"
 Usage: #example
 * text.status = #extensions
 * text.div = "<div>

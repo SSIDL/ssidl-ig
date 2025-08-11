@@ -1,6 +1,7 @@
 Instance: SsidlSpecimenDefinition-6690-2
 InstanceOf: SsidlSpecimenDefinition
 Title: "Czynniki przedanalityczne wg SSIDL: Leukocyty"
+Description: "Przykład czynników przedanalitycznych"
 Usage: #example
 * text.status = #generated
 * text.div = "<div>

@@ -1,6 +1,7 @@
 Instance: SsidlLabTestDefinition-786-4
 InstanceOf: SsidlObservationDefinitionLabTestDefinition
 Title: "Definicja testu wg SSIDL: MCHC"
+Description: "Przykład definicji testu"
 Usage: #example
 * text.status = #generated
 * text.div = "<div><p><strong>Definicja testu laboratoryjnego</strong></p>

@@ -1,6 +1,7 @@
 Instance: SsidlLabProcedureDefinition-6690-2
 InstanceOf: Bundle
 Title: "Definicja badania wg SSIDL: Leukocyty"
+Description: "Przykład definicji badania"
 Usage: #example
 * type = #transaction
 * entry[+].fullUrl = "SsidlLabServiceDefinition-6690-2"

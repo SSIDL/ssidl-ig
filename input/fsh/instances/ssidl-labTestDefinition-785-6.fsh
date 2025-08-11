@@ -1,6 +1,7 @@
 Instance: SsidlLabTestDefinition-785-6
 InstanceOf: SsidlObservationDefinitionLabTestDefinition
 Title: "Definicja testu wg SSIDL: MCH"
+Description: "Przykład definicji testu"
 Usage: #example
 * text.status = #generated
 * text.div = "<div>

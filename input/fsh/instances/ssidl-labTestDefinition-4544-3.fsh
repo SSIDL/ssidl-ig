@@ -1,6 +1,7 @@
 Instance: SsidlLabTestDefinition-4544-3
 InstanceOf: SsidlObservationDefinitionLabTestDefinition
 Title: "Definicja testu wg SSIDL: Hematokryt"
+Description: "Przykład definicji testu"
 Usage: #example
 * text.status = #generated
 * text.div = "<div><p><strong>Definicja testu laboratoryjnego</strong></p>

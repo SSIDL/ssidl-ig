@@ -1,6 +1,7 @@
 Instance: SsidlLabTestDefinition-2160-0
 InstanceOf: SsidlObservationDefinitionLabTestDefinition
 Title: "Definicja testu wg SSIDL: Kreatynina"
+Description: "Przykład definicji testu"
 Usage: #example
 * text.status = #extensions
 * text.div = "<div>

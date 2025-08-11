@@ -1,6 +1,7 @@
 Instance: SsidlLabServiceDefinition-777-3
 InstanceOf: SsidlActivityDefinitionLabServiceDefinition
 Title: "Definicja usługi wg SSIDL: Płytki krwi"
+Description: "Przykład definicji usługi"
 Usage: #example
 * text.status = #generated
 * text.div = "<div><p><strong>Definicja usługi laboratoryjnej</strong></p>

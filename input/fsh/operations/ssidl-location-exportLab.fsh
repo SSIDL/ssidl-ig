@@ -1,7 +1,7 @@
 Instance: SsidlLocationExportLab
 InstanceOf: OperationDefinition
 Title: "Operacja eksportu danych laboratorium wraz z powiązaniami (SSIDL)"
-Description: "Operacja ekportu danych laboratorium wraz z powiązanymi punktami pobrań, katalogami usług oraz podmiotem diagnostycznym" 
+Description: "Operacja eksportu danych laboratorium wraz z powiązanymi punktami pobrań, katalogami usług oraz podmiotem diagnostycznym" 
 Usage: #example
 * id = "ssidl-location-exportLab"
 * name = "ExportLab"
