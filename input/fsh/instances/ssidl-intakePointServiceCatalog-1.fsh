@@ -3,8 +3,19 @@ InstanceOf: SsidlHealthcareServiceLaboratoryServiceCatalog
 Title: "IntakePointServiceCatalog: Przykład"
 Description: "Przykład katalogu usług punktu pobrań"
 Usage: #example
-* text.status = #generated
-* text.div = "<div></div>"
+* text.status = #extensions
+* text.div = "<div><div>
+<div><strong>Katalog usług punktu pobrań Superdiagnostyki we Wrocławiu</strong></div>
+</div>
+<p>Podmiot diagnostyczny:<strong> Superdiagnostyka Sp. z o.o.</strong></p>
+<p>Punkt pobrań: P<strong>unkt pobrań nr 2 we Wrocławiu</strong></p>
+<p>Usługi katalogowe:</p>
+<ul>
+<li><strong>[58410-2] Morfologia 8-parametrowa</strong></li>
+<li><strong>[6690-2] Leukocyty</strong></li>
+<li><strong>[777-3] Płytki krwi</strong></li>
+</ul>
+<p>&nbsp;</p></div>"
 * extension[serviceDefinition][+].valueReference = Reference(SsidlLabCatalogService-58410-2)
 * extension[serviceDefinition][+].valueReference = Reference(SsidlLabCatalogService-6690-2)
 * extension[serviceDefinition][+].valueReference = Reference(SsidlLabCatalogService-777-3)

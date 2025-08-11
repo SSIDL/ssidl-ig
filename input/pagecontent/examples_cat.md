@@ -1,13 +1,11 @@
 Przykłady usług katalogowych laboratorium 
 
-* [Kreatynina]()
-* [Morfologia krwi (panel)]()
-* [Płytki krwi]()
+* [Morfologia krwi (panel)](ActivityDefinition-SsidlLabCatalogService-58410-2.html)
+* [Płytki krwi](ActivityDefinition-SsidlLabCatalogService-777-3.html)
 
 Przykłady katalogów usług
 
-* [Katalog usług laboratorium]()
-* [Katalog usług punktu pobrań]()
+* [Katalog usług laboratorium](HealthcareService-SsidlLaboratoryServiceCatalog-1.html)
+* [Katalog usług punktu pobrań](HealthcareService-SsidlIntakePointServiceCatalog-1.html)
 
-* [Struktura podmiotu diagnostycznego]()
 
