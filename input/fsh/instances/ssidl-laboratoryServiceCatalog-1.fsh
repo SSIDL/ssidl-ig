@@ -5,7 +5,7 @@ Description: "Przykład katalogu usług laboratorium"
 Usage: #example
 * text.status = #extensions
 * text.div = "<div><p><strong>Katalog usług laboratorium&nbsp;Superdiagnostyki we Wrocławiu</strong></p>
-<p>Podmiot diagnostyczny:<strong>Superdiagnostyka Sp. z o.o.</strong></p>
+<p>Podmiot diagnostyczny:<strong> Superdiagnostyka Sp. z o.o.</strong></p>
 <p>Laboratorium:&nbsp;<strong>Laboratorium nr 1 we Wrocławiu</strong></p>
 <p>Usługi katalogowe:</p>
 <p><ul>

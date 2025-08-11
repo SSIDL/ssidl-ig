@@ -4,12 +4,19 @@ Title: "Definicja usługi wg SSIDL: Płytki krwi"
 Description: "Przykład definicji usługi"
 Usage: #example
 * text.status = #generated
-* text.div = "<div><p><strong>Definicja usługi laboratoryjnej</strong></p>
+* text.div = "<div>
+<p><strong>Definicja usługi laboratoryjnej</strong></p>
 <p><strong>Płytki krwi</strong></p>
 <ul>
 <li>LOINC: <strong><strong><strong>[</strong></strong></strong><strong><strong><strong>777-3</strong>]&nbsp;</strong></strong><strong>Płytki krwi: stężenie liczbowe: punkt w czasie: krew: ilościowy: automatyczne liczenie</strong></li>
 <li>ICD-9-PL: <strong>[C66]&nbsp;Płytki krwi - liczba</strong></li>
-</ul></div>"
+</ul>
+<p><a href=\"SpecimenDefinition-SsidlSpecimenDefinition-777-3\">Czynniki przedanalityczne</a></p>
+<p>Wymagany test laboratoryjny:</p>
+<ul>
+<li><a href=\"ObservationDefinition-SsidlLabTestDefinition-777-3.html\">[777-3]&nbsp;Płytki krwi</a></li>
+</ul>
+</div>"
 * url = "http://loinc-ssidl.umed.pl/fhir/ig/ssidl/ActivityDefinition/ssidl-labServiceDefinition-777-3"
 * version = "1"
 * title = "Płytki krwi"
