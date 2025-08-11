@@ -5,7 +5,6 @@ Katalog usług, za pomocą interfejsu programistycznego zgodnego ze standardem F
 Usługa jest realizowana za pomocą [standardowego mechanizmu wyszukiwania zasobów FHIR](https://hl7.org/fhir/search.html). Możliwe kryteria wyszukiwania:
 * kod LOINC
 * fragment nazwy usługi laboratoryjnej
-* rodzaj pracowni laboratoryjnej
 
 Usługa zwraca zestaw definicji badań laboratoryjnych spełniających podane kryteria.
 
@@ -80,7 +79,7 @@ Powiązane klasy logicznego modelu danych:
 
 Katalog usług, za pomocą interfejsu programistycznego zgodnego ze standardem FHIR, umożliwia pobranie katalogu usług danego laboratorium lub punktu pobrań, zawierającego zestaw wykonywanych usług katalogowych. Przypadek użycia jest dostępny dla wszystkich uprawnionych systemów zewnętrznych i wewnętrznych.
 
-Usługa jest realizowana za pomocą operacji [`$get-catalogue`](OperationDefinition-SsidlGetCatalog.html), zdefiniowanej zgodnie z zasadami standardu HL7 FHIR. W wywołaniu usługi przekazywany jest identyfikator instancji zasobu typu Location reprezentującego laboratorium lub punkt pobrań. Usługa zwraca zasób FHIR typu Bundle reprezentujący katalog usług danego laboratorium zawierający zasób typu HealthcareService oraz zasoby typu ObservationDefinition reprezentujące usługi katalogowe danego laboratorium.
+Usługa jest realizowana za pomocą operacji [`$get-catalog`](OperationDefinition-SsidlGetCatalog.html), zdefiniowanej zgodnie z zasadami standardu HL7 FHIR. W wywołaniu usługi przekazywany jest identyfikator instancji zasobu typu Location reprezentującego laboratorium lub punkt pobrań. Usługa zwraca zasób FHIR typu Bundle reprezentujący katalog usług danego laboratorium zawierający zasób typu HealthcareService oraz zasoby typu ObservationDefinition reprezentujące usługi katalogowe danego laboratorium.
 
 Powiązane klasy logicznego modelu danych:
 * Laboratorium
@@ -123,8 +122,7 @@ Powiązane klasy logicznego modelu danych:
 
 Katalog usług, za pomocą interfejsu programistycznego zgodnego ze standardem FHIR, umożliwia import katalogu usług danego laboratorium lub punktu pobrań, zawierającego zestaw jego usług katalogowych. Przypadek użycia jest dostępny dla uprawnionych systemów laboratoryjnych.
 
-Usługa jest realizowana za pomocą operacji [`$import-catalogue`](OperationDefinition-SsidlImportCatalog.html), zdefiniowanej zgodnie z zasadami standardu HL7 FHIR. W wywołaniu usługi przekazywany jest zasób FHIR typu Bundle reprezentujący katalog usług laboratorium
-zawierający zasób HealthcareService oraz zasoby ObservationDefinition reprezentujące usługi katalogowe laboratorium. Usługa zwraca wynik operacji oraz zasoby FHIR utworzone w komponencie Katalog usług w wyniku wykonania
+Usługa jest realizowana jako transakcja przekazania zasobu FHIR typu Bundle reprezentującego katalog usług laboratorium zawierający zasób HealthcareService oraz zasoby ObservationDefinition reprezentujące usługi katalogowe laboratorium. Usługa zwraca wynik operacji oraz zasoby FHIR utworzone w komponencie Katalog usług w wyniku wykonania
 operacji wraz z ich identyfikatorami instancji.
 
 Powiązane klasy logicznego modelu danych:
@@ -136,7 +134,7 @@ Powiązane klasy logicznego modelu danych:
 
 Katalog usług, za pomocą interfejsu programistycznego zgodnego ze standardem FHIR, umożliwia import struktury organizacyjnej podmiotu diagnostycznego uczestniczącego w projekcie w tym danych danych podmiotu diagnostycznego, jego laboratoriów i punktów pobrań. Przypadek użycia jest dostępny dla uprawnionych systemów laboratoryjnych.
 
-Usługa jest realizowana za pomocą operacji [`$import-lab`](OperationDefinition-SsidlImportLab.html), zdefiniowanej zgodnie z zasadami standardu HL7 FHIR. W wywołaniu usługi przekazywany jest zasób FHIR typu Bundle zawierający dane podmiotu diagnostycznego, jego laboratoriów oraz punktów pobrań. Usługa zwraca wynik operacji oraz zasoby FHIR utworzone w komponencie Katalog usług w wyniku wykonania operacji wraz z ich identyfikatorami instancji.
+Usługa jest realizowana jako transakcja przekazania zasobu FHIR typu Bundle reprezentującego dane podmiotu diagnostycznego, jego laboratoriów oraz punktów pobrań. Usługa zwraca wynik operacji oraz zasoby FHIR utworzone w komponencie Katalog usług w wyniku wykonania operacji wraz z ich identyfikatorami instancji.
 
 Powiązane klasy logicznego modelu danych:
 * Podmiot diagnostyczny
@@ -148,7 +146,7 @@ Powiązane klasy logicznego modelu danych:
 
 Katalog usług, za pomocą interfejsu programistycznego zgodnego ze standardem FHIR, umożliwia import zestawu opracowanych w projekcie definicji badań laboratoryjnych w tym defnicji usług, celów badania, czynników przedanalitycznych, powiązań z kodami NFZ, definicji testów oraz wartości referencyjnych. Przypadek użycia jest dostępny dla aplikacji do tworzenia bazy wiedzy.
 
-Usługa jest realizowana za pomocą operacji [`$import-def`](OperationDefinition-SsidlImportDef.html), zdefiniowanej zgodnie z zasadami standardu HL7 FHIR. W wywołaniu usługi przekazywany jest zasób FHIR typu Bundle zawierający zestaw definicji badań laboratoryjnych. Usługa zwraca wynik operacji oraz zasoby FHIR utworzone w komponencie Katalog usług w wyniku wykonania operacji wraz z ich identyfikatorami instancji.
+Usługa jest realizowana jako transakcja przekazania zasobu FHIR typu Bundle reprezentującego zestaw definicji badań laboratoryjnych. Usługa zwraca wynik operacji oraz zasoby FHIR utworzone w komponencie Katalog usług w wyniku wykonania operacji wraz z ich identyfikatorami instancji.
 
 Powiązane klasy logicznego modelu danych:
 * Definicja badania laboratoryjnego
@@ -156,7 +154,7 @@ Powiązane klasy logicznego modelu danych:
 * Cel badania
 * Wartości referencyjne
 
-Po wykonaniu operacji [`$import-def`](OperationDefinition-SsidlImportDef.html) wykonywana jest operacja [`$generate-conceptMap`](OperationDefinition-SsidlImportDef.html), która - na podstawie kodów usług zawartych w zaktualizowanych definicjach badań laboratoryjnych - generuje zasób FHIR typu ConceptMap zawierający mapowania pomiędzy pozycjami słownika LOINC i pozycjami slownika ICD-9-PL, który jest przekazywany do Serwera terminologii.
+Następnie wykonywana jest operacja [`$generate-conceptMap`](OperationDefinition-SsidlImportDef.html), która - na podstawie kodów usług zawartych w zaktualizowanych definicjach badań laboratoryjnych - generuje zasób FHIR typu ConceptMap zawierający mapowania pomiędzy pozycjami słownika LOINC i pozycjami slownika ICD-9-PL, który jest przekazywany do Serwera terminologii.
 
 
 ### K-15: Eksportuj dane podmiotu diagnostycznego, jego laboratoriów i punktów pobrań

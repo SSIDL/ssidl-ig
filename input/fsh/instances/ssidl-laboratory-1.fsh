@@ -18,6 +18,5 @@ Usage: #example
 * contact.telecom[phone].value = "+48 999 999 999"
 * contact.telecom[email].system = #email
 * contact.telecom[email].value = "lab1@superdiagnostyka.com.pl"
-* address
 * managingOrganization = Reference(SsidlOrganizationDiagnosticEntity-1)
 

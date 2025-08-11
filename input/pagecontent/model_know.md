@@ -2,7 +2,7 @@ W ramach projektu LOINC-SSIDL powstaje baza wiedzy z zakresu diagnostyki laborat
 
 #### Definicja badania laboratoryjnego w bazie wiedzy prototypu SSIDL
 
-![](assets\Definicja_usługi_BW.png)
+![](assets\diagrams\Definicja_usługi_BW.png)
 
 Podstawowym elementem bazy wiedzy SSIDL jest definicja badania laboratoryjnego, składająca się z:
 * [definicji usługi laboratoryjnej](StructureDefinition-pl-lab-definicjaUslugiLaboratoryjnejBW.html) powiązanej z:
@@ -16,7 +16,7 @@ Podstawowym elementem bazy wiedzy SSIDL jest definicja badania laboratoryjnego, 
 
 ##### Czynniki przedanalityczne
 
-![](assets\Czynniki_przedanalityczne_BW.png)
+![](assets\diagrams\Czynniki_przedanalityczne_BW.png)
 
 Definicja usługi laboratoryjnej może zawierać określenie następujących czynników przedanalitycznych:
 * Przygotowanie pacjenta
@@ -34,7 +34,7 @@ Definicja badania laboratoryjnego może być powiązana z kodami świadczeń gwa
 
 ##### Definicja testu laboratoryjnego
 
-![](assets\Definicja_testu_BW.png)
+![](assets\diagrams\Definicja_testu_BW.png)
 
 * [Definicja testu laboratoryjnego](StructureDefinition-pl-lab-definicjaTestBW.html) jest powiązana z:
     * [przelicznikiem jednostek wyniku](StructureDefinition-pl-lab-przelicznikJednostek.html)

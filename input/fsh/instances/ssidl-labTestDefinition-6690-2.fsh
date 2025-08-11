@@ -8,7 +8,7 @@ Usage: #example
 <p>Sugerowana nazwa na wyniku badania:&nbsp;<strong>Leukocyty</strong></p>
 <p>LOINC: <strong>[6690-2]&nbsp;Leukocyty: stężenie liczbowe: punkt w czasie: krew: ilościowy: automatyczne liczenie</strong></p>
 <p>Metoda<strong>:&nbsp;[LP6141-8] Automatyczne zliczanie</strong></p>
-<p>Jednostka wyniku:<strong>&nbsp;/uL 'na mirolitr'</strong></p>
+<p>Jednostka wyniku:<strong>&nbsp;/uL 'na mikrolitr'</strong></p>
 </div>
 <p><strong>Wartości referencyjne</strong></p>
 <ul>

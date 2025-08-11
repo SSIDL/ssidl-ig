@@ -12,8 +12,8 @@ Usage: #example
 </div>
 <p><strong>Wartości referencyjne</strong></p>
 <ul>
-<li><strong>Wartości normalne: kobieta 77.0-93.0 /uL</strong></li>
-<li><strong>Wartości normalne: mężczyzna 77.0-93.0 /uL</strong></li>
+<li><strong>Wartości normalne: kobieta 3.8-5.8 /uL</strong></li>
+<li><strong>Wartości normalne: mężczyzna 4.5-6.5 /uL</strong></li>
 </ul></div>"
 * url = "http://loinc-ssidl.umed.pl/fhir/ig/ssidl/ObservationDefinition/ssidl-labTestDefinition-789-8"
 * version = "1"

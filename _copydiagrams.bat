@@ -1,1 +1,0 @@
-copy input\pagecontent\assets\*.png output\assets
