@@ -11,9 +11,9 @@ Usage: #example
 <p>Punkt pobrań: P<strong>unkt pobrań nr 2 we Wrocławiu</strong></p>
 <p>Usługi katalogowe:</p>
 <ul>
-<li><strong>[58410-2] Morfologia 8-parametrowa</strong></li>
-<li><strong>[6690-2] Leukocyty</strong></li>
-<li><strong>[777-3] Płytki krwi</strong></li>
+<li><a href="ActivityDefinition-SsidlLabCatalogService-58410-2.html">[58410-2] Morfologia 8-parametrowa</a></li>
+<li><a href="ActivityDefinition-SsidlLabCatalogService-6690-2.html">[6690-2] Leukocyty</li>
+<li><a href="ActivityDefinition-SsidlLabCatalogService-777-3.html">[777-3] Płytki krwi</li>
 </ul>
 <p>&nbsp;</p></div>"
 * extension[serviceDefinition][+].valueReference = Reference(SsidlLabCatalogService-58410-2)
