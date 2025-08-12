@@ -12,6 +12,10 @@ Usage: #example
 <p>Jednostka wyniku:<strong>&nbsp;/uL 'na mikrolitr'</strong></p>
 </div>
 <p><strong>Wartości referencyjne</strong></p>
+<p>Źródło:
+<ul>
+<li><a href=\"https://www.urovita.pl/morfologia-krwi-8-parametrowa\" target='_blank'>Urovita: Morfologia krwi 8-parametrowa</a></li>
+</ul></p>
 <ul>
 <li><strong>Wartości normalne: 3.8-10.0 /uL</strong></li>
 </ul></div>"

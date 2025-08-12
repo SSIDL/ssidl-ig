@@ -12,6 +12,10 @@ Usage: #example
 <p>Jednostka wyniku:<strong>&nbsp;% 'procent'</strong></p>
 </div>
 <p><strong>Wartości referencyjne</strong></p>
+<p>Źródło:
+<ul>
+<li><a href=\"https://www.urovita.pl/morfologia-krwi-8-parametrowa\" target='_blank'>Urovita: Morfologia krwi 8-parametrowa</a></li>
+</ul></p>
 <ul>
 <li><strong>Wartości normalne: kobieta 37.0-47.0&nbsp;%</strong></li>
 <li><strong>Wartości normalne: mężczyzna 40.0-54.0&nbsp;%<br /></strong></li>

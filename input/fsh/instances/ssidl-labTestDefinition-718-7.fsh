@@ -11,6 +11,10 @@ Usage: #example
 <p>Jednostka wyniku: <strong>g/dL 'gram na decylitr'</strong></p>
 </div>
 <p><strong>Wartości referencyjne</strong></p>
+<p>Źródło:
+<ul>
+<li><a href=\"https://www.urovita.pl/morfologia-krwi-8-parametrowa\" target='_blank'>Urovita: Morfologia krwi 8-parametrowa</a></li>
+</ul></p>
 <ul>
 <li><strong>Wartości normalne: kobieta 11.5-16.5 g/dL</strong></li>
 <li><strong>Wartości normalne:&nbsp;mężczyzna&nbsp;13.0-18.0 g/dL</strong></li>

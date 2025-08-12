@@ -13,6 +13,10 @@ Usage: #example
 <p>Jednostka wyniku:<strong>&nbsp;pg 'pikogram'</strong></p>
 </div>
 <p><strong>Wartości referencyjne</strong></p>
+<p>Źródło:
+<ul>
+<li><a href=\"https://www.urovita.pl/morfologia-krwi-8-parametrowa\" target='_blank'>Urovita: Morfologia krwi 8-parametrowa</a></li>
+</ul></p>
 <ul>
 <li><strong>Wartości normalne: 27.0-33.0 pg</strong></li>
 </ul>

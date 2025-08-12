@@ -12,6 +12,10 @@ Usage: #example
 <p>Metoda: [LP6141-8] Automatyczne zliczanie</p>
 <p>Jednostka wyniku: <strong>/uL 'na mikrolitr'</strong></p>
 <p><strong>Wartości referencyjne</strong></p>
+<p>Źródło:
+<ul>
+<li><a href=\"https://www.urovita.pl/morfologia-krwi-8-parametrowa\" target='_blank'>Urovita: Morfologia krwi 8-parametrowa</a></li>
+</ul></p>
 <ul>
 <li><strong>Wartości normalne: 150-400&nbsp;<strong>/uL</strong></strong></li>
 </ul></div>"
