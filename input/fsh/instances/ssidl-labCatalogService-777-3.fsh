@@ -4,7 +4,19 @@ Title: "SSIDL LabCatalogService: Płytki krwi"
 Description: "Przykład usługi katalogowej laboratorium"
 Usage: #example
 * text.status = #generated
-* text.div = "<div></div>"
+* text.div = "<div>
+<p><strong>Usługa katalogowa laboratorium</strong></p>
+<p><strong>Płytki krwi</strong></p>
+<ul>
+<li>LOINC: <strong><strong><strong>[</strong></strong></strong><strong><strong><strong>777-3</strong>]&nbsp;</strong></strong><strong>Płytki krwi: stężenie liczbowe: punkt w czasie: krew: ilościowy: automatyczne liczenie</strong></li>
+<li>ICD-9-PL: <strong>[C66]&nbsp;Płytki krwi - liczba</strong></li>
+</ul>
+<p><a href=\"SpecimenDefinition-SsidlSpecimenDefinition-777-3\">Czynniki przedanalityczne</a></p>
+<p>Wymagany test laboratoryjny:</p>
+<ul>
+<li><a href=\"ObservationDefinition-SsidlLabCatalogTest-777-3.html\">[777-3]&nbsp;Płytki krwi</a></li>
+</ul>
+</div>"
 * url = "http://loinc-ssidl.umed.pl/fhir/ig/ssidl/ActivityDefinition/ssidl-labCatalogService-777-3"
 * version = "1"
 * title = "Płytki krwi"

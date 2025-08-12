@@ -9,7 +9,7 @@ Usage: #example
 <p>Sugerowana nazwa na wyniku badania: <strong>Płytki krwi</strong></p>
 <p>LOINC: <strong>[777-3]&nbsp;Płytki krwi: stężenie liczbowe: punkt w czasie: krew: ilościowy: automatyczne liczenie</strong></p>
 </div>
-<p><strong>Metoda: [LP6141-8] Automatyczne zliczanie</strong></p>
+<p>Metoda: [LP6141-8] Automatyczne zliczanie</p>
 <p>Jednostka wyniku: <strong>/uL 'na mikrolitr'</strong></p>
 <p><strong>Wartości referencyjne</strong></p>
 <ul>
