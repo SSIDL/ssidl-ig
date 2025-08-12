@@ -1,6 +1,7 @@
 Instance: SsidlLabCatalogTest-777-3
 InstanceOf: SsidlObservationDefinitionLabCatalogTest
 Title: "SSIDL LabCatalogTest: Płytki krwi"
+Description: "Przykład definicji testu w laboratorium"
 Usage: #example
 * text.status = #generated
 * text.div = "<div><p><strong>Definicja testu laboratoryjnego</strong></p>

@@ -1,5 +1,5 @@
 
-Komponent **Katalog usług** udostępnia systemom wewnętrznym i zewnętrznym dane pochodzące z dwóch źródeł:
+Komponent **Katalog usług** udostępnia systemom wewnętrznym i zewnętrznym dane pochodzące z trzech źródeł:
 * Bazy wiedzy opracowywanej w ramach projektu, które są reprezentowane w postaci Definicji badań laboratoryjnych oraz klas z nią powiązanych
 * Danych podmiotów diagnostycznych, laboratoriów i punktów pobrań oraz ich katalogów usług
 * Usług katalogowych laboratoriów i ich powiązań z laboratoriami i punktami pobrań

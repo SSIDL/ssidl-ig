@@ -1,6 +1,7 @@
 Instance: SsidlLabCatalogTest-789-8
 InstanceOf: SsidlObservationDefinitionLabCatalogTest
 Title: "SSIDL LabCatalogTest: Erytrocyty"
+Description: "Przykład definicji testu w laboratorium"
 Usage: #example
 * text.status = #generated
 * text.div = "<div><p><strong>Definicja testu laboratoryjnego</strong></p>
