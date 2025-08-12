@@ -14,5 +14,5 @@ Characteristics: #can-be-target
 * wiekOd 0..1 integer "Wiek od" "Wiek od"
 * wiekDo 0..1 integer "Wiek do" "Wiek do"
 * ciaza 0..1 boolean "Występowanie ciąży" "Występowanie ciąży"
-* typ 0..1 code "Typ wartości referencyjnych" "Typ wartości referencyjnych"
+* typ 1..1 code "Typ wartości referencyjnych" "Typ wartości referencyjnych"
 * zrodlo 0..* Reference(Zrodlo) "Źródło wartości referencyjnych" "Źródło wartości referencyjnych"

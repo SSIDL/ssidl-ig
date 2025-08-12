@@ -11,7 +11,7 @@ Podstawowym elementem bazy wiedzy SSIDL jest definicja badania laboratoryjnego, 
 
     oraz jedną (lub wieloma w przypadku panelu):
 
-    * [definicją testu laboratoryjnego](StructureDefinition-pl-lab-definicjaTestBW.html)
+    * [definicją testu laboratoryjnego](StructureDefinition-pl-lab-definicjaTestuBW.html)
 
 
 ##### Czynniki przedanalityczne
@@ -36,7 +36,7 @@ Definicja badania laboratoryjnego może być powiązana z kodami świadczeń gwa
 
 ![](assets\diagrams\Definicja_testu_BW.png)
 
-* [Definicja testu laboratoryjnego](StructureDefinition-pl-lab-definicjaTestBW.html) jest powiązana z:
+* [Definicja testu laboratoryjnego](StructureDefinition-pl-lab-definicjaTestuBW.html) jest powiązana z:
     * [przelicznikiem jednostek wyniku](StructureDefinition-pl-lab-przelicznikJednostek.html)
     * [wartościami referencyjnymi](StructureDefinition-pl-lab-wartosciReferencyjne.html)
         i określeniem ich źródła:
