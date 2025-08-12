@@ -54,12 +54,14 @@ Description: "Usługa katalogowa laboratorium"
     icd9plCode 0..* MS
 * code.coding[loincCode] from LoincConceptVS
 * code.coding[loincCode].system 1..1 MS
+* code.coding[loincCode].system = $loinc
 * code.coding[loincCode].version 0..1 MS
 * code.coding[loincCode].code 1..1 MS
 * code.coding[loincCode].display 1..1 MS
 * code.coding[loincCode].userSelected 0..0
 * code.coding[icd9plCode] from Icd9PLLaboratoryServiceCodeVS
 * code.coding[icd9plCode].system 1..1 MS
+* code.coding[icd9plCode].system = $icd-9-pl
 * code.coding[icd9plCode].version 0..1 MS
 * code.coding[icd9plCode].code 1..1 MS
 * code.coding[icd9plCode].display 1..1 MS
