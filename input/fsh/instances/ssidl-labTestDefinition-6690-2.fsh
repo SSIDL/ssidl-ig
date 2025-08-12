@@ -11,7 +11,7 @@ Usage: #example
 <p>Metoda<strong>:&nbsp;[LP6141-8] Automatyczne zliczanie</strong></p>
 <p>Jednostka wyniku:<strong>&nbsp;/uL 'na mikrolitr'</strong></p>
 </div>
-<p><strong>Wartości referencyjne</strong><a href=\"Citation-SsidlCitation-1.html\">(źródło)</a></p>
+<p><strong>Wartości referencyjne</strong><a href=\"Citation-SsidlCitation-1.html\"> (źródło)</a></p>
 <ul>
 <li><strong>Wartości normalne: 3.8-10.0 /uL</strong></li>
 </ul></div>"

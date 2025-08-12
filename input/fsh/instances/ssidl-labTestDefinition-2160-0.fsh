@@ -12,10 +12,6 @@ Usage: #example
 </div>
 <p>Jednostka wyniku: <strong>mg/dL 'miligram na decylitr'</strong></p>
 <p><strong>Wartości referencyjne</strong></p>
-<p>Źródło:
-<ul>
-<li><a href=\"https://www.urovita.pl/morfologia-krwi-8-parametrowa\" target='_blank'>Urovita: Morfologia krwi 8-parametrowa</a></li>
-</ul></p>
 <ul>
 <li><strong>Wartości normalne: 0.6-1.3&nbsp;mg/dL</strong></li>
 </ul>

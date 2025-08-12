@@ -11,11 +11,7 @@ Usage: #example
 <p><strong>Metoda:&nbsp;[LP6141-8] Automatyczne zliczanie</strong></p>
 <p>Jednostka wyniku:<strong>&nbsp;g/dL 'gram na decylitr'</strong></p>
 </div>
-<p><strong>Wartości referencyjne</strong></p>
-<p>Źródło:
-<ul>
-<li><a href=\"https://www.urovita.pl/morfologia-krwi-8-parametrowa\" target='_blank'>Urovita: Morfologia krwi 8-parametrowa</a></li>
-</ul></p>
+<p><strong>Wartości referencyjne</strong><a href=\"Citation-SsidlCitation-1.html\"> (źródło)</a></p>
 <ul>
 <li><strong>Wartości normalne: 32.0-37.0&nbsp;g/dL</strong></li>
 </ul></div>"

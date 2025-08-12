@@ -10,11 +10,7 @@ Usage: #example
 <p>LOINC: <strong>[718-7]&nbsp;Hemoglobina: stężenie masowe: punkt w czasie: krew: ilościowy</strong></p>
 <p>Jednostka wyniku: <strong>g/dL 'gram na decylitr'</strong></p>
 </div>
-<p><strong>Wartości referencyjne</strong></p>
-<p>Źródło:
-<ul>
-<li><a href=\"https://www.urovita.pl/morfologia-krwi-8-parametrowa\" target='_blank'>Urovita: Morfologia krwi 8-parametrowa</a></li>
-</ul></p>
+<p><strong>Wartości referencyjne</strong><a href=\"Citation-SsidlCitation-1.html\"> (źródło)</a></p>
 <ul>
 <li><strong>Wartości normalne: kobieta 11.5-16.5 g/dL</strong></li>
 <li><strong>Wartości normalne:&nbsp;mężczyzna&nbsp;13.0-18.0 g/dL</strong></li>
