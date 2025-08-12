@@ -8,7 +8,7 @@ Usage: #example
 <p><strong>Kreatynina w surowicy/osoczu</strong></p>
 <ul>
 <li>LOINC: <strong>[14682-9]&nbsp;Kreatynina:stężenie molowe:punkt w czasie:surowica lub osocze:ilościowy</strong></li>
-<li>ICD-9-PL: <strong>[M37] Kreatynina</strong></li>
+<li>ICD-9-PL: <strong>[M37] Kreatynina</strong><br />&nbsp;</li>
 </ul>
 <p><strong>Cel badania</strong></p>
 <ul>
@@ -19,6 +19,11 @@ Usage: #example
 <ul>
 <li><strong>[1.6.2.9] kreatynina</strong></li>
 <li><strong>[5.1.1.3] kreatynina</strong></li>
+</ul>
+<p><a href=\"SpecimenDefinition-SsidlSpecimenDefinition-14682-9\">Czynniki przedanalityczne</a></p>
+<p>Wymagany test laboratoryjny:</p>
+<ul>
+<li><a href=\"ObservationDefinition-SsidlLabTestDefinition-14682-9.html\">[14682-9]&nbsp;Kreatynina</a></li>
 </ul></div>"
 * url = "http://loinc-ssidl.umed.pl/fhir/ig/ssidl/ActivityDefinition/ssidl-labServiceDefinition-14682-9"
 * extension[reason][+].valueReference = Reference(SsidlCondition-N17)

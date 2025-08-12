@@ -5,16 +5,26 @@ Description: "Przykład definicji usługi"
 Usage: #example
 * text.status = #generated
 * text.div = "<div><p><strong>Definicja usługi laboratoryjnej</strong></p>
-<div>
-<div><strong>Morfologia krwi 8-parametrowa</strong></div>
-</div>
+<p><strong>Morfologia krwi 8-parametrowa</strong></p>
 <ul>
-<li>LOINC: <strong><strong>[58410-2</strong></strong><strong><strong>]&nbsp;</strong>[Brak pozycji w polskiej wersji]</strong></li>
-<li>ICD-9-PL: <strong>[C53] <strong>Morfologia krwi 8-parametrowa</strong></strong></li>
+<li>LOINC: <strong>[58410-2</strong><strong><strong>]&nbsp;</strong>[Brak pozycji w polskiej wersji]</strong></li>
+<li>ICD-9-PL: <strong>[C53] Morfologia krwi 8-parametrowa</strong></li>
 </ul>
 <p><strong>Świadczenia gwarantowane&nbsp;NFZ</strong></p>
 <ul>
 <li><strong>[5.1.1.1]&nbsp;morfologia krwi 8-parametrowa</strong></li>
+</ul>
+<p><a href=\"SpecimenDefinition-SsidlSpecimenDefinition-58410-2\">Czynniki przedanalityczne</a></p>
+<p>Wymagany test laboratoryjny:</p>
+<ul>
+<li><a href=\"ObservationDefinition-SsidlLabTestDefinition-6690-2.html\">[6690-2]&nbsp;Leukocyty</a></li>
+<li><a href=\"ObservationDefinition-SsidlLabTestDefinition-789-8.html\">[789-8]&nbsp;Erytrocyty</a></li>
+<li><a href=\"ObservationDefinition-SsidlLabTestDefinition-718-7.html\">[718-7]&nbsp;Hemoglobina</a></li>
+<li><a href=\"ObservationDefinition-SsidlLabTestDefinition-4544-3.html\">[4544-3]&nbsp;Hematokryt</a></li>
+<li><a href=\"ObservationDefinition-SsidlLabTestDefinition-787-2.html\">[787-2]&nbsp;MCV</a></li>
+<li><a href=\"ObservationDefinition-SsidlLabTestDefinition-785-6.html\">[785-6]&nbsp;MCH</a></li>
+<li><a href=\"ObservationDefinition-SsidlLabTestDefinition-786-4.html\">[786-4]&nbsp;MCHC</a></li>
+<li><a href=\"ObservationDefinition-SsidlLabTestDefinition-777-3.html\">[777-3]&nbsp;Płytki krwi</a></li>
 </ul></div>"
 * url = "http://loinc-ssidl.umed.pl/fhir/ig/ssidl/ActivityDefinition/ssidl-labServiceDefinition-58410-2"
 * extension[nfzGuaranteedServiceCode][+].extension[code][+].valueCoding = $nfz-guaranteed#5.1.1.1 "morfologia krwi 8-parametrowa"
