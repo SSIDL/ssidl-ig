@@ -5,7 +5,7 @@ Title: "Usługa katalogowa laboratorium"
 Description: "Usługa katalogowa laboratorium"
 Characteristics: #can-be-target
 * kodUslugi 1..1 Coding "Kod usługi" "Kod usługi katalogowej laboratorium wyrażony za pomocą słownika LOINC"
-* kodUslugi from LoincLaboratoryServiceCodeVS
+* kodUslugi from LoincConceptVS
 * dodatkowyKodUslugi 0..1 Coding "Dodatkowy kod usługi" "Dodatkowy kod usługi katalogowej laboratorium wyrażony za pomocą słownika ICD-9 PL"
 * dodatkowyKodUslugi from Icd9PLLaboratoryServiceCodeVS
 * kodWlasnyUslugi 0..1 Coding "Kod własny usługi" "Kod własny usługi katalogowej laboratorium"

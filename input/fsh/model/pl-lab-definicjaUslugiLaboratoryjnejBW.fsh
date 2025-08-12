@@ -5,7 +5,7 @@ Title: "Definicja uslugi laboratoryjnej w bazie wiedzy"
 Description: "Definicja uslugi laboratoryjnej w bazie wiedzy SSIDL"
 Characteristics: #can-be-target
 * kodUslugi 1..1 Coding "Kod usługi" "Kod usługi laboratoryjnej wyrażony za pomocą słownika LOINC"
-* kodUslugi from LoincLaboratoryServiceCodeVS
+* kodUslugi from LoincConceptVS
 * dodatkowyKodUslugi 0..1 Coding "Dodatkowy kod usługi" "Dodatkowy kod usługi wyrażony za pomocą słownika ICD-9 PL"
 * dodatkowyKodUslugi from Icd9PLLaboratoryServiceCodeVS
 * nazwaWgLoinc 1..1 string "Nazwa wg LOINC" "Nazwa wg LOINC"

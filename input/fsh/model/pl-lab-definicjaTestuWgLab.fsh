@@ -5,7 +5,7 @@ Title: "Definicja testu laboratoryjnego wg laboratorium"
 Description: "Definicja testu laboratoryjnego wg laboratorium"
 Characteristics: #can-be-target
 * kodTestu 0..1 Coding "Kod testu" "Kod LOINC testu laboratoryjnego"
-* kodTestu from LoincLaboratoryServiceCodeVS
+* kodTestu from LoincConceptVS
 * nazwaWgLoinc 1..1 string "Nazwa wg LOINC" "Nazwa wg LOINC"
 * metoda 0..1 Coding "Kod metody" "Kod metody oznaczenia dla testu laboratoryjnego"
 * metoda from LaboratoryMethodTypeVS
