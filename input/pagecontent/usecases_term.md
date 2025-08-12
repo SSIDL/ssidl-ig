@@ -11,41 +11,15 @@ Powiązane klasy logicznego modelu danych:
 * Mapowanie pozycji słownika LOINC na pozycje słownika ICD-9-PL
 
 
-### T-02A: Pobierz pliki źródłowe słownika LOINC
+### T-02: Pobierz pakiet terminologiczny lub specyfikacyjny
 
-Serwer terminologii, za pomocą interfejsu programistycznego zgodnego ze standardem FHIR, umożliwia pobranie plików źródłowych słownika LOINC wraz z polską wersją językową. Pobrane pliki mogą zostać wykorzystane do implementacji słownika w systemach zewnętrznych. Przypadek użycia jest dostępny dla wszystkich uprawnionych systemów zewnętrznych i wewnętrznych.
+Serwer terminologii, za pomocą interfejsu programistycznego zgodnego ze standardem FHIR, umożliwia pobranie pakietu terminologicznego lub specyfikacyjnego. Pobrane pakiety mogą zostać wykorzystane do implementacji słownika w systemach zewnętrznych. Przypadek użycia jest dostępny dla wszystkich uprawnionych systemów zewnętrznych i wewnętrznych.
 
-Usługa jest realizowana za pomocą operacji [`$get-package`](OperationDefinition-SsidlGetPackage.html), zdefiniowanej zgodnie z zasadami standardu HL7 FHIR. W wywołaniu usługi przekazywana jest nazwa pakietu terminologicznego. Usługa zwraca zasób FHIR typu Binary zawierający pakiet terminologiczny o podanej nazwie.
+Usługa jest realizowana za pomocą operacji [`$get-package`](OperationDefinition-SsidlGetPackage.html), zdefiniowanej zgodnie z zasadami standardu HL7 FHIR. W wywołaniu usługi przekazywana jest nazwa pakietu. Usługa zwraca zasób FHIR typu Binary zawierający pakiet terminologiczny o podanej nazwie.
 
 Powiązane klasy logicznego modelu danych:
-* Pakiet terminologiczny
-* Zestaw plików źródłowych słownika LOINC
-* Zestaw słowników i zbiorów wartości opracowanych w projekcie
-* Mapowanie pozycji słownika LOINC na pozycje słownika ICD-9-PL
-
-
-### T-02B: Pobierz pakiet terminologiczny słowników zdefiniowanych w projekcie
-
-Serwer terminologii, za pomocą interfejsu programistycznego zgodnego ze standardem FHIR, umożliwia pobranie pakietu terminologicznego słowników i zbiorów wartości opracowanych w ramach projektu. Pobrany pakiet może zostać wykorzystany do implementacji w systemach zewnętrznych. Przypadek użycia jest dostępny dla wszystkich uprawnionych systemów zewnętrznych i wewnętrznych.
-
-Usługa jest realizowana za pomocą operacji [`$get-package`](OperationDefinition-SsidlGetPackage.html), zdefiniowanej zgodnie z zasadami standardu HL7 FHIR. W wywołaniu usługi przekazywana jest nazwa pakietu terminologicznego. Usługa zwraca zasób FHIR typu Binary zawierający pakiet terminologiczny o podanej nazwie.
-
-Pakiet zawiera co najmniej:
-- wartości pozycji słownika analitów wg LOINC (LOINC Component)
-- wartości pozycji słownika materiałów wg LOINC (LOINC System)
-- wartości pozycji słownika metod wg LOINC (LOINC Method)
-- wartości pozycji słownika UCUM
-- wartości pozycji słownika kodu resortowego
-- wartości pozycji słownika rozpoznań używane dla określania celu badania
-- rodzaje pracowni laboratoryjnych (cz. VIII kodu resortowego)
-- jednostki wieku
-
-
-### T-02C: Pobierz pakiet terminologiczny zawierający mapowanie LOINC na ICD-9-PL
-
-Serwer terminologii, za pomocą interfejsu programistycznego zgodnego ze standardem FHIR, umożliwia pobranie pakietu terminologicznego zawierającego mapowanie pozycji słownika LOINC na pozycje słownika ICD-9-PL w zakresie usług, dla których opracowano definicje usług laboratoryjnych. Mapowanie (w postaci zasobu FHIR typu ConceptMap) jest tworzone po każdej aktualizacji definicji usług laboratoryjnych w komponencie Katalog usług i zapisywane w komopnencie Serwer terminologii. Pobrany pakiet może zostać wykorzystany do implementacji w systemach zewnętrznych. Przypadek użycia jest dostępny dla wszystkich uprawnionych systemów zewnętrznych i wewnętrznych.
-
-Usługa jest realizowana za pomocą operacji [`$get-package`](OperationDefinition-SsidlGetPackage.html), zdefiniowanej zgodnie z zasadami standardu HL7 FHIR. W wywołaniu usługi przekazywana jest nazwa pakietu terminologicznego. Usługa zwraca zasób FHIR typu Binary zawierający pakiet terminologiczny o podanej nazwie.
+* Pakiet terminologiczny LOINC
+* Pakiet specyfikacyjny SSIDL
 
 
 ### T-03: Sprawdź występowanie kodu w słowniku

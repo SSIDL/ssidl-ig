@@ -3,7 +3,18 @@ InstanceOf: SsidlObservationDefinitionLabCatalogTest
 Title: "SSIDL LabCatalogTest: Erytrocyty"
 Usage: #example
 * text.status = #generated
-* text.div = "<div></div>"
+* text.div = "<div><p><strong>Definicja testu laboratoryjnego</strong></p>
+<div>
+<p>Nazwa na wyniku badania:&nbsp;<strong>Erytrocyty</strong></p>
+<p>LOINC: <strong>[789-8]&nbsp;Erytrocyty: stężenie liczbowe: punkt w czasie: krew: ilościowy: automatyczne liczenie</strong></p>
+<p>Metoda<strong>:&nbsp;[LP6141-8] Automatyczne zliczanie</strong></p>
+<p>Jednostka wyniku:<strong>&nbsp;/uL 'na mikrolitr'</strong></p>
+</div>
+<p><strong>Wartości referencyjne</strong></p>
+<ul>
+<li><strong>Wartości normalne: kobieta 3.8-5.8 /uL</strong></li>
+<li><strong>Wartości normalne: mężczyzna 4.5-6.5 /uL</strong></li>
+</ul></div>"
 * url = "http://loinc-ssidl.umed.pl/fhir/ig/ssidl/ObservationDefinition/ssidl-labCatalogTest-789-8"
 * version = "1"
 * title = "Erytrocyty: stężenie liczbowe: punkt w czasie: krew: ilościowy: automatyczne liczenie"
