@@ -5,9 +5,9 @@ Description: "Przykład katalogu usług punktu pobrań"
 Usage: #example
 * text.status = #extensions
 * text.div = "<div>
-<p><strong>Katalog usług punktu pobrań Superdiagnostyki we Wrocławiu</strong></p>
-<p>Podmiot diagnostyczny:<strong>Superdiagnostyka Sp. z o.o.</strong></p>
-<p>Punkt pobrań: <strong>Punkt pobrań nr 2 we Wrocławiu</strong></p>
+<p><strong>Katalog usług punktu pobrań</strong></p>
+<p>Podmiot diagnostyczny: <a href=\"Organization-SsidlOrganizationDiagnosticEntity-1.html\"> Superdiagnostyka Sp. z o.o.</a></p>
+<p>Punkt pobrań: <a href=\"Location-SsidlLocationIntakePoint-1.html\"> Punkt pobrań nr 2 we Wrocławiu</a></p>
 <p>Usługi katalogowe:</p>
 <p><ul>
 <li><a href=\"ActivityDefinition-SsidlLabCatalogService-58410-2.html\">[58410-2] Morfologia 8-parametrowa</a></li>

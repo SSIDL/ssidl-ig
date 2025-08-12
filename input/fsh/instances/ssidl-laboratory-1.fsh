@@ -5,7 +5,7 @@ Description: "Przykład laboratorium"
 Usage: #example
 * text.status = #generated
 * text.div = "<div><p><strong>Laboratorium nr 1 we Wrocławiu</strong></p>
-<p>Podmiot diagnostyczny:<strong> Superdiagnostyka Sp. z o.o.</strong></p>
+<p>Podmiot diagnostyczny: <a href=\"Organization-SsidlOrganizationDiagnosticEntity-1.html\"> Superdiagnostyka Sp. z o.o.</a></p>
 <p>Telefon:<strong> +48 999 999 999</strong></p>
 <p>Email:<strong> lab1@superdiagnostyka.com.pl</strong></p>
 <p>Identyfikator wg RPWDL (cz. I-VII systemu kod&oacute;w resortowych):&nbsp;<strong>&nbsp;</strong><strong>000000009999-999</strong></p>
