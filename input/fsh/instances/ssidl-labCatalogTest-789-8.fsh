@@ -32,7 +32,7 @@ Usage: #example
 * qualifiedValue[=].range.low.unit = $ucum#/uL "na mikrolitr"
 * qualifiedValue[=].range.high.value = 5.8
 * qualifiedValue[=].range.high.unit = $ucum#/uL "na mikrolitr"
-* qualifiedValue[=].context.coding = $ref-range-meaning#normal "Wartości normalne"
+* qualifiedValue[+].context.coding = $ref-range-meaning#normal "Wartości normalne"
 * qualifiedValue[=].gender = #male
 * qualifiedValue[=].range.low.value = 4.5
 * qualifiedValue[=].range.low.unit = $ucum#/uL "na mikrolitr"

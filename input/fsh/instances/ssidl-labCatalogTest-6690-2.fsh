@@ -25,8 +25,8 @@ Usage: #example
 * permittedDataType = #Quantity
 * preferredReportName = "Leukocyty"
 * permittedUnit = $ucum#/uL "na mikrolitr"
-* qualifiedValue.context.coding = $ref-range-meaning#normal "Wartości normalne"
-* qualifiedValue.range.low.value = 3.8
-* qualifiedValue.range.low.unit = $ucum#/uL "na mikrolitr"
-* qualifiedValue.range.high.value = 10.0
-* qualifiedValue.range.high.unit = $ucum#/uL "na mikrolitr"
+* qualifiedValue[+].context.coding = $ref-range-meaning#normal "Wartości normalne"
+* qualifiedValue[=].range.low.value = 3.8
+* qualifiedValue[=].range.low.unit = $ucum#/uL "na mikrolitr"
+* qualifiedValue[=].range.high.value = 10.0
+* qualifiedValue[=].range.high.unit = $ucum#/uL "na mikrolitr"

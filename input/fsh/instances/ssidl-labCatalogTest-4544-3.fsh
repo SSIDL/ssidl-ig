@@ -33,7 +33,7 @@ Usage: #example
 * qualifiedValue[=].range.low.unit = $ucum#% "procent"
 * qualifiedValue[=].range.high.value = 47.0
 * qualifiedValue[=].range.high.unit = $ucum#% "procent"
-* qualifiedValue[=].context.coding = $ref-range-meaning#normal "Wartości normalne"
+* qualifiedValue[+].context.coding = $ref-range-meaning#normal "Wartości normalne"
 * qualifiedValue[=].gender = #male
 * qualifiedValue[=].range.low.value = 40.0
 * qualifiedValue[=].range.low.unit = $ucum#% "procent"

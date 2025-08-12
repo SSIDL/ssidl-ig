@@ -31,7 +31,7 @@ Usage: #example
 * qualifiedValue[=].range.low.unit = $ucum#g/dL "gram na decylitr"
 * qualifiedValue[=].range.high.value = 16.5
 * qualifiedValue[=].range.high.unit = $ucum#g/dL "gram na decylitr"
-* qualifiedValue[=].context.coding = $ref-range-meaning#normal "Wartości normalne"
+* qualifiedValue[+].context.coding = $ref-range-meaning#normal "Wartości normalne"
 * qualifiedValue[=].gender = #male
 * qualifiedValue[=].range.low.value = 13.0
 * qualifiedValue[=].range.low.unit = $ucum#g/dL "gram na decylitr"

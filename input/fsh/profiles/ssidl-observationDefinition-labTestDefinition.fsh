@@ -76,7 +76,7 @@ Description: "Definicja testu laboratoryjnego w bazie wiedzy SSIDL"
 * preferredReportName 1..1 MS
 * permittedUnit 1..1 MS
 * permittedUnit from SsidlUcumUnitsVS   
-* qualifiedValue 1..1 MS
+* qualifiedValue 1..* MS
 * qualifiedValue.extension contains
     ObservationDefinitionQualifiedValueSourceInfoReference named sourceInfo 0..* MS 
 * qualifiedValue.context 1..1 MS
