@@ -1,71 +1,85 @@
-### K-01: Wyszukaj definicję badania laboratoryjnego
+### K-01: Wyszukaj definicję usługi lub testu laboratoryjnego
 
-Katalog usług, za pomocą interfejsu programistycznego zgodnego ze standardem FHIR, umożliwia wyszukanie definicji badań laboratoryjnych opracowanych w projekcie LOINC-SSIDL, które spełniają podane kryteria wyszukiwania. Definicje badań laboratoryjnych są ustrukturyzowanym i wystandaryzowanym opisem wybranych badań laboratoryjnych, który został opracowany w ramach projektu jako baza wiedzy. Definicje badań laboratoryjnych służą jako źródło informacji dla systemów wewnętrznych i zewnętrznych, a w przypadku systemów laboratoryjnych - mogą być wzorcem do tworzenia własnych usług katalogowych laboratorium. Przypadek użycia jest dostępny dla wszystkich uprawnionych systemów zewnętrznych i wewnętrznych.
+Prototyp SSIDL, za pomocą interfejsu programistycznego zgodnego ze standardem FHIR, umożliwia wyszukanie definicji usługi laboratoryjnej lub testu laboratoryjnego opracowanych w projekcie LOINC-SSIDL, które spełniają podane kryteria wyszukiwania. Definicje usług i testów zawarte w bazie wiedzy SSIDL służą jako źródło informacji dla systemów wewnętrznych i zewnętrznych, a w przypadku systemów laboratoryjnych - mogą być wzorcem do tworzenia własnych usług katalogowych laboratorium. Przypadek użycia jest dostępny dla wszystkich uprawnionych systemów zewnętrznych i wewnętrznych.
 
-Usługa jest realizowana za pomocą [standardowego mechanizmu wyszukiwania zasobów FHIR](https://hl7.org/fhir/search.html). Możliwe kryteria wyszukiwania:
+Usługa jest realizowana za pomocą dwóch operacji opratych o [standardowy mechanizm wyszukiwania zasobów FHIR](https://hl7.org/fhir/search.html):
+
+* wyszukiwanie definicji usługi laboratoryjnej spełniającej kryteria wyszukiwania
+* wyszukiwanie definicji tastu laboratoryjnego spełniającego kryteria wyszukiwania
+
+Możliwe kryteria wyszukiwania:
 * kod LOINC
-* fragment nazwy usługi laboratoryjnej
+* fragment nazwy usługi lub testu
 
-Usługa zwraca zestaw definicji badań laboratoryjnych spełniających podane kryteria.
-
-Powiązane klasy logicznego modelu danych:
-* Definicja badania laboratoryjnego
-
-
-### K-02: Pobierz definicję badania laboratoryjnego
-
-Katalog usług, za pomocą interfejsu programistycznego zgodnego ze standardem FHIR, umożliwia pobranie określonej definicji badania laboratoryjnego opracowanej w projekcie. Przypadek użycia jest dostępny dla wszystkich uprawnionych systemów zewnętrznych i wewnętrznych.
-
-Usługa jest realizowana za pomocą [standardowego mechanizmu wyszukiwania zasobów FHIR](https://hl7.org/fhir/search.html). W wywołaniu usługi przekazywany jest typ i identyfikator instancji zasobu FHIR. Usługa zwraca zasób FHIR reprezentujący definicję badania laboratoryjnego.
+Usługa zwraca zasób typu Bundle zawierający zaasoby FHIR określonego typu (dla definicji usługi lub testu) spełniające podane kryteria.
 
 Powiązane klasy logicznego modelu danych:
-* Definicja badania laboratoryjnego
+* Definicja usługi laboratoryjnej
+* Definicja testu laboratoryjnego
 
 
-### K-03: Zdefiniuj, zmodyfikuj lub usuń własną usługę katalogową
+### K-02: Pobierz definicję usługi laboratoryjnej
 
-Katalog usług, za pomocą interfejsu programistycznego zgodnego ze standardem FHIR, umożliwia zdefiniowanie, modyfikację oraz usunięcie własnej usługi katalogowej danego laboratorium. Przypadek użycia jest dostępny dla uprawnionych systemów laboratoryjnych, w zakresie usług katalogowych danego laboratorium.
+Prototyp SSIDL, za pomocą interfejsu programistycznego zgodnego ze standardem FHIR, umożliwia pobranie określonej definicji usługi laboratoryjnej opracowanej w projekcie LOINC-SSIDL oraz pobranie zasobów powiązanych z tą definicją zawartych w bazie wiedzy prototypu. Przypadek użycia jest dostępny dla wszystkich uprawnionych systemów zewnętrznych i wewnętrznych.
 
-W ramach realizacji przypadku użycia wywoływane są usługi aplikacyjne: dodawania, modyfikacji lub usuwania zasobu FHIR reprezentującego usługę katalogową laboratorium. Usługi wykorzystują standardowe mechanizamy [dodawania](https://hl7.org/fhir/http.html#create), [modyfikacji](https://hl7.org/fhir/http.html#update) lub [usuwania](https://hl7.org/fhir/http.html#delete) zasobu.
+Usługi są realizowane za pomocą [standardowego mechanizmu wyszukiwania zasobów FHIR](https://hl7.org/fhir/search.html). W wywołaniu usługi przekazywany jest typ i identyfikator instancji odpowiedniego zasobu FHIR. Usługa zwraca zasób FHIR.
+
+Przypadek użycia obejmuje pobieranie zasobów FHIR reprezentujących następujace klasy logicznego modelu danych:
+* Definicja usługi laboratoryjnej
+* Definicja celu badania
+* Definicja czynników przedanalitycznych
+* Definicja testu laboratoryjnego i wartości referencyjnych
+* Definicja źródła informacji dla wartości referencyjnych
+
+
+### K-03: Dodaj lub usuń własną usługę katalogową
+
+Prototyp SSIDL, za pomocą interfejsu programistycznego zgodnego ze standardem FHIR, umożliwia zdefiniowanie oraz usunięcie własnej usługi katalogowej danego laboratorium (tzn. usługi, w której wskazano to laboratorium jako podmiot odowiedzialny za jej zdefiniowanie). Przypadek użycia jest dostępny dla uprawnionych systemów laboratoryjnych, w zakresie usług katalogowych danego laboratorium.
+
+W ramach realizacji przypadku użycia wywoływane są usługi aplikacyjne: dodawania lub usuwania zasobu FHIR reprezentującego usługę katalogową laboratorium. Usługi wykorzystują standardowe mechanizamy [dodawania](https://hl7.org/fhir/http.html#create) lub [usuwania](https://hl7.org/fhir/http.html#delete) zasobu.
 
 Powiązane klasy logicznego modelu danych:
 * Usługa katalogowa laboratorium
+* Definicja celu badania
+* Definicja czynników przedanalitycznych
+* Definicja testu laboratoryjnego i wartości referencyjnych
+* Definicja źródła informacji dla wartości referencyjnych
 
 
 ### K-04: Zwaliduj zgodność usługi katalogowej laboratorium ze specyfikacją interoperacyjności
 
-Katalog usług, za pomocą interfejsu programistycznego zgodnego ze standardem FHIR, umożliwia weryfikację zgodności własnej usługi katalogowej danego laboratorium z jej definicją struktury (profilem FHIR) będącej częścią specyfikacji interoperacyjności opracowanej w projekcie. Przypadek użycia jest dostępny dla uprawnionych systemów laboratoryjnych, w zakresie usług katalogowych danego laboratorium.
+Prototyp SSIDL, za pomocą interfejsu programistycznego zgodnego ze standardem FHIR, umożliwia weryfikację zgodności własnej usługi katalogowej danego laboratorium z jej definicją struktury (profilem FHIR) będącej częścią specyfikacji interoperacyjności opracowanej w projekcie. Przypadek użycia jest dostępny dla uprawnionych systemów laboratoryjnych, w zakresie usług katalogowych danego laboratorium.
 
-Usługa jest realizowana za pomocą standardowej operacji serwera FHIR [`[base]/Resource/$validate']( http://hl7.org/fhir/OperationDefinition/Resource-validate). W wywołaniu usługi przekazywany jest zasób FHIR reprezentujący usługę katalogową laboratorium. Usługa zwraca wynik walidacji.
+Usługi są realizowane za pomocą standardowej operacji serwera FHIR [`[base]/Resource/$validate']( http://hl7.org/fhir/OperationDefinition/Resource-validate). W wywołaniu usługi przekazywany jest zasób FHIR reprezentujący określony zasób FHIR. Usługa zwraca wynik walidacji jako zasób FHIR typu OperationOutcome.
 
 Powiązane klasy logicznego modelu danych:
 * Usługa katalogowa laboratorium
+* Definicja celu badania
+* Definicja czynników przedanalitycznych
+* Definicja testu laboratoryjnego i wartości referencyjnych
+* Definicja źródła informacji dla wartości referencyjnych
 
 
 ### K-05: Wyszukaj punkt pobrań
 
-Katalog usług, za pomocą interfejsu programistycznego zgodnego ze standardem FHIR, umożliwia wyszukanie punktów pobrań spełniających podane kryteria. Przypadek użycia jest dostępny dla wszystkich uprawnionych systemów zewnętrznych i wewnętrznych.
+Prototyp SSIDL, za pomocą interfejsu programistycznego zgodnego ze standardem FHIR, umożliwia wyszukanie punktów pobrań spełniających podane kryteria. Przypadek użycia jest dostępny dla wszystkich uprawnionych systemów zewnętrznych i wewnętrznych.
 
 Usługa jest realizowana za pomocą operacji [`$search-intake-points`](OperationDefinition-SsidlSearchIntakePoints.html), zdefiniowanej zgodnie z zasadami standardu HL7 FHIR. Możliwe kryteria wyszukiwania:
-* identyfikator puntku pobrań
-* identyfikator podmiotu medycznego
-* fragment nazwy podmiotu medycznego
+* identyfikator punktu pobrań
+* identyfikator podmiotu diagnostycznego
+* fragment nazwy podmiotu diagnostycznego
 * elementy adresu punktu pobrań (miasto, ulica)
-* identyfikator instancji zasobu FHIR definicji badania laboratoryjnego
-* identyfikator instancji zasobu FHIR usług katalogowej laboratorium
 
-Usługa zwraca zestaw danych punktów pobrań spełniających podane kryteria.
+Usługa zwraca zasób FHIR typu Bundle zaweierający dane punktów pobrań spełniających podane kryteria.
 
 Powiązane klasy logicznego modelu danych:
 * Punkt pobrań
-* Podmiot medyczny
-* Usługa katalogowa laboratorium
-* Definicja badania laboratoryjnego
+* Podmiot diagnostyczny
 
 
 ### K-06: Pobierz dane punktu pobrań
 
-Katalog usług, za pomocą interfejsu programistycznego zgodnego ze standardem FHIR, umożliwia pobranie danych określonego punktu pobrań. Przypadek użycia jest dostępny dla wszystkich uprawnionych systemów zewnętrznych i wewnętrznych.
+Prototyp SSIDL, za pomocą interfejsu programistycznego zgodnego ze standardem FHIR, umożliwia pobranie danych określonego punktu pobrań. Przypadek użycia jest dostępny dla wszystkich uprawnionych systemów zewnętrznych i wewnętrznych.
 
 Usługa jest realizowana za pomocą [standardowego mechanizmu pobierania zasobów FHIR](https://hl7.org/fhir/http.html#read). W wywołaniu usługi przekazywany jest typ i identyfikator instancji zasobu FHIR. Usługa zwraca zasób FHIR reprezentujący punkt pobrań.
 
@@ -74,12 +88,11 @@ Powiązane klasy logicznego modelu danych:
 * Podmiot diagnostyczny
 
 
-
 ### K-07: Pobierz katalog usług laboratorium/punktu pobrań
 
-Katalog usług, za pomocą interfejsu programistycznego zgodnego ze standardem FHIR, umożliwia pobranie katalogu usług danego laboratorium lub punktu pobrań, zawierającego zestaw wykonywanych usług katalogowych. Przypadek użycia jest dostępny dla wszystkich uprawnionych systemów zewnętrznych i wewnętrznych.
+Prototyp SSIDL, za pomocą interfejsu programistycznego zgodnego ze standardem FHIR, umożliwia pobranie katalogu usług danego laboratorium lub punktu pobrań, zawierającego zestaw wykonywanych usług katalogowych. Przypadek użycia jest dostępny dla wszystkich uprawnionych systemów zewnętrznych i wewnętrznych.
 
-Usługa jest realizowana za pomocą operacji [`$get-catalog`](OperationDefinition-SsidlGetCatalog.html), zdefiniowanej zgodnie z zasadami standardu HL7 FHIR. W wywołaniu usługi przekazywany jest identyfikator instancji zasobu typu Location reprezentującego laboratorium lub punkt pobrań. Usługa zwraca zasób FHIR typu Bundle reprezentujący katalog usług danego laboratorium zawierający zasób typu HealthcareService oraz zasoby typu ObservationDefinition reprezentujące usługi katalogowe danego laboratorium.
+Usługa jest realizowana za pomocą operacji [`$get-catalog`](OperationDefinition-SsidlGetCatalog.html), zdefiniowanej zgodnie z zasadami standardu HL7 FHIR. W wywołaniu usługi przekazywany jest identyfikator instancji zasobu typu Location reprezentującego laboratorium lub punkt pobrań. Usługa zwraca zasób FHIR typu Bundle reprezentujący katalog usług danego laboratorium zawierający zasób typu HealthcareService oraz zasoby typu ActivityDefinition reprezentujące usługi katalogowe danego laboratorium.
 
 Powiązane klasy logicznego modelu danych:
 * Laboratorium
@@ -91,50 +104,50 @@ Powiązane klasy logicznego modelu danych:
 
 ### K-08: Wyszukaj usługę katalogową laboratorium
 
-Katalog usług, za pomocą interfejsu programistycznego zgodnego ze standardem FHIR, umożliwia wyszukanie usług katalogowych laboratoriów według podanych kryteriów wyszukiwania. Przypadek użycia jest dostępny dla wszystkich uprawnionych systemów zewnętrznych i wewnętrznych.
+Prototyp SSIDL, za pomocą interfejsu programistycznego zgodnego ze standardem FHIR, umożliwia wyszukanie usług katalogowych laboratoriów według podanych kryteriów wyszukiwania. Przypadek użycia jest dostępny dla wszystkich uprawnionych systemów zewnętrznych i wewnętrznych.
 
 Usługa jest realizowana za pomocą [standardowego mechanizmu wyszukiwania zasobów FHIR](https://hl7.org/fhir/search.html). Możliwe kryteria wyszukiwania:
 * kod LOINC
 * fragment nazwy usługi katalogowej laboratorium
-* identyfikator instancji zasobu FHIR definicji badania laboratoryjnego
-* identyfikator instancji zasobu FHIR laboratorium
-* fragment nazwy laboratorium/punktu pobrań
+* identyfikator instancji zasobu FHIR usługi katalogowej laboratorium
 
 Usługa zwraca zestaw usług katalogowych laboratoriów spełniających podane kryteria.
 
 Powiązane klasy logicznego modelu danych:
 * Usługa katalogowa laboratorium
-* Definicja badania laboratoryjnego
-* Laboratorium
-* Punkt pobrań
+
 
 ### K-09: Pobierz usługę katalogową laboratorium
 
-Katalog usług, za pomocą interfejsu programistycznego zgodnego ze standardem FHIR, umożliwia pobranie określonej usługi katalogowej laboratorium. Przypadek użycia jest dostępny dla wszystkich uprawnionych systemów zewnętrznych i wewnętrznych.
+Prototyp SSIDL, za pomocą interfejsu programistycznego zgodnego ze standardem FHIR, umożliwia pobranie określonej usługi katalogowej laboratorium oraz pobranie zasobów powiązanych z tą usługą. Przypadek użycia jest dostępny dla wszystkich uprawnionych systemów zewnętrznych i wewnętrznych.
 
-Usługa jest realizowana za pomocą [standardowego mechanizmu pobierania zasobów FHIR](https://hl7.org/fhir/http.html#read). W wywołaniu usługi przekazywany jest typ i identyfikator instancji zasobu FHIR. Usługa zwraca zasób FHIR reprezentujący usługę katalogową laboratorium.
+Usługi są realizowane za pomocą [standardowego mechanizmu wyszukiwania zasobów FHIR](https://hl7.org/fhir/search.html). W wywołaniu usługi przekazywany jest typ i identyfikator instancji odpowiedniego zasobu FHIR. Usługa zwraca zasób FHIR.
 
-Powiązane klasy logicznego modelu danych:
+Przypadek użycia obejmuje pobieranie zasobów FHIR reprezentujących następujace klasy logicznego modelu danyc:
 * Usługa katalogowa laboratorium
+* Definicja celu badania
+* Definicja czynników przedanalitycznych
+* Definicja testu laboratoryjnego i wartości referencyjnych
+* Definicja źródła informacji dla wartości referencyjnych
 
 
-### K-10: Importuj katalog usług laboratorium
+### K-10: Importuj katalog usług laboratorium/punktu pobrań
 
-Katalog usług, za pomocą interfejsu programistycznego zgodnego ze standardem FHIR, umożliwia import katalogu usług danego laboratorium lub punktu pobrań, zawierającego zestaw jego usług katalogowych. Przypadek użycia jest dostępny dla uprawnionych systemów laboratoryjnych.
+Prototyp SSIDL, za pomocą interfejsu programistycznego zgodnego ze standardem FHIR, umożliwia import katalogu usług danego laboratorium lub punktu pobrań, zawierającego zestaw jego usług katalogowych. Przypadek użycia jest dostępny dla uprawnionych systemów laboratoryjnych.
 
-Usługa jest realizowana jako transakcja przekazania zasobu FHIR typu Bundle reprezentującego katalog usług laboratorium zawierający zasób HealthcareService oraz zasoby ObservationDefinition reprezentujące usługi katalogowe laboratorium. Usługa zwraca wynik operacji oraz zasoby FHIR utworzone w komponencie Katalog usług w wyniku wykonania
-operacji wraz z ich identyfikatorami instancji.
+Usługa jest realizowana jako transakcja przekazania zasobu FHIR typu Bundle reprezentującego katalog usług laboratorium zawierający zasób HealthcareService oraz zasoby ActivityDefinition reprezentujące usługi katalogowe laboratorium. Usługa zwraca wynik operacji oraz zasób FHIR typu Bundle zawierający zasoby FHIR utworzone w protypie SSIDL.
 
 Powiązane klasy logicznego modelu danych:
 * Katalog usług laboratorium
+* Katalog usług punktu pobrań
 * Usługa katalogowa laboratorium
 
 
 ### K-13: Importuj dane podmiotu diagnostycznego, jego laboratoriów i punktów pobrań
 
-Katalog usług, za pomocą interfejsu programistycznego zgodnego ze standardem FHIR, umożliwia import struktury organizacyjnej podmiotu diagnostycznego uczestniczącego w projekcie w tym danych danych podmiotu diagnostycznego, jego laboratoriów i punktów pobrań. Przypadek użycia jest dostępny dla uprawnionych systemów laboratoryjnych.
+Prototyp SSIDL, za pomocą interfejsu programistycznego zgodnego ze standardem FHIR, umożliwia import struktury organizacyjnej podmiotu diagnostycznego uczestniczącego w projekcie w tym danych podmiotu diagnostycznego, jego laboratoriów i punktów pobrań. Przypadek użycia jest dostępny dla uprawnionych systemów laboratoryjnych.
 
-Usługa jest realizowana jako transakcja przekazania zasobu FHIR typu Bundle reprezentującego dane podmiotu diagnostycznego, jego laboratoriów oraz punktów pobrań. Usługa zwraca wynik operacji oraz zasoby FHIR utworzone w komponencie Katalog usług w wyniku wykonania operacji wraz z ich identyfikatorami instancji.
+Usługa jest realizowana jako transakcja przekazania zasobu FHIR typu Bundle reprezentującego dane podmiotu diagnostycznego, jego laboratoriów oraz punktów pobrań. Usługa zwraca wynik operacji oraz FHIR typu Bundle zawierający zasoby FHIR utworzone w protypie SSIDL w wyniku wykonania operacji wraz z ich identyfikatorami instancji.
 
 Powiązane klasy logicznego modelu danych:
 * Podmiot diagnostyczny
@@ -144,24 +157,25 @@ Powiązane klasy logicznego modelu danych:
 
 ### K-14: Importuj definicje badań laboratoryjnych
 
-Katalog usług, za pomocą interfejsu programistycznego zgodnego ze standardem FHIR, umożliwia import zestawu opracowanych w projekcie definicji badań laboratoryjnych w tym defnicji usług, celów badania, czynników przedanalitycznych, powiązań z kodami NFZ, definicji testów oraz wartości referencyjnych. Przypadek użycia jest dostępny dla aplikacji do tworzenia bazy wiedzy.
+Prototyp SSIDL, za pomocą interfejsu programistycznego zgodnego ze standardem FHIR, umożliwia import zestawu opracowanych w projekcie definicji usług laboratoryjnych wraz z powiązanymi zasobami. Przypadek użycia jest dostępny dla aplikacji do tworzenia bazy wiedzy.
 
-Usługa jest realizowana jako transakcja przekazania zasobu FHIR typu Bundle reprezentującego zestaw definicji badań laboratoryjnych. Usługa zwraca wynik operacji oraz zasoby FHIR utworzone w komponencie Katalog usług w wyniku wykonania operacji wraz z ich identyfikatorami instancji.
+Usługa jest realizowana jako transakcja przekazania zasobu FHIR typu Bundle reprezentującego zestaw definicji usług laboratoryjnych i popwiązanych zasobów. Usługa zwraca wynik operacji oraz zasoby FHIR utworzone w prototypie SSIDL.
 
 Powiązane klasy logicznego modelu danych:
-* Definicja badania laboratoryjnego
-* Parametr wyniku badania
-* Cel badania
-* Wartości referencyjne
+* Definicja usługi laboratoryjnej
+* Definicja celu badania
+* Definicja czynników przedanalitycznych
+* Definicja testu laboratoryjnego i wartości referencyjnych
+* Definicja źródła informacji dla wartości referencyjnych
 
 Następnie wykonywana jest operacja [`$generate-conceptMap`](OperationDefinition-SsidlImportDef.html), która - na podstawie kodów usług zawartych w zaktualizowanych definicjach badań laboratoryjnych - generuje zasób FHIR typu ConceptMap zawierający mapowania pomiędzy pozycjami słownika LOINC i pozycjami slownika ICD-9-PL, który jest przekazywany do Serwera terminologii.
 
 
 ### K-15: Eksportuj dane podmiotu diagnostycznego, jego laboratoriów i punktów pobrań
 
-Katalog usług, za pomocą interfejsu programistycznego zgodnego ze standardem FHIR, umożliwia eksport struktury organizacyjnej podmiotu diagnostycznego uczestniczącego w projekcie w tym danych podmiotu diagnostycznego, jego laboratoriów i punktów pobrań. Przypadek użycia jest dostępny dla wszystkich uprawnionych systemów.
+Prototyp SSIDL, za pomocą interfejsu programistycznego zgodnego ze standardem FHIR, umożliwia eksport struktury organizacyjnej podmiotu diagnostycznego uczestniczącego w projekcie w tym danych podmiotu diagnostycznego, jego laboratoriów i punktów pobrań. Przypadek użycia jest dostępny dla wszystkich uprawnionych systemów.
 
-Usługa jest realizowana za pomocą operacji [`$export-lab`](OperationDefinition-SsidlExportLab.html), zdefiniowanej zgodnie z zasadami standardu HL7 FHIR. W wywołaniu usługi przekazywany jest identyfikator podmitou diagnostycznego. Usługa zwraca zasób typu Bundle reprezentujący strukturę organizacyjną podmiotu diagnostycznego zawierający zasoby FHIR reprezentujące podmiot diagnostyczny, jego laboratoria i punkty pobrań.
+Usługa jest realizowana za pomocą operacji [`$export-entity`](OperationDefinition-SsidlExportLab.html), zdefiniowanej zgodnie z zasadami standardu HL7 FHIR. W wywołaniu usługi przekazywany jest identyfikator zasobu FHIR reprezentującego podmiot diagnostyczny. Usługa zwraca zasób typu Bundle reprezentujący strukturę organizacyjną podmiotu diagnostycznego zawierający zasoby FHIR reprezentujące podmiot diagnostyczny, jego laboratoria i punkty pobrań.
 
 Powiązane klasy logicznego modelu danych:
 * Podmiot diagnostyczny
