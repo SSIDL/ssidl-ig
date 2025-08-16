@@ -5,7 +5,7 @@ Prototyp SSIDL, za pomocą interfejsu programistycznego zgodnego ze standardem F
 Usługa jest realizowana za pomocą dwóch operacji opratych o [standardowy mechanizm wyszukiwania zasobów FHIR](https://hl7.org/fhir/search.html):
 
 * wyszukiwanie definicji usługi laboratoryjnej spełniającej kryteria wyszukiwania
-* wyszukiwanie definicji tastu laboratoryjnego spełniającego kryteria wyszukiwania
+* wyszukiwanie definicji testu laboratoryjnego spełniającego kryteria wyszukiwania
 
 Możliwe kryteria wyszukiwania:
 * kod LOINC
@@ -14,8 +14,8 @@ Możliwe kryteria wyszukiwania:
 Usługa zwraca zasób typu Bundle zawierający zaasoby FHIR określonego typu (dla definicji usługi lub testu) spełniające podane kryteria.
 
 Powiązane klasy logicznego modelu danych:
-* Definicja usługi laboratoryjnej
-* Definicja testu laboratoryjnego
+* [Definicja usługi laboratoryjnej](StructureDefinition-pl-lab-definicjaUslugiLaboratoryjnejBW.html)
+* [Definicja testu laboratoryjnego i wartości referencyjnych](StructureDefinition-pl-lab-definicjaTestuBW.html)
 
 
 ### K-02: Pobierz definicję usługi laboratoryjnej
@@ -25,11 +25,11 @@ Prototyp SSIDL, za pomocą interfejsu programistycznego zgodnego ze standardem F
 Usługi są realizowane za pomocą [standardowego mechanizmu wyszukiwania zasobów FHIR](https://hl7.org/fhir/search.html). W wywołaniu usługi przekazywany jest typ i identyfikator instancji odpowiedniego zasobu FHIR. Usługa zwraca zasób FHIR.
 
 Przypadek użycia obejmuje pobieranie zasobów FHIR reprezentujących następujace klasy logicznego modelu danych:
-* Definicja usługi laboratoryjnej
-* Definicja celu badania
-* Definicja czynników przedanalitycznych
-* Definicja testu laboratoryjnego i wartości referencyjnych
-* Definicja źródła informacji dla wartości referencyjnych
+* [Definicja usługi laboratoryjnej](StructureDefinition-pl-lab-definicjaUslugiLaboratoryjnejBW.html)
+* [Definicja celu badania](StructureDefinition-pl-lab-celBadania.html)
+* [Definicja czynników przedanalitycznych](StructureDefinition-pl-lab-czynnikiPrzedanalityczne.html)
+* [Definicja testu laboratoryjnego i wartości referencyjnych](StructureDefinition-pl-lab-definicjaTestuBW.html)
+* [Definicja źródła informacji dla wartości referencyjnych](StructureDefinition-pl-lab-zrodlo.html)
 
 
 ### K-03: Dodaj lub usuń własną usługę katalogową
@@ -39,11 +39,11 @@ Prototyp SSIDL, za pomocą interfejsu programistycznego zgodnego ze standardem F
 W ramach realizacji przypadku użycia wywoływane są usługi aplikacyjne: dodawania lub usuwania zasobu FHIR reprezentującego usługę katalogową laboratorium. Usługi wykorzystują standardowe mechanizamy [dodawania](https://hl7.org/fhir/http.html#create) lub [usuwania](https://hl7.org/fhir/http.html#delete) zasobu.
 
 Powiązane klasy logicznego modelu danych:
-* Usługa katalogowa laboratorium
-* Definicja celu badania
-* Definicja czynników przedanalitycznych
-* Definicja testu laboratoryjnego i wartości referencyjnych
-* Definicja źródła informacji dla wartości referencyjnych
+* [Usługa katalogowa laboratorium](StructureDefinition-pl-lab-uslugaKatalogowaLaboratorium.html)
+* [Definicja celu badania](StructureDefinition-pl-lab-celBadania.html)
+* [Definicja czynników przedanalitycznych](StructureDefinition-pl-lab-czynnikiPrzedanalityczne.html)
+* [Definicja testu laboratoryjnego i wartości referencyjnych](StructureDefinition-pl-lab-definicjaTestuWgLab.html)
+* [Definicja źródła informacji dla wartości referencyjnych](StructureDefinition-pl-lab-zrodlo.html)
 
 
 ### K-04: Zwaliduj zgodność usługi katalogowej laboratorium ze specyfikacją interoperacyjności
@@ -53,11 +53,11 @@ Prototyp SSIDL, za pomocą interfejsu programistycznego zgodnego ze standardem F
 Usługi są realizowane za pomocą standardowej operacji serwera FHIR [`[base]/Resource/$validate']( http://hl7.org/fhir/OperationDefinition/Resource-validate). W wywołaniu usługi przekazywany jest zasób FHIR reprezentujący określony zasób FHIR. Usługa zwraca wynik walidacji jako zasób FHIR typu OperationOutcome.
 
 Powiązane klasy logicznego modelu danych:
-* Usługa katalogowa laboratorium
-* Definicja celu badania
-* Definicja czynników przedanalitycznych
-* Definicja testu laboratoryjnego i wartości referencyjnych
-* Definicja źródła informacji dla wartości referencyjnych
+* [Usługa katalogowa laboratorium](StructureDefinition-pl-lab-uslugaKatalogowaLaboratorium.html)
+* [Definicja celu badania](StructureDefinition-pl-lab-celBadania.html)
+* [Definicja czynników przedanalitycznych](StructureDefinition-pl-lab-czynnikiPrzedanalityczne.html)
+* [Definicja testu laboratoryjnego i wartości referencyjnych](StructureDefinition-pl-lab-definicjaTestuWgLab.html)
+* [Definicja źródła informacji dla wartości referencyjnych](StructureDefinition-pl-lab-zrodlo.html)
 
 
 ### K-05: Wyszukaj punkt pobrań
@@ -73,8 +73,8 @@ Usługa jest realizowana za pomocą operacji [`$search-intake-points`](Operation
 Usługa zwraca zasób FHIR typu Bundle zaweierający dane punktów pobrań spełniających podane kryteria.
 
 Powiązane klasy logicznego modelu danych:
-* Punkt pobrań
-* Podmiot diagnostyczny
+* [Punkt pobrań](StructureDefinition-pl-lab-punktPobran.html)
+* [Podmiot diagnostyczny](StructureDefinition-pl-lab-podmiotDiagnostyczny.html)
 
 
 ### K-06: Pobierz dane punktu pobrań
@@ -84,8 +84,8 @@ Prototyp SSIDL, za pomocą interfejsu programistycznego zgodnego ze standardem F
 Usługa jest realizowana za pomocą [standardowego mechanizmu pobierania zasobów FHIR](https://hl7.org/fhir/http.html#read). W wywołaniu usługi przekazywany jest typ i identyfikator instancji zasobu FHIR. Usługa zwraca zasób FHIR reprezentujący punkt pobrań.
 
 Powiązane klasy logicznego modelu danych:
-* Punkt pobrań
-* Podmiot diagnostyczny
+* [Punkt pobrań](StructureDefinition-pl-lab-punktPobran.html)
+* [Podmiot diagnostyczny](StructureDefinition-pl-lab-podmiotDiagnostyczny.html)
 
 
 ### K-07: Pobierz katalog usług laboratorium/punktu pobrań
@@ -95,11 +95,11 @@ Prototyp SSIDL, za pomocą interfejsu programistycznego zgodnego ze standardem F
 Usługa jest realizowana za pomocą operacji [`$get-catalog`](OperationDefinition-SsidlGetCatalog.html), zdefiniowanej zgodnie z zasadami standardu HL7 FHIR. W wywołaniu usługi przekazywany jest identyfikator instancji zasobu typu Location reprezentującego laboratorium lub punkt pobrań. Usługa zwraca zasób FHIR typu Bundle reprezentujący katalog usług danego laboratorium zawierający zasób typu HealthcareService oraz zasoby typu ActivityDefinition reprezentujące usługi katalogowe danego laboratorium.
 
 Powiązane klasy logicznego modelu danych:
-* Laboratorium
-* Katalog usług laboratorium
-* Punkt pobrań
-* Katalog usług punktu pobrań
-* Usługa katalogowa laboratorium
+* [Laboratorium](StructureDefinition-pl-lab-laboratorium.html)
+* [Katalog usług laboratorium](StructureDefinition-pl-lab-katalogUslugLaboratorium.html)
+* [Punkt pobrań](StructureDefinition-pl-lab-punktPobran.html)
+* [Katalog usług punktu pobrań](StructureDefinition-pl-lab-katalogUslugPunktuPobran.html)
+* [Usługa katalogowa laboratorium](StructureDefinition-pl-lab-uslugaKatalogowaLaboratorium.html)
 
 
 ### K-08: Wyszukaj usługę katalogową laboratorium
@@ -114,7 +114,7 @@ Usługa jest realizowana za pomocą [standardowego mechanizmu wyszukiwania zasob
 Usługa zwraca zestaw usług katalogowych laboratoriów spełniających podane kryteria.
 
 Powiązane klasy logicznego modelu danych:
-* Usługa katalogowa laboratorium
+* [Usługa katalogowa laboratorium](StructureDefinition-pl-lab-uslugaKatalogowaLaboratorium.html)
 
 
 ### K-09: Pobierz usługę katalogową laboratorium
@@ -124,11 +124,11 @@ Prototyp SSIDL, za pomocą interfejsu programistycznego zgodnego ze standardem F
 Usługi są realizowane za pomocą [standardowego mechanizmu wyszukiwania zasobów FHIR](https://hl7.org/fhir/search.html). W wywołaniu usługi przekazywany jest typ i identyfikator instancji odpowiedniego zasobu FHIR. Usługa zwraca zasób FHIR.
 
 Przypadek użycia obejmuje pobieranie zasobów FHIR reprezentujących następujace klasy logicznego modelu danyc:
-* Usługa katalogowa laboratorium
-* Definicja celu badania
-* Definicja czynników przedanalitycznych
-* Definicja testu laboratoryjnego i wartości referencyjnych
-* Definicja źródła informacji dla wartości referencyjnych
+* [Usługa katalogowa laboratorium](StructureDefinition-pl-lab-uslugaKatalogowaLaboratorium.html)
+* [Definicja celu badania](StructureDefinition-pl-lab-celBadania.html)
+* [Definicja czynników przedanalitycznych](StructureDefinition-pl-lab-czynnikiPrzedanalityczne.html)
+* [Definicja testu laboratoryjnego i wartości referencyjnych](StructureDefinition-pl-lab-definicjaTestuWgLab.html)
+* [Definicja źródła informacji dla wartości referencyjnych](StructureDefinition-pl-lab-zrodlo.html)
 
 
 ### K-10: Importuj katalog usług laboratorium/punktu pobrań
@@ -138,9 +138,9 @@ Prototyp SSIDL, za pomocą interfejsu programistycznego zgodnego ze standardem F
 Usługa jest realizowana jako transakcja przekazania zasobu FHIR typu Bundle reprezentującego katalog usług laboratorium zawierający zasób HealthcareService oraz zasoby ActivityDefinition reprezentujące usługi katalogowe laboratorium. Usługa zwraca wynik operacji oraz zasób FHIR typu Bundle zawierający zasoby FHIR utworzone w protypie SSIDL.
 
 Powiązane klasy logicznego modelu danych:
-* Katalog usług laboratorium
-* Katalog usług punktu pobrań
-* Usługa katalogowa laboratorium
+* [Katalog usług laboratorium](StructureDefinition-pl-lab-katalogUslugLaboratorium.html)
+* [Katalog usług punktu pobrań](StructureDefinition-pl-lab-katalogUslugPunktuPobran.html)
+* [Usługa katalogowa laboratorium](StructureDefinition-pl-lab-uslugaKatalogowaLaboratorium.html)
 
 
 ### K-13: Importuj dane podmiotu diagnostycznego, jego laboratoriów i punktów pobrań
@@ -150,9 +150,9 @@ Prototyp SSIDL, za pomocą interfejsu programistycznego zgodnego ze standardem F
 Usługa jest realizowana jako transakcja przekazania zasobu FHIR typu Bundle reprezentującego dane podmiotu diagnostycznego, jego laboratoriów oraz punktów pobrań. Usługa zwraca wynik operacji oraz FHIR typu Bundle zawierający zasoby FHIR utworzone w protypie SSIDL w wyniku wykonania operacji wraz z ich identyfikatorami instancji.
 
 Powiązane klasy logicznego modelu danych:
-* Podmiot diagnostyczny
-* Laboratorium
-* Punkt pobrań
+* [Podmiot diagnostyczny](StructureDefinition-pl-lab-podmiotDiagnostyczny.html)
+* [Laboratorium](StructureDefinition-pl-lab-laboratorium.html)
+* [Punkt pobrań](StructureDefinition-pl-lab-punktPobran.html)
 
 
 ### K-14: Importuj definicje badań laboratoryjnych
@@ -162,11 +162,11 @@ Prototyp SSIDL, za pomocą interfejsu programistycznego zgodnego ze standardem F
 Usługa jest realizowana jako transakcja przekazania zasobu FHIR typu Bundle reprezentującego zestaw definicji usług laboratoryjnych i popwiązanych zasobów. Usługa zwraca wynik operacji oraz zasoby FHIR utworzone w prototypie SSIDL.
 
 Powiązane klasy logicznego modelu danych:
-* Definicja usługi laboratoryjnej
-* Definicja celu badania
-* Definicja czynników przedanalitycznych
-* Definicja testu laboratoryjnego i wartości referencyjnych
-* Definicja źródła informacji dla wartości referencyjnych
+* [Definicja usługi laboratoryjnej](StructureDefinition-pl-lab-definicjaUslugiLaboratoryjnejBW.html)
+* [Definicja celu badania](StructureDefinition-pl-lab-celBadania.html)
+* [Definicja czynników przedanalitycznych](StructureDefinition-pl-lab-czynnikiPrzedanalityczne.html)
+* [Definicja testu laboratoryjnego i wartości referencyjnych](StructureDefinition-pl-lab-definicjaTestuBW.html)
+* [Definicja źródła informacji dla wartości referencyjnych](StructureDefinition-pl-lab-zrodlo.html)
 
 Następnie wykonywana jest operacja [`$generate-conceptMap`](OperationDefinition-SsidlImportDef.html), która - na podstawie kodów usług zawartych w zaktualizowanych definicjach badań laboratoryjnych - generuje zasób FHIR typu ConceptMap zawierający mapowania pomiędzy pozycjami słownika LOINC i pozycjami slownika ICD-9-PL, który jest przekazywany do Serwera terminologii.
 
@@ -178,6 +178,6 @@ Prototyp SSIDL, za pomocą interfejsu programistycznego zgodnego ze standardem F
 Usługa jest realizowana za pomocą operacji [`$export-entity`](OperationDefinition-SsidlExportLab.html), zdefiniowanej zgodnie z zasadami standardu HL7 FHIR. W wywołaniu usługi przekazywany jest identyfikator zasobu FHIR reprezentującego podmiot diagnostyczny. Usługa zwraca zasób typu Bundle reprezentujący strukturę organizacyjną podmiotu diagnostycznego zawierający zasoby FHIR reprezentujące podmiot diagnostyczny, jego laboratoria i punkty pobrań.
 
 Powiązane klasy logicznego modelu danych:
-* Podmiot diagnostyczny
-* Laboratorium
-* Punkt pobrań
+* [Podmiot diagnostyczny](StructureDefinition-pl-lab-podmiotDiagnostyczny.html)
+* [Laboratorium](StructureDefinition-pl-lab-laboratorium.html)
+* [Punkt pobrań](StructureDefinition-pl-lab-punktPobran.html)
