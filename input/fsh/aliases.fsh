@@ -39,6 +39,7 @@ Alias: $usage-context-type = http://terminology.hl7.org/CodeSystem/usage-context
 
 // UV Terminology value sets
 Alias: $all-languages-vs = http://hl7.org/fhir/ValueSet/all-languages
+Alias: $service-category-vs = http://hl7.org/fhir/ValueSet/servicerequest-category
 
 // PL Terminology
 Alias: $icd-9-pl = urn:oid:2.16.840.1.113883.3.4424.11.2.6
