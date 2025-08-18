@@ -18,4 +18,4 @@ Usage: #example
 * parameter[=].max = "1"
 * parameter[=].documentation = "Zasób typu Bundle zawierający wszystkie zasoby powiązane z katalogiem usług laboratorium lub punktu pobrań"
 * parameter[=].type = #Bundle
-* parameter[=].targetProfile = Canonical(SsidlBundleServiceCatalog)
+* parameter[=].targetProfile = Canonical(SsidlBundleServiceCatalogExport)
