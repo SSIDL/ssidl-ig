@@ -1,7 +1,7 @@
 Profile: SsidlBundleEntityExport
 Parent: Bundle
 Id: ssidl-bundle-entityExport
-Title: "Pakiet eksportu §§podmiotu diagnostycznego (SSIDL)"
+Title: "Pakiet eksportu podmiotu diagnostycznego (SSIDL)"
 Description: "Pakiet zasobów eksportu podmiotu diagnostycznego oraz powiązanych zasobów punktów pobrań, katalogów usług oraz podmiotu diagnostycznego"
 * type = #collection
 * entry 1..* MS
