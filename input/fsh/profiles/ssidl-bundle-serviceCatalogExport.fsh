@@ -11,7 +11,8 @@ Description: "Pakiet zasobów eksportu katalogu usług oraz powiązanych zasobó
 * entry ^slicing.description = "Definicja dopuszczalnych zasobów pakietu katalogu usług"
 * entry ^slicing.ordered = false
 * entry contains
-    catalogService 1..1 MS and
+    catalog 1..1 MS and
+    catalogService 0..* MS and
     catalogTest 0..* MS and
     preanalyticalFactors 0..* MS and
     reasonForTest 0..* MS and
@@ -19,6 +20,10 @@ Description: "Pakiet zasobów eksportu katalogu usług oraz powiązanych zasobó
     diagnosticEntity 1..1 MS and
     laboratory 0..* MS and
     intakePoint 0..* MS
+* entry[catalog].fullUrl 1..1 MS
+* entry[catalog].resource 1..1 MS 
+* entry[catalog].resource only SsidlHealthcareServiceLaboratoryServiceCatalog or SsidlHealthcareServiceIntakePointServiceCatalog
+* entry[catalog].request 0..0
 * entry[catalogService].fullUrl 1..1 MS
 * entry[catalogService].resource 1..1 MS 
 * entry[catalogService].resource only SsidlActivityDefinitionLabCatalogService

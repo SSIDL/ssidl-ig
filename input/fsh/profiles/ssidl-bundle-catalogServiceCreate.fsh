@@ -1,32 +1,21 @@
-Profile: SsidlBundleServiceCatalogImport
+Profile: SsidlBundleCatalogServiceCreate
 Parent: Bundle
-Id: ssidl-bundle-serviceCatalogImport
-Title: "Pakiet katalogu usług (SSIDL)"
-Description: "Pakiet zasobów katalogu usług laboratorium lub punktu pobrań"
+Id: ssidl-bundle-catalogServiceCreate
+Title: "Pakiet usługi katalogowej laboratorium (SSIDL)"
+Description: "Pakiet zasobów usługi katalogowej laboratorium"
 * type = #transaction
 * entry 1..* MS
 * entry ^slicing.discriminator.type = #profile
 * entry ^slicing.discriminator.path = "resource"
 * entry ^slicing.rules = #closed
-* entry ^slicing.description = "Definicja dopuszczalnych zasobów pakietu katalogu usług"
+* entry ^slicing.description = "Definicja dopuszczalnych zasobów pakietu usługi katalogowej"
 * entry ^slicing.ordered = false
 * entry contains
-    catalog 1..1 MS and
-    catalogService 0..* MS and
+    catalogService 1..1 MS and
     catalogTest 0..* MS and
     preanalyticalFactors 0..* MS and
     reasonForTest 0..* MS and
     sourceInfo 0..* MS
-* entry[catalog].fullUrl 1..1 MS
-* entry[catalog].resource 1..1 MS 
-* entry[catalog].resource only SsidlHealthcareServiceLaboratoryServiceCatalog or SsidlHealthcareServiceIntakePointServiceCatalog
-* entry[catalog].request 1..1 MS
-* entry[catalog].request.method 1..1 MS
-* entry[catalog].request.url 1..1 MS
-* entry[catalog].request.ifNoneMatch 0..0
-* entry[catalog].request.ifModifiedSince 0..0
-* entry[catalog].request.ifMatch 0..0
-* entry[catalog].request.ifNoneExist 0..0
 * entry[catalogService].fullUrl 1..1 MS
 * entry[catalogService].resource 1..1 MS 
 * entry[catalogService].resource only SsidlActivityDefinitionLabCatalogService
