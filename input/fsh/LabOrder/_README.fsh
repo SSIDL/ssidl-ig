@@ -3,8 +3,8 @@
 // ale nie są w (tej chwili) znajdowane z poziomu ssidl-ig.
 // Definicje pochodzą ze specyfikacji pl-imaging w wersji 20241006
 // z następującymi zmianami:
-// - PLBasePractitionerRoleServiceRequester (usunięcie wymagalności
-//   practitioner i location)
+// - PLBasePractitionerRole zamiast PLBasePractitionerRoleServiceRequester
+// - dodana pusta deklaracja PLBaseComposition
 // ================================================================
 
 Alias: $npwz-doc = urn:oid:2.16.840.1.113883.3.4424.1.6.2
@@ -57,7 +57,7 @@ Description: "Profil bazowy płatnika"
 * ^version = "0.0.1"
 * name 1..
 
-Profile: PLBasePractitionerRoleServiceRequester
+Profile: PLBasePractitionerRole
 Parent: PractitionerRole
 Id: pl-base-practitionerRole-serviceRequester
 Title: "Zlecający usługę medyczną"
@@ -144,3 +144,9 @@ Description: "Bazowy profil pracownika medycznego"
 * identifier[nurse].system = $npwz-nurse
 * identifier[lab].system = $npwz-lab
 * name 1..
+
+Profile: PLBaseComposition
+Parent: Composition
+Id: pl-base-composition
+Title: "Composition (PL)"
+Description: "Dane nagłówka dokumentu medycznego"

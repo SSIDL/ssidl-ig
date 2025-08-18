@@ -15,7 +15,7 @@ Description: "Zlecenie usługi medycznej (PL)"
 * encounter only Reference(PLBaseEncounter)
 * authoredOn 1..
 * requester 1..1 MS
-* requester only Reference(PLBasePractitionerRoleServiceRequester)
+* requester only Reference(PLBasePractitionerRole)
 * location 1..1
 * location only CodeableReference(PLBaseMedicalFacility or PLBaseMedicalFacilityType)
 * insurance only Reference(PLBaseCoverage)

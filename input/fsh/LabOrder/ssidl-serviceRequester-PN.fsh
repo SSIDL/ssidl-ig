@@ -1,5 +1,5 @@
 Instance: SsidlServiceRequester-PN
-InstanceOf: PLBasePractitionerRoleServiceRequester
+InstanceOf: PLBasePractitionerRole
 Title: "Zlecający usługę: Przykład PN"
 Description: "Przykład danych zlecającego usługę"
 Usage: #example
