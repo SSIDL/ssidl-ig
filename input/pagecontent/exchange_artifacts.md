@@ -10,4 +10,4 @@ Przykłady:
 * [Zlecenie usługi laboratoryjnej: Morfologia krwi](ServiceRequest-SsidlLabOrder-58410-2.html)
 * [Zlecenie usługi laboratoryjnej: Kreatynina w surowicy/osoczu](ServiceRequest-SsidlLabOrder-2160-0.html)
 * [Zlecenie wielu usług laboratoryjnych: Morfologia + Kreatynina](Bundle-SsidlLabOrderBundle-1.html)
-* Wynik badania laboratoryjnego
+* [Wynik badania laboratoryjnego: Kreatynina](DiagnosticReport-SsidlDiagnosticReport-2160-0.html)

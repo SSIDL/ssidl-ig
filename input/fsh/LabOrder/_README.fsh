@@ -60,7 +60,7 @@ Description: "Profil bazowy płatnika"
 Profile: PLBasePractitionerRole
 Parent: PractitionerRole
 Id: pl-base-practitionerRole-serviceRequester
-Title: "Zlecający usługę medyczną"
+Title: "Zlecający lub wykonujący usługę medyczną"
 Description: "TBC"
 * ^version = "0.0.1"
 * practitioner only Reference(PLBasePractitioner)

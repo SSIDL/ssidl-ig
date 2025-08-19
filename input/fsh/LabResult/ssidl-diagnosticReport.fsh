@@ -7,5 +7,8 @@ Description: "Wynik badania laboratoryjnego wg SSIDL"
 * code from SsidlLoincConceptVS
 * basedOn only Reference(SsidlServiceRequestLabOrder)
 * subject only Reference(PLBasePatient)
+* issued 1..1
+* performer only Reference(PLBasePractitionerRole)
+* specimen only Reference(SsidlSpecimen)
 * result only Reference(SsidlLabObservationResults)
 * composition only Reference(PLLabComposition)
