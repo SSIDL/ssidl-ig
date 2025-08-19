@@ -8,3 +8,4 @@ Description: "Wynik badania laboratoryjnego wg SSIDL"
 * basedOn only Reference(SsidlServiceRequestLabOrder)
 * subject only Reference(PLBasePatient)
 * result only Reference(SsidlLabObservationResults)
+* composition only Reference(PLLabComposition)

@@ -9,3 +9,5 @@ Description: "Zlecenie usługi dla celów Projectathonu LOINC-SSIDL"
 * orderDetail 0..0
 * location 1..1
 * location only CodeableReference(PLBaseMedicalFacility or PLBaseMedicalFacilityType)
+* specimen 0..1 MS
+* specimen only Reference(SsidlSpecimen)
