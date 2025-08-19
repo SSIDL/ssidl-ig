@@ -12,4 +12,4 @@ Usage: #example
 * issued = 2025-08-18T09:28:17.239+02:00
 * performer = Reference(SsidlPerformer-AW)
 * specimen = Reference(SsidlSpecimen-blood)
-* result = Reference(SsidlObservation-2160-0)
+* result = Reference(SsidlLabObservationResults-2160-0)
