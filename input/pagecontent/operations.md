@@ -1,17 +1,19 @@
 Prototyp SSIDL udostępnia dwa interfejsy programistyczne zgodne ze standardem HL7 FHIR:
-* Usługa terminologiczna
-* Usługa katalogowa
+* Interfejs usługi terminologicznej
+* Interfejs usługi katalogowej
 
-Oba interfejsy udostępniają standardowe operacje serwera FHIR RESTful API:
+#### Definicja interfejsu programistycznego usługi terminologicznej
+
+Interfejs usługi terminologicznej udostępnia standardowe operacje serwera FHIR RESTful API:
 * odczytu zasobu (read)
 * odczytu wersji zasobu (vread)
 * utowrzenia zasobu (create)
 * modyfikacji zasobu (update)
-* częściwoej modyfikacji zasobu (patch)
+* częściowej modyfikacji zasobu (patch)
 * usunięcia zasobu (delete)
-* wszyskiwania zasobów (search)
+* wyszukiwania zasobów (search)
 
-Serwer terminologii udostępnia powyższe operacje w zakresie:
+Interfejs usługi terminologicznej udostępnia powyższe operacje w zakresie:
 * słowników (CodeSystem)
 * zbiorów wartości (ValueSet)
 * mapowań (ConceptMap)
@@ -19,8 +21,29 @@ Serwer terminologii udostępnia powyższe operacje w zakresie:
 * definicji parametrów wyszukiwania (SearchParameters)
 * definicji operacji (OpeartionDefinition)
 
-Dodatkowo Serwer terminologii realizuje następujące usługi terminologiczne FHIR:
-* (validate)
+Interfejs usługi terminologicznej realizuje dodatkowo następujące operacje usługi terminologicznej FHIR:
+* T-01: Pobierz listę dostępnych pakietów terminologicznych i specyfikacyjnych ([`$get-available-packages`](OperationDefinition-SsidlGetAvailablePackages.html))
+* T-02: Pobierz pakiet terminologiczny lub specyfikacyjny ([`$get-package`](OperationDefinition-SsidlGetPackage.html))
+* T-03: Sprawdź występowanie kodu w słowniku ([`[base]/CodeSystem/$validate-code`](http://hl7.org/fhir/OperationDefinition/CodeSystem-validate-code))
 
 
-Komponent realizujący usługi katalogowe Dodatkowo
+* (/CodeSystem/$validate-code)
+
+Specyfikacja interfejsu zgodna z OpenAPI jest udostępniana przez endpoint prototypu SSIDL.
+
+#### Definicja interfejsu programistycznego usługi katalogowej
+
+Interfejs usługi katalogowej udostępnia standardowe operacje serwera FHIR RESTful API:
+* odczytu zasobu (read)
+* odczytu wersji zasobu (vread)
+* utowrzenia zasobu (create)
+* modyfikacji zasobu (update)
+* częściowej modyfikacji zasobu (patch)
+* usunięcia zasobu (delete)
+* wyszukiwania zasobów (search)
+
+Interfejs usługi terminologicznej udostępnia powyższe operacje w zakresie:
+
+
+
+Specyfikacja interfejsu zgodna z OpenAPI jest udostępniana przez endpoint prototypu SSIDL.
