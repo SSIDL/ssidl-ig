@@ -159,7 +159,7 @@ Powiązane klasy logicznego modelu danych:
 
 Prototyp SSIDL, za pomocą interfejsu programistycznego zgodnego ze standardem FHIR, umożliwia import zestawu opracowanych w projekcie definicji usług laboratoryjnych wraz z powiązanymi zasobami. Przypadek użycia jest dostępny dla aplikacji do tworzenia bazy wiedzy.
 
-Usługa jest realizowana jako transakcja przekazania zasobu FHIR typu Bundle reprezentującego zestaw definicji usług laboratoryjnych i popwiązanych zasobów. Usługa zwraca wynik operacji oraz zasoby FHIR utworzone w prototypie SSIDL.
+Usługa jest realizowana jako transakcja przekazania zasobu FHIR typu Bundle reprezentującego zestaw definicji usług laboratoryjnych i powiązanych zasobów. Usługa zwraca wynik operacji oraz zasoby FHIR utworzone w prototypie SSIDL.
 
 Powiązane klasy logicznego modelu danych:
 * [Definicja usługi laboratoryjnej](StructureDefinition-pl-lab-definicjaUslugiLaboratoryjnejBW.html)
