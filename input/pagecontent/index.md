@@ -2,6 +2,8 @@ Specyfikacja ma charakter roboczy i zawiera reguły wymiany danych w zakresie us
 
 <font><center>
 ![](assets\diagrams\SSIDL__logotyp__wersja_100x100.png)  
+
+
 </font></center>
 
 Głównym celem projektu jest rozwinięcie polskojęzycznej wersji systemu nazewnictwa LOINC oraz implementacja go do prototypu systemu SSIDL, który ułatwiłby wymianę danych dotyczących badań laboratoryjnych pomiędzy różnymi strukturami systemu ochrony zdrowia oraz pacjentem. Opracowanie i wdrożenie systemu opartego o nazewnictwo LOINC w laboratoriach ma na celu umożliwienie standaryzacji danych diagnostycznych, poprawę jakości i spójności raportów oraz integrację z innymi systemami informatycznymi.
