@@ -75,6 +75,8 @@ pages:
     title: Model logiczny zlecenia i wyniku badania
   exchange_artifacts.md:
     title: Specyfikacja zlecenia i wyniku badania
+  data_flow.md:
+    title: Diagram przepływów danych
   operations.md:
     title: Definicje interfejsów programistycznych
 #   implementation.xml:

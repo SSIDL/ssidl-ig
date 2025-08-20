@@ -2,7 +2,7 @@ Prototyp SSIDL udostępnia dwa interfejsy programistyczne zgodne ze standardem H
 * Interfejs usługi terminologicznej
 * Interfejs usługi katalogowej
 
-### Definicja interfejsu programistycznego usługi terminologicznej
+### Definicja interfejsu usługi terminologicznej
 
 Interfejs usługi terminologicznej udostępnia standardowe operacje serwera FHIR RESTful API:
 * odczytu zasobu (read)
@@ -33,7 +33,7 @@ Interfejs usługi terminologicznej realizuje dodatkowo następujące operacje us
 
 Specyfikacja interfejsu zgodna z OpenAPI jest udostępniana przez endpoint prototypu SSIDL.
 
-### Definicja interfejsu programistycznego usługi katalogowej
+### Definicja interfejsu usługi katalogowej
 
 Interfejs usługi katalogowej udostępnia standardowe operacje serwera FHIR RESTful API:
 * odczytu zasobu (read)
