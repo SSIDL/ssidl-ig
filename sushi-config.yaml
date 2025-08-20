@@ -56,9 +56,9 @@ pages:
   guidelines.md:
     title: Wytyczne dla implementatorów
   usecases_term.md:
-    title: Usługi terminologiczne
+    title: Przypadki użycia usługi terminologicznej
   usecases_cat.md:
-    title: Usługi katalogowe
+    title: Przypadki użycia usługi katalogowej
   # model.md:
   #   title: Model logiczny
   model_term.md:
@@ -75,6 +75,8 @@ pages:
     title: Model logiczny zlecenia i wyniku badania
   exchange_artifacts.md:
     title: Specyfikacja zlecenia i wyniku badania
+  operations.md:
+    title: Definicje interfejsów programistycznych
 #   implementation.xml:
 #   examples.xml:
 #     title: Examples Overview

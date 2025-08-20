@@ -17,10 +17,10 @@
     <a href="#" class="dropdown-toggle" data-toggle="dropdown">Przypadki użycia <b class="caret"></b></a>
       <ul class="dropdown-menu">
         <li>
-          <a href="usecases_term.html">Usługi terminologiczne</a>
+          <a href="usecases_term.html">Usługa terminologiczna</a>
         </li>
         <li>
-          <a href="usecases_cat.html">Usługi katalogowe</a>
+          <a href="usecases_cat.html">Usługa katalogowa</a>
         </li>
       </ul>   
   </li>
@@ -37,6 +37,9 @@
           <a href="model_cat.html">Laboratorium</a>
         </li>
       </ul>    
+  </li>
+  <li>
+    <a href="operations.html">Operacje</a>
   </li>
   <li class="dropdown">
     <a href="#" class="dropdown-toggle" data-toggle="dropdown">Definicje <b class="caret"></b></a>
