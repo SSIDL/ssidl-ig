@@ -1,6 +1,6 @@
 ### T-01: Pobierz listę dostępnych pakietów terminologicznych i specyfikacyjnych
 
-Serwer terminologii umożliwia pobranie (za pomocą interfejsu programistycznego zgodnego ze standardem FHIR) listy dostępnych pakietów terminologicznyc i specyfikacyjnych. Przypadek użycia jest dostępny dla wszystkich uprawnionych systemów zewnętrznych i wewnętrznych.
+Serwer terminologii umożliwia pobranie (za pomocą interfejsu programistycznego zgodnego ze standardem FHIR) listy dostępnych pakietów terminologicznych i specyfikacyjnych. Przypadek użycia jest dostępny dla wszystkich uprawnionych systemów zewnętrznych i wewnętrznych.
 
 Usługa jest realizowana za pomocą operacji [`$get-available-packages`](OperationDefinition-SsidlGetAvailablePackages.html), zdefiniowanej zgodnie z zasadami standardu HL7 FHIR. W wywołaniu usługi nie jest przekazywany żaden parametr. Usługa zwraca zasób FHIR typu Parameters zawierający nazwy dostępnych pakietów.
 
@@ -42,7 +42,7 @@ Usługa jest realizowana za pomocą operacji [`$search-code`](OperationDefinitio
 
 ### T-07: Pobierz zbiór wartości
 
-Serwer terminologii, za pomocą interfejsu programistycznego zgodnego ze standardem FHIR, umożliwia pobranie definicji zbioru wartości oraz (pcjonalnie) listę pozycji słownika (lub słowników), które są reprezentowane w tym zbiorze wartości. Przypadek użycia jest dostępny dla wszystkich uprawnionych systemów zewnętrznych i wewnętrznych.
+Serwer terminologii, za pomocą interfejsu programistycznego zgodnego ze standardem FHIR, umożliwia pobranie definicji zbioru wartości oraz (opcjonalnie) listę pozycji słownika (lub słowników), które są reprezentowane w tym zbiorze wartości. Przypadek użycia jest dostępny dla wszystkich uprawnionych systemów zewnętrznych i wewnętrznych.
 
 Usługa jest realizowana za pomocą dwóch operacji:
 * [standardowego mechanizmu pobierania zasobów FHIR](https://hl7.org/fhir/http.html#read). W wywołaniu usługi przekazywany jest typ i identyfikator instancji zasobu FHIR. Usługa zwraca zasób FHIR reprezentujący zbiór wartości
