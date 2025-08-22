@@ -17,7 +17,7 @@ releaseLabel: ci-build
 license: CC0-1.0
 # jurisdiction: urn:iso:std:iso:3166#US "United States of America" # https://www.hl7.org/fhir/valueset-jurisdiction.html
 publisher:
-  name: UMed
+  name: Uniwersytet Medyczny w Łodzi
   url: http://umed.pl
   # email: test@example.org
 
