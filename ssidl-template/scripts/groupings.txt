@@ -44,7 +44,7 @@
 </grouping>
 <grouping xmlns="http://hl7.org/fhir" id="-str-logicalmodel">
   <name value="Struktury: Modele logiczne"/>
-  <description value="These define data models that represent the domain covered by this implementation guide in more business-friendly terms than the underlying FHIR resources."/>
+  <description value="Logiczne modele danych, na podstawie kórych opracowano profile zasobów FHIR"/>
 </grouping>
 <grouping xmlns="http://hl7.org/fhir" id="-str-questionnaire">
   <name value="Structures: Questionnaires"/>
@@ -56,7 +56,7 @@
 </grouping>
 <grouping xmlns="http://hl7.org/fhir" id="-str-profile">
   <name value="Struktury: Profile zasobów"/>
-  <description value="These define constraints on FHIR resources for systems conforming to this implementation guide."/>
+  <description value="Profile zasobów FHIR zawierające zdefiniowane w specyfikacji reguły walidacyjne"/>
 </grouping>
 <grouping xmlns="http://hl7.org/fhir" id="-str-datatype">
   <name value="Structures: Data Type Profiles"/>
@@ -64,15 +64,15 @@
 </grouping>
 <grouping xmlns="http://hl7.org/fhir" id="-str-extension">
   <name value="Struktury: Definicje rozszerzeń"/>
-  <description value="These define constraints on FHIR data types for systems conforming to this implementation guide."/>
+  <description value="Rozszezrenia FHIR zdefiniowane w specyfikacji"/>
 </grouping>
 <grouping xmlns="http://hl7.org/fhir" id="-term-valueset">
   <name value="Terminologia: Zbiory wartości (Value Sets)"/>
-  <description value="These define sets of codes used by systems conforming to this implementation guide."/>
+  <description value="Zbiory wartości kodów słownikowych zdefiniowane w specyfikacji"/>
 </grouping>
 <grouping xmlns="http://hl7.org/fhir" id="-term-codesystem">
   <name value="Terminologia: Słowniki (Code Systems)"/>
-  <description value="These define new code systems used by systems conforming to this implementation guide."/>
+  <description value="Słowniki własne zdefiniowane w specyfikacji"/>
 </grouping>
 <grouping xmlns="http://hl7.org/fhir" id="-term-namingsystem">
   <name value="Terminology: Naming Systems"/>
@@ -80,11 +80,11 @@
 </grouping>
 <grouping xmlns="http://hl7.org/fhir" id="-map-structuremap">
   <name value="Terminologia: Mapowanie struktur (Structure Maps)"/>
-  <description value="These define transformations to convert between data structures used by systems conforming to this implementation guide."/>
+  <description value="Definicje transformacji struktur danych zdefiniowane w specyfikacji"/>
 </grouping>
 <grouping xmlns="http://hl7.org/fhir" id="-map-conceptmap">
   <name value="Terminologia: Mapowanie pojęć (Concept Maps)"/>
-  <description value="These define transformations to convert between codes by systems conforming with this implementation guide."/>
+  <description value="Mapowania pozycji różnych słowników zdefiniowane w specyfikacji"/>
 </grouping>
 <grouping xmlns="http://hl7.org/fhir" id="-test-testplan">
   <name value="Testing Artifacts: TestPlans"/>
@@ -100,7 +100,7 @@
 </grouping>
 <grouping xmlns="http://hl7.org/fhir" id="-ex-example">
   <name value="Przykłady: Przykładowe instancje zasobów"/>
-  <description value="These are example instances that show what data produced and consumed by systems conforming with this implementation guide might look like."/>
+  <description value="Przykłady instancji zasobów FHIR zgodne z zawartymi w specyfikacji regułami, opracowane dla celów ilustracyjnych"/>
 </grouping>
 <grouping xmlns="http://hl7.org/fhir" id="-ex-examplesup">
   <name value="Example: Example Supporting Instances"/>
