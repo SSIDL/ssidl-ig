@@ -1,8 +1,7 @@
 ValueSet: SsidlLoincConceptVS
 Id: ssidl-loincConcept-VS
-Title: "Kody LOINC usług w projekcie SSIDL"
-Description: "Kody LOINC usług laboratoryjnych wybranych do projektu SSIDL oraz Fully Specified Name w języku polskim"
-// SSIDL LOINC Concept code and Polish FSN
+Title: "Kody LOINC usług w bazie wiedzy SSIDL"
+Description: "Kody LOINC usług laboratoryjnych wybranych do projektu SSIDL oraz ich Fully Specified Name w języku polskim"
 * $loinc#14570-6 "17-Hydroksyprogesteron: stężenie molowe: punkt w czasie: mocz: ilościowy"
 * $loinc#1670-9 "17-Hydroksyprogesteron: stężenie masowe: punkt w czasie: mocz: ilościowy"
 * $loinc#1754-1 "Albumina: stężenie masowe: punkt w czasie: mocz: ilościowy"
