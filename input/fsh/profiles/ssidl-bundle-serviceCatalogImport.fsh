@@ -19,7 +19,7 @@ Description: "Pakiet zasobów katalogu usług laboratorium lub punktu pobrań"
     sourceInfo 0..* MS
 * entry[catalog].fullUrl 1..1 MS
 * entry[catalog].resource 1..1 MS 
-* entry[catalog].resource only SsidlHealthcareServiceLaboratoryServiceCatalog or SsidlHealthcareServiceIntakePointServiceCatalog
+* entry[catalog].resource only SsidlHealthcareServiceLaboratoryServiceCatalog or SsidlHealthcareServiceIntakePointServiceCatalog)
 * entry[catalog].request 1..1 MS
 * entry[catalog].request.method 1..1 MS
 * entry[catalog].request.url 1..1 MS
