@@ -9,7 +9,7 @@ name: hl7.fhir.pl.ssidl
 title: Specyfikacja interoperacyjności prototypu SSIDL
 description: Specyfikacja interoperacyjności dla prototypu Systemu Stnadaryzacji w Diagnostyce Laboratoryjnej (SSIDL)
 status: draft # draft | active | retired | unknown
-version: 0.1.0
+version: 0.1.1
 fhirVersion: 5.0.0 # https://www.hl7.org/fhir/valueset-FHIR-version.html
 copyrightYear: 2025+
 releaseLabel: ci-build
@@ -17,7 +17,7 @@ releaseLabel: ci-build
 license: CC0-1.0
 # jurisdiction: urn:iso:std:iso:3166#US "United States of America" # https://www.hl7.org/fhir/valueset-jurisdiction.html
 publisher:
-  name: UMed
+  name: Uniwersytet Medyczny w Łodzi
   url: http://umed.pl
   # email: test@example.org
 
@@ -47,16 +47,18 @@ publisher:
 # sub-pages.
 #
 pages:
-  index.md:
-    title: Strona główna
+  # index.md:
+  #   title: Strona główna
   # toc.md:
   #   title: Spis treści
-  # usecases.md:
-  #   title: Przypadki użycia
+  index.md:
+    title: Wprowadzenie
+  guidelines.md:
+    title: Wytyczne dla implementatorów
   usecases_term.md:
-    title: Usługi terminologiczne
+    title: Przypadki użycia usługi terminologicznej
   usecases_cat.md:
-    title: Usługi katalogowe
+    title: Przypadki użycia usługi katalogowej
   # model.md:
   #   title: Model logiczny
   model_term.md:
@@ -69,6 +71,14 @@ pages:
     title: Baza wiedzy
   examples_cat.md:
     title: Laboratorium
+  exchange_model.md:
+    title: Model logiczny zlecenia i wyniku badania
+  exchange_artifacts.md:
+    title: Specyfikacja zlecenia i wyniku badania
+  data_flow.md:
+    title: Diagram przepływów danych
+  operations.md:
+    title: Definicje interfejsów programistycznych
 #   implementation.xml:
 #   examples.xml:
 #     title: Examples Overview

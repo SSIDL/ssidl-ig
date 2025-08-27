@@ -17,6 +17,7 @@ Usage: #example
 <p>&nbsp;</p></div>"
 * extension[serviceDefinition][+].valueReference = Reference(SsidlLabCatalogService-58410-2)
 * extension[serviceDefinition][+].valueReference = Reference(SsidlLabCatalogService-6690-2)
+* extension[serviceDefinition][+].valueReference = Reference(SsidlLabCatalogService-2160-0)
 * extension[serviceDefinition][+].valueReference = Reference(SsidlLabCatalogService-777-3)
 * identifier.system = #urn:oid:2.16.840.1.113883.3.4424.999.999.999
 * identifier.value = "example001"

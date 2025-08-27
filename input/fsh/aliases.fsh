@@ -35,11 +35,13 @@ Alias: $ucum = http://unitsofmeasure.org
 Alias: $snomed = https://www.snomed.org
 Alias: $ref-range-meaning = http://terminology.hl7.org/5.1.0/CodeSystem-referencerange-meaning.html
 Alias: $usage-context-type = http://terminology.hl7.org/CodeSystem/usage-context-type
+Alias: $observation-category = http://terminology.hl7.org/CodeSystem/observation-category
 
 
 // UV Terminology value sets
 Alias: $all-languages-vs = http://hl7.org/fhir/ValueSet/all-languages
 Alias: $service-category-vs = http://hl7.org/fhir/ValueSet/servicerequest-category
+Alias: $observation-category-vs = http://terminology.hl7.org/ValueSet/observation-category
 
 // PL Terminology
 Alias: $icd-9-pl = urn:oid:2.16.840.1.113883.3.4424.11.2.6
