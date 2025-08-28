@@ -2,8 +2,6 @@ ValueSet: LaboratoryAnalyteTypeVS
 Id: pl-lab-analyteType-VS
 Title: "Kody analitów"
 Description: "Kody analitów wyrażone za pomocą pozycji słownika LOINC Part typu Component"
-// Poprawić w pliku źródłowym:
-// - usunąć pozycje, które nie są nazwą analitu (?)
 * $loinc-part#LP100006-8 "Wirus brodawczaka ludzkiego 18 DNA"
 * $loinc-part#LP100007-6 "Wirus brodawczaka ludzkiego 16 DNA"
 * $loinc-part#LP100008-4 "Pojemność tlenowa"
