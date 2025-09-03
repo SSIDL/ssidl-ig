@@ -24,7 +24,7 @@ Description: "Cel badania dla definicji badania laboratoryjnego"
 * useContext.valueCodeableConcept from SsidlReasonForTestTypeVS
 * jurisdiction 0..0
 * code 1..1 MS
-* code from SsidlReasonForTestTypeVS
+* code from ReasonForTestCodeVS
 * code.coding 1..1 MS
 * code.coding.system 1..1 MS
 * code.coding.version 0..1 MS

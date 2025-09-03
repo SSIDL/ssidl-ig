@@ -1,5 +1,5 @@
 Profile: SsidlOrganizationDiagnosticEntity
-Parent: Organization //PLBaseOrganization
+Parent: Organization //PLBaseMedicalEntity
 Id: ssidl-organization-diagnosticEntity
 Title: "Podmiot diagnostyczny (SSIDL)"
 Description: "Podmiot diagnostyczny"

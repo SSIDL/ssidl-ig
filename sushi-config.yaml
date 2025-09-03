@@ -9,7 +9,7 @@ name: hl7.fhir.pl.ssidl
 title: Specyfikacja interoperacyjności prototypu SSIDL
 description: Specyfikacja interoperacyjności dla prototypu Systemu Stnadaryzacji w Diagnostyce Laboratoryjnej (SSIDL)
 status: draft # draft | active | retired | unknown
-version: 0.1.1
+version: 0.1.2
 fhirVersion: 5.0.0 # https://www.hl7.org/fhir/valueset-FHIR-version.html
 copyrightYear: 2025+
 releaseLabel: ci-build
