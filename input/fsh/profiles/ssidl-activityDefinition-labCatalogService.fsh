@@ -67,7 +67,6 @@ Description: "Usługa katalogowa laboratorium"
 * code.coding[icd9plCode].display 1..1 MS
 * code.coding[icd9plCode].userSelected 0..0
 * code.text 0..0
-* intent 0..0
 * priority 0..0
 * doNotPerform 0..0
 * timing[x] 0..0
