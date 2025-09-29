@@ -55,7 +55,5 @@ Description: "Kody metod oznaczeń laboratoryjnych używane w bazie wiedzy SSIDL
 * $loinc-part#LP147267-1 "MLPA"
 * $loinc-part#LP6416-4 "test neutralizacji"
 * $loinc-part#LP220279-6 "fotometria"
-* $loinc-part#LP443427-2 "kreatynina - wzór (CKD-EPI)/1,73 m2 wśród rasy czarnej"
-* $loinc-part#LP443432-2 "kreatynina - wzór (CKD-EPI)/1,73 m2 wśród rasy innej niż czarna"
 * $loinc-part#LP250859-8 "mikromacierz"
 * $loinc-part#LP443424-9 "kreatynina-wzór (CKD-EPI 2021)/1,73 m2"

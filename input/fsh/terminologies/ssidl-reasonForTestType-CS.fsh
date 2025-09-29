@@ -9,3 +9,5 @@ Description: "Słownik typów celu badania (słownik własny SSIDL)"
 * #OZAAW "Ocena zaawansowania"
 * #MONIT "Monitorowanie"
 * #ORZECZ "Orzecznictwo"
+* #STRARYZ "Stratyfikacja ryzyka"
+* #INNE "Inne" // Czy da się uniknąć tej pozycji?
