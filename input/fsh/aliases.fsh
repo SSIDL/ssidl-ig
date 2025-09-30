@@ -44,12 +44,12 @@ Alias: $service-category-vs = http://hl7.org/fhir/ValueSet/servicerequest-catego
 Alias: $observation-category-vs = http://terminology.hl7.org/ValueSet/observation-category
 
 // PL Terminology
-Alias: $icd-9-pl = urn:oid:2.16.840.1.113883.3.4424.11.2.6
-Alias: $org-cell-type = urn:oid:2.16.840.1.113883.3.4424.11.2.4
+Alias: $icd-9-pl = http://hl7.org.pl/fhir/CodeSystem/pl-icd9plServiceCode-CS
+Alias: $org-cell-type = http://hl7.org.pl/fhir/CodeSystem/pl-medicalEntityCellType-CS
 Alias: $mri-fieldStrength = http://hl7.org.pl/fhir/CodeSystem/pl-imaging-mriScannerFieldStrength-cs
-Alias: $p1-document-class = urn:oid:2.16.840.1.113883.3.4424.11.1.32
-Alias: $practitioner-role = urn:oid:2.16.840.1.113883.3.4424.11.3.18
-Alias: $practitioner-specialty = urn:oid:2.16.840.1.113883.3.4424.11.3.3
+Alias: $p1-document-class = http://hl7.org.pl/fhir/CodeSystem/pl-p1DocumentType-CS
+Alias: $medical-profession = http://hl7.org.pl/fhir/CodeSystem/pl-medicalProfession-CS
+Alias: $practitioner-specialty = http://hl7.org.pl/fhir/CodeSystem/pl-practitionerSpecialty-CS
 Alias: $service-catalog-type = http://hl7.org.pl/fhir/ig/pl-lab/CodeSystem/pl-lab-serviceCatalogType-CS
 Alias: $nfz-guaranteed = http://loinc-ssidl.umed.pl/fhir/ig/ssidl/CodeSystem/ssidl-nfzGuaranteedServiceCode-CS
 Alias: $ssidl-method = http://loinc-ssidl.umed.pl/fhir/ig/ssidl/CodeSystem/ssidl-methodType-CS
