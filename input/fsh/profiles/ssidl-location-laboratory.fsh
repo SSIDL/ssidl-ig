@@ -26,7 +26,7 @@ Description: "Laboratorium"
 * type.text 0..0
 * type from LaboratoryServiceProviderTypeVS
 * contact 1..1 MS
-* contact.telecom 0..* MS
+* contact.telecom 1..* MS
 * contact.telecom ^slicing.discriminator.type = #value
 * contact.telecom ^slicing.discriminator.path = "system"
 * contact.telecom ^slicing.rules = #closed
@@ -47,11 +47,11 @@ Description: "Laboratorium"
 * contact.telecom[email].use 0..0
 * contact.telecom[email].rank 0..0
 * contact.telecom[email].period 0..0
-* address 0..1 MS
+* address 1..1 MS
 * form 0..0
 * position 0..0
 * managingOrganization 1..1 MS
-// * managingOrganization only Reference(SsidlOrganizationDiagnosticEntity)
+* managingOrganization only Reference(SsidlOrganizationDiagnosticEntity)
 * partOf 0..0
 * characteristic 0..0
 * virtualService 0..0
