@@ -1,5 +1,5 @@
 Profile: SsidlLocationLaboratory
-Parent: Location //PLBaseLocation
+Parent: PLBaseMedicalFacility
 Id: ssidl-location-laboratory
 Title: "Laboratorium (SSIDL)"
 Description: "Laboratorium"
