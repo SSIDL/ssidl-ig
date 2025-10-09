@@ -9,7 +9,7 @@ Usage: #example
 <p>Telefon:<strong> +48&nbsp;888&nbsp;888&nbsp;888</strong></p>
 <p>Email:<strong>&nbsp;biuro@superdiagnostyka.com.pl</strong></p>
 <p>Identyfikator wg RPWDL (cz. I systemu kod&oacute;w resortowych):&nbsp;<strong>&nbsp;</strong><strong>000000009999</strong></p></div>"
-* identifier.system = #urn:oid:2.16.840.1.113883.3.4424.999.999.999
+* identifier.system = #urn:oid:2.16.840.1.113883.3.4424.2.3.1
 * identifier.value = "000000009999"
 * name = "Superdiagnostyka Sp. z o.o."
 * contact.telecom[phone].system = #phone
