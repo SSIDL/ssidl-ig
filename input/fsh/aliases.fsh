@@ -53,6 +53,7 @@ Alias: $practitioner-specialty = http://hl7.org.pl/fhir/CodeSystem/pl-practition
 Alias: $service-catalog-type = http://hl7.org.pl/fhir/ig/pl-lab/CodeSystem/pl-lab-serviceCatalogType-CS
 Alias: $nfz-guaranteed = http://loinc-ssidl.umed.pl/fhir/ig/ssidl/CodeSystem/ssidl-nfzGuaranteedServiceCode-CS
 Alias: $ssidl-method = http://loinc-ssidl.umed.pl/fhir/ig/ssidl/CodeSystem/ssidl-methodType-CS
+Alias: $ssidl-testedMaterial = http://loinc-ssidl.umed.pl/fhir/ig/ssidl/CodeSystem/ssidl-testedMaterialType-CS
 Alias: $ucum-codes-vs = http://loinc-ssidl.umed.pl/fhir/ig/ssidl/ValueSet/ssidl-ucumUnits-VS
 Alias: $patient-prep = http://loinc-ssidl.umed.pl/fhir/ig/ssidl/ValueSet/ssidl-patientPreparation-VS
 Alias: $reason-type = http://loinc-ssidl.umed.pl/fhir/ig/ssidl/CodeSystem/ssidl-reasonForTestType-CS
