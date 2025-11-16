@@ -18,7 +18,7 @@ Alias: $iso3166-1-2 = http://hl7.org/fhir/ValueSet/iso3166-1-2
 Alias: $iso3166-1-3 = http://hl7.org/fhir/ValueSet/iso3166-1-3
 Alias: $iso3166-1-N = http://hl7.org/fhir/ValueSet/iso3166-1-N
 Alias: $iso21090-ADXP-unitID = http://hl7.org/fhir/StructureDefinition/iso21090-ADXP-unitID
-Alias: $adm-gender = http://hl7.org/fhir/ValueSet/administrative-gender
+// Alias: $adm-gender = http://hl7.org/fhir/ValueSet/administrative-gender
 
 // PL Teritorial
 Alias: $ids-terc = http://hl7.org.pl/fhir/NamingSystem/teryt-terc
@@ -28,20 +28,20 @@ Alias: $ids-simc = http://hl7.org.pl/fhir/NamingSystem/teryt-simc
 Alias: $sct = http://snomed.info/sct
 Alias: $loinc = http://loinc.com
 Alias: $loinc-part = http://loinc.org/part
-Alias: $icd-10 = http://hl7.org/fhir/sid/icd-10
+// Alias: $icd-10 = http://hl7.org/fhir/sid/icd-10
 Alias: $radiology-playbook = http://fhir.loinc.org/ValueSet/loinc-rsna-radiology-playbook
 Alias: $bcp-47 = urn:ietf:bcp:47
 Alias: $ucum = http://unitsofmeasure.org
 Alias: $snomed = https://www.snomed.org
-Alias: $ref-range-meaning = http://terminology.hl7.org/5.1.0/CodeSystem-referencerange-meaning.html
 Alias: $usage-context-type = http://terminology.hl7.org/CodeSystem/usage-context-type
 Alias: $observation-category = http://terminology.hl7.org/CodeSystem/observation-category
-
+Alias: $ref-range-meaning = http://terminology.hl7.org/CodeSystem/referencerange-meaning
 
 // UV Terminology value sets
 Alias: $all-languages-vs = http://hl7.org/fhir/ValueSet/all-languages
 Alias: $service-category-vs = http://hl7.org/fhir/ValueSet/servicerequest-category
 Alias: $observation-category-vs = http://terminology.hl7.org/ValueSet/observation-category
+
 
 // PL Terminology
 Alias: $icd-9-pl = http://hl7.org.pl/fhir/CodeSystem/pl-icd9plServiceCode-CS
@@ -58,3 +58,5 @@ Alias: $ucum-codes-vs = http://loinc-ssidl.umed.pl/fhir/ig/ssidl/ValueSet/ssidl-
 Alias: $patient-prep = http://loinc-ssidl.umed.pl/fhir/ig/ssidl/ValueSet/ssidl-patientPreparation-VS
 Alias: $reason-type = http://loinc-ssidl.umed.pl/fhir/ig/ssidl/CodeSystem/ssidl-reasonForTestType-CS
 Alias: $def-use = http://loinc-ssidl.umed.pl/fhir/ig/ssidl/CodeSystem/ssidl-definitionUseContext-CS
+Alias: $ref-range-type = http://loinc-ssidl.umed.pl/fhir/ig/ssidl/CodeSystem/ssidl-refRangeType-CS
+Alias: $specimen-handling = http://loinc-ssidl.umed.pl/fhir/ig/ssidl/CodeSystem/ssidl-specimenHandlingCode-CS

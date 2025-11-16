@@ -48,7 +48,7 @@ Description: "Pakiet zasobów definicji usług laboratoryjnych oraz definicji te
 * entry[preanalyticalFactors].request.ifNoneExist 0..0
 * entry[reasonForTest].fullUrl 1..1 MS
 * entry[reasonForTest].resource 1..1 MS 
-* entry[reasonForTest].resource only SsidlConditionDefinitionReasonForTest
+* entry[reasonForTest].resource only SsidlConditionDefinitionReasonForTestBW
 * entry[reasonForTest].request 1..1 MS
 * entry[reasonForTest].request.method 1..1 MS
 * entry[reasonForTest].request.url 1..1 MS

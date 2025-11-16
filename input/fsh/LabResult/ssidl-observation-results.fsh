@@ -15,7 +15,7 @@ Description: "Wynik testu laboratoryjnego wg SSIDL"
 * subject only Reference(PLBasePatient)
 * encounter only Reference(PLBaseEncounter)
 * effectiveDateTime 1..1 MS
-* performer only Reference(PLBasePractitionerRole)
+* performer only Reference(PLBaseServicePerformer)
 * value[x] 1..1 MS
 * valueQuantity.unit from SsidlUcumUnitsVS
 * referenceRange 1..* MS

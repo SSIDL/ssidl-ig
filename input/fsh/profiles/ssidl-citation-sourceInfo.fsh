@@ -4,19 +4,14 @@ Id: ssidl-citation-sourceInfo
 Title: "Źródło (SSIDL)"
 Description: "Informacje źródłowe dla wartości referencyjnych definicji badania laboratoryjnego"
 * ^version = "0.1.0"
-* url 0..0
-* identifier 1..1 MS 
-* identifier.use 0..0
-* identifier.type 0..0
-* identifier.system 1..1 MS
-* identifier.value 1..1 MS
-* identifier.period 0..0
-* identifier.assigner 0..0
+* url 1..1
+* identifier 0..0 MS 
 * version 0..0
 * versionAlgorithm[x] 0..0
 * name 0..0
 * title 0..0
 * status 1..1 MS
+* status = #active
 * experimental 0..0
 * date 0..0
 * publisher 0..0

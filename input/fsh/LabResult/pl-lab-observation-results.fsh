@@ -9,7 +9,7 @@ Description: "Wynik badania laboratoryjnego"
 * subject only Reference(PLBasePatient)
 * encounter only Reference(PLBaseEncounter)
 * effective[x] 1..1 MS
-* performer only Reference(PLBasePractitionerRole)
+* performer only Reference(PLBaseServicePerformer)
 * value[x] 0..1 MS
 * hasMember only Reference(PLLabObservationResults)
 * component.code from LoincConceptVS

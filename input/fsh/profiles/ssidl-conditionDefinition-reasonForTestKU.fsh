@@ -1,0 +1,57 @@
+Profile: SsidlConditionDefinitionReasonForTestKU
+Parent: ConditionDefinition
+Id: ssidl-conditionDefinition-reasonForTestKU
+Title: "Cel badania (SSIDL Baza wiedzy)"
+Description: "Cel badania dla definicji badania laboratoryjnego w bazie wiedzy"
+* ^version = "0.1.0"
+* id 1..1
+* url 1..1
+* identifier 0..0
+* version 0..0
+* versionAlgorithm[x] 0..0
+* name 0..0
+* title 0..0 MS
+* subtitle 0..0
+* status 1..1 MS
+* status = #active
+* experimental 0..0
+* date 0..0
+* publisher 0..0
+* contact 0..0
+* description 0..1 MS
+* useContext.code 1..1 MS
+* useContext.value[x] only CodeableConcept
+* useContext ^slicing.discriminator.type = #value
+* useContext ^slicing.discriminator.path = "code"
+* useContext ^slicing.rules = #open
+* useContext ^slicing.description = ""
+* useContext ^slicing.ordered = false
+* useContext contains
+  focus 1..1 MS and
+  workflow 1..1 MS
+* useContext[focus].code = $usage-context-type#focus "Clinical Focus"
+* useContext[focus].valueCodeableConcept from SsidlReasonForTestTypeVS
+* useContext[workflow].code = $usage-context-type#workflow "Workflow Setting"
+* useContext[workflow].valueCodeableConcept = #KU
+* jurisdiction 0..0
+* code 1..1 MS
+* code.coding 0..1 MS
+* code.coding.system 1..1 MS
+* code.coding.version 0..1 MS
+* code.coding.code 1..1 MS
+* code.coding.display 1..1 MS
+* code.coding.userSelected 0..0
+* code.text 0..1
+* severity 0..0
+* bodySite 0..0
+* stage 0..0
+* hasBodySite 0..0 MS
+* hasSeverity 0..0 MS
+* hasStage 0..0 MS
+* definition 0..0
+* observation 0..0
+* medication 0..0
+* precondition 0..0
+* team 0..0
+* questionnaire 0..0
+* plan 0..0

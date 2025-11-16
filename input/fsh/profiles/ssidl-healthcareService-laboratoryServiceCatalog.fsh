@@ -5,7 +5,7 @@ Title: "Katalog usług laboratorium (SSIDL)"
 Description: "Katalog usług laboratorium"
 * ^version = "0.1.0"
 * extension contains
-    HealthcareServiceCatalogServiceDefinition named serviceDefinition 0..* MS
+    HealthcareServiceCatalogServiceDefinition named serviceDefinition 1..* MS
 * identifier 1..1 MS 
 * identifier.use 0..0
 * identifier.type 0..0

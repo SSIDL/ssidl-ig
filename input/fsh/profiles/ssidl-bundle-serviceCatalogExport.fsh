@@ -38,7 +38,7 @@ Description: "Pakiet zasobów eksportu katalogu usług oraz powiązanych zasobó
 * entry[preanalyticalFactors].request 0..0
 * entry[reasonForTest].fullUrl 1..1 MS
 * entry[reasonForTest].resource 1..1 MS 
-* entry[reasonForTest].resource only SsidlConditionDefinitionReasonForTest
+* entry[reasonForTest].resource only SsidlConditionDefinitionReasonForTestKU
 * entry[reasonForTest].request 0..0
 * entry[sourceInfo].fullUrl 1..1 MS
 * entry[sourceInfo].resource 1..1 MS 

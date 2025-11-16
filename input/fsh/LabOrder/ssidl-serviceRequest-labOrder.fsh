@@ -7,7 +7,5 @@ Description: "Zlecenie usługi dla celów Projectathonu LOINC-SSIDL"
 * instantiatesCanonical only Canonical(SsidlActivityDefinitionLabServiceDefinition)
 * code only CodeableReference(SsidlActivityDefinitionLabCatalogService)
 * orderDetail 0..0
-* location 1..1
-* location only CodeableReference(PLBaseMedicalFacility or PLBaseMedicalFacilityType)
 * specimen 0..1 MS
 * specimen only Reference(SsidlSpecimen)
