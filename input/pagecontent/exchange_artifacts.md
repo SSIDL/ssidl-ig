@@ -5,9 +5,3 @@ Profile FHIR:
 * [Próbka materiału](Specimen-ssidl-specimen.html)
 * [Wynik badania laboratoryjnego](DiagnosticReport-ssidl-diagnosticReport.html)
 * [Wynik testu laboratoryjnego](Observation-ssidl-labObservation-results.html)
-
-Przykłady:
-* [Zlecenie usługi laboratoryjnej: Morfologia krwi](ServiceRequest-SsidlLabOrder-58410-2.html)
-* [Zlecenie usługi laboratoryjnej: Kreatynina w surowicy/osoczu](ServiceRequest-SsidlLabOrder-2160-0.html)
-* [Zlecenie wielu usług laboratoryjnych: Morfologia + Kreatynina](Bundle-SsidlLabOrderBundle-1.html)
-* [Wynik badania laboratoryjnego: Kreatynina](DiagnosticReport-SsidlDiagnosticReport-2160-0.html)
