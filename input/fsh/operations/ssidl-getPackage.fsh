@@ -1,10 +1,11 @@
 Instance: SsidlGetPackage
 InstanceOf: OperationDefinition
-Title: "SSIDL Operation: $get-package"
+Title: "Operacja pobrania pakietu z serwera terminologii"
 Usage: #example
 * name = "GetPackage"
 * status = #draft 
 * kind = #operation
+* description = "Operacja pobrania pakietu NPM specyfikacji IG FHIR lub pakietu terminologicznego"
 * code = #get-package
 * system = true
 * type = false
