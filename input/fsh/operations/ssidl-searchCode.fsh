@@ -5,6 +5,7 @@ Usage: #example
 * name = "SearchCode"
 * status = #draft 
 * kind = #operation
+* description = "Operacja wyszukiwania pozycji słownika terminologicznego"
 * code = #search-code
 * system = true
 * type = false

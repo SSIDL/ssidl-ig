@@ -99,8 +99,8 @@
   <description value="These define groups of interrelated examples that demonstrate one or more of the workflows supported by this implementation guide."/>
 </grouping>
 <grouping xmlns="http://hl7.org/fhir" id="-ex-example">
-  <name value="Przykłady: Przykładowe instancje zasobów"/>
-  <description value="Przykłady instancji zasobów FHIR zgodne z zawartymi w specyfikacji regułami, opracowane dla celów ilustracyjnych"/>
+  <name value="Operacje: Definicje operacji"/>
+  <description value="Dodatkowe operacje serwera FHIR zdefiniowane dla celów projektu"/>
 </grouping>
 <grouping xmlns="http://hl7.org/fhir" id="-ex-examplesup">
   <name value="Example: Example Supporting Instances"/>
