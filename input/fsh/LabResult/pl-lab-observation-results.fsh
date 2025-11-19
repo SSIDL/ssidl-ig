@@ -2,7 +2,7 @@ Profile: PLLabObservationResults
 Parent: Observation
 Id: pl-lab-observation-results
 Title: "Observation: Laboratory Results (PL)"
-Description: "Wynik badania laboratoryjnego"
+Description: "Wynik testu laboratoryjnego"
 * ^version = "0.1.0"
 * code from LoincConceptVS
 * subject 1..1 MS
