@@ -1,8 +1,8 @@
 Profile: SsidlConditionDefinitionReasonForTestKU
 Parent: ConditionDefinition
 Id: ssidl-conditionDefinition-reasonForTestKU
-Title: "Cel badania (SSIDL Baza wiedzy)"
-Description: "Cel badania dla definicji badania laboratoryjnego w bazie wiedzy"
+Title: "Cel badania (SSIDL Katalog usług)"
+Description: "Cel badania dla usługi katalogowej laboratorium"
 * ^version = "0.1.0"
 * id 1..1
 * url 1..1
