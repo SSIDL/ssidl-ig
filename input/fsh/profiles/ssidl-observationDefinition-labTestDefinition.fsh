@@ -130,6 +130,7 @@ Description: "Definicja testu laboratoryjnego w bazie wiedzy SSIDL"
 * qualifiedValue.range.high.unit from SsidlUcumUnitsVS
 * qualifiedValue.validCodedValueSet 0..1 MS
 * qualifiedValue.normalCodedValueSet 0..1 MS
+* qualifiedValue.normalCodedValueSet = Canonical(SsidlNormalUrineColorVS) //or Canonical(SsidlNormalCerebrospinalFluidTransparencyVS) or Canonical(SsidlNormalStoolConsistencyVS)
 * qualifiedValue.abnormalCodedValueSet 0..0
 * qualifiedValue.criticalCodedValueSet 0..0
 * hasMember 0..0

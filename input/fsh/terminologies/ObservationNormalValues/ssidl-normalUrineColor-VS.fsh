@@ -1,4 +1,4 @@
-ValueSet: SsidNormalUrineColorVS
+ValueSet: SsidlNormalUrineColorVS
 Id: ssidl-normalUrineColor-VS
 Title: "Prawidłowa barwa moczu (SSIDL)"
 Description: "Prawidłowa barwa moczu (słownik własny SSIDL)"
