@@ -1,0 +1,26 @@
+CodeSystem: SsidlObservationNormalValueCS
+Id: ssidl-observationNormalValue-CS
+Title: "Słownik prawidłowych wartości wyniku badania (SSIDL)"
+Description: "Słownik prawidłowych wartości wyniku badania (słownik własny SSIDL)"
+* ^url = "http://loinc-ssidl.umed.pl/fhir/ig/ssidl/CodeSystem/ssidl-observationNormalValue-CS"
+// * #PHP "5,0-7,5" - do poprawy?
+* #BDEL "Brak delecji c.1521_1523delCTT"
+* #BRAZ "Brązowa"
+* #KLAR "Klarowny"
+* #LMET "Lekko mętny"
+* #MET "Mętny"
+* #NBA "Nieobecna"
+* #NBE "Nieobecne"
+* #NIEL "Nieliczne"
+* #SLAD "Śladowe"
+* #NBY "Nieobecny"
+* #JASN "Jasna"
+* #ZOLT "Żółta"
+* #JZOLT "Jasnożółta"
+* #CZOLT "Ciemnożółta"
+* #PRY "Prawidłowy"
+* #SWOI "Swoisty"
+* #UFORM "Uformowana"
+* #PMIEK "Półmiękka"
+* #PRA "Prawidłowa"
+// * #WS "wartość słowna" - do poprawy
