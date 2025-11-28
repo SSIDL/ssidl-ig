@@ -117,7 +117,7 @@ Description: "Test laboratoryjny według laboratorium"
 * qualifiedValue.range.high.unit from SsidlUcumUnitsVS
 * qualifiedValue.validCodedValueSet 0..1 MS
 * qualifiedValue.validCodedValueSet
-* qualifiedValue.normalCodedValueSet 0..0
+* qualifiedValue.normalCodedValueSet 0..1
 * qualifiedValue.abnormalCodedValueSet 0..0
 * qualifiedValue.criticalCodedValueSet 0..0
 * hasMember 0..0

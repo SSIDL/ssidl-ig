@@ -78,7 +78,9 @@ Description: "Definicja testu laboratoryjnego w bazie wiedzy SSIDL"
 * permittedUnit from SsidlUcumUnitsVS   
 * qualifiedValue 1..* MS
 * qualifiedValue.extension contains
-    ObservationDefinitionQualifiedValueSourceInfoReference named sourceInfo 0..* MS 
+    ObservationDefinitionQualifiedValueSourceInfoReference named sourceInfo 0..* MS and
+    RecommendedNormalValueSet named recommendedNormalValueSet 0..1 MS
+* qualifiedValue.extension[recommendedNormalValueSet].valueUri from NormalValueSetListVS
 * qualifiedValue.context 1..1 MS
 * qualifiedValue.context.coding 1..* MS
 * qualifiedValue.context.coding ^slicing.discriminator.type = #value
@@ -128,9 +130,8 @@ Description: "Definicja testu laboratoryjnego w bazie wiedzy SSIDL"
 * qualifiedValue.range.high 0..1 MS
 * qualifiedValue.range.high.unit 1..1 MS
 * qualifiedValue.range.high.unit from SsidlUcumUnitsVS
-* qualifiedValue.validCodedValueSet 0..1 MS
-* qualifiedValue.normalCodedValueSet 0..1 MS
-* qualifiedValue.normalCodedValueSet = Canonical(SsidlNormalUrineColorVS) //or Canonical(SsidlNormalCerebrospinalFluidTransparencyVS) or Canonical(SsidlNormalStoolConsistencyVS)
+* qualifiedValue.validCodedValueSet 0..0 MS
+* qualifiedValue.normalCodedValueSet 0..0 MS
 * qualifiedValue.abnormalCodedValueSet 0..0
 * qualifiedValue.criticalCodedValueSet 0..0
 * hasMember 0..0
