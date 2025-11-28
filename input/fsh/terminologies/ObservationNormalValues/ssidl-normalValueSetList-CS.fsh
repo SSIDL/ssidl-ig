@@ -11,3 +11,6 @@ Description: "Lista kanonicznych URL dla zbiorów wartości wyników prawidłowy
 * #http://loinc-ssidl.umed.pl/fhir/ig/ssidl/ValueSet/ssidl-notPresent3-VS
 * #http://loinc-ssidl.umed.pl/fhir/ig/ssidl/ValueSet/ssidl-notPresent4-VS
 * #http://loinc-ssidl.umed.pl/fhir/ig/ssidl/ValueSet/ssidl-notPresent5-VS
+* #http://loinc-ssidl.umed.pl/fhir/ig/ssidl/ValueSet/ssidl-normal-VS
+* #http://loinc-ssidl.umed.pl/fhir/ig/ssidl/ValueSet/ssidl-brown-VS
+* #http://loinc-ssidl.umed.pl/fhir/ig/ssidl/ValueSet/ssidl-specific-VS
