@@ -24,7 +24,7 @@ Description: "Laboratorium"
 * type.coding.display 1..1 MS
 * type.coding.userSelected 0..0
 * type.text 0..0
-* type from LaboratoryServiceProviderTypeVS
+* type from LaboratoryTypeVS
 * contact 1..1 MS
 * contact.telecom 1..* MS
 * contact.telecom ^slicing.discriminator.type = #value
