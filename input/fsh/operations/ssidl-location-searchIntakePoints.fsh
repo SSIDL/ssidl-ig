@@ -1,4 +1,4 @@
-Instance: SsidlIntakePoints
+Instance: SsidlSearchIntakePoints
 InstanceOf: OperationDefinition
 Title: "Operacja wyszukiwania punktów pobrań (SSIDL)"
 Description: "Operacja wyszukiwania punktów pobrań"
