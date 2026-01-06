@@ -1,16 +1,11 @@
 Profile: SsidlHealthcareServiceIntakePointServiceCatalog
-Parent: HealthcareService
+Parent: PLBaseServiceCatalog
 Id: ssidl-healthcareService-intakePointServiceCatalog
 Title: "Katalog usług punktu pobrań (SSIDL)"
 Description: "Katalog usług punktu pobrań"
 * ^version = "0.1.0"
-* extension contains
-    HealthcareServiceCatalogServiceDefinition named serviceDefinition 1..* MS
-* identifier 1..1 MS 
 * identifier.use 0..0
 * identifier.type 0..0
-* identifier.system 1..1 MS
-* identifier.value 1..1 MS
 * identifier.period 0..0
 * identifier.assigner 0..0 
 * active 0..0
@@ -24,7 +19,6 @@ Description: "Katalog usług punktu pobrań"
 * specialty 0..0
 * location 1..1 MS
 * location only Reference(SsidlLocationIntakePoint)
-* name 1..1 MS
 * comment 0..0
 * extraDetails 0..0
 * photo 0..0
