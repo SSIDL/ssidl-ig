@@ -3,8 +3,6 @@ Parent: SpecimenDefinition
 Id: ssidl-specimenDefinition-alt
 Title: "Czynniki przedanalityczne (SSIDL)"
 Description: "Definicja czynników przedanalitycznych dla definicji badania laboratoryjnego"
-* extension contains
-    SpecimenHandlingCode named code 1..1
 * ^version = "0.1.0"
 * url 1..1
 * identifier 0..0
@@ -62,6 +60,8 @@ Description: "Definicja czynników przedanalitycznych dla definicji badania labo
 * typeTested.singleUse 0..0
 * typeTested.rejectionCriterion 0..0
 * typeTested.handling 0..1 MS
+* typeTested.handling.extension contains
+    SpecimenHandlingCode named code 1..1
 * typeTested.handling.instruction 1..1 MS
 * typeTested.testingDestination 0..0
 
