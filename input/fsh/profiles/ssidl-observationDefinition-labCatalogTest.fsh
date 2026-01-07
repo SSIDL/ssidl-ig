@@ -71,8 +71,7 @@ Description: "Test laboratoryjny według laboratorium"
 * method.coding.userSelected 0..0
 * method.text 0..1 MS
 * method from LaboratoryMethodTypeVS
-* specimen 0..1 MS
-* specimen only Reference(SsidlSpecimenDefinition)
+* specimen 0..0
 * device 0..0
 * preferredReportName 1..1 MS
 * permittedUnit 1..1 MS
