@@ -12,6 +12,7 @@ Usage: #example
 * contact.telecom[phone].value = "+48 777 777 777"
 * contact.telecom[email].system = #email
 * contact.telecom[email].value = "fake_lab2@labo.com.pl"
-* address.line = "Medyczna 27"
-* address.city = "Gdynia"
+* address[+].line[+].extension[streetName][+].valueString = "Medyczna"
+* address[=].line[=].extension[houseNumber][+].valueString = "27"
+* address[=].city = "Gdynia"
 * managingOrganization = Reference(SsidlOrganizationDiagnosticEntity-2)

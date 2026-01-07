@@ -48,6 +48,7 @@ Description: "Punkt pobrań"
 * contact.telecom[email].rank 0..0
 * contact.telecom[email].period 0..0
 * address 1..1 MS
+* address only PLBaseAddressEu
 * form 0..0
 * position 0..0
 * managingOrganization 1..1 MS
