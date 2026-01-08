@@ -3,12 +3,11 @@ Parent: ObservationDefinition
 Id: ssidl-observationDefinition-labCatalogTest
 Title: "Test laboratoryjny według laboratorium (SSIDL)"
 Description: "Test laboratoryjny według laboratorium"
-//TODO: Referencja do SsidlObservationDefinitionLabTestDefinition
 * extension contains
     ObservationDefinitionUnitConversion named unitConversion 0..* MS
+* url 1..1 MS
 * identifier 0..0
-// TODO: Czy uwględniać wersję definicji testu?
-* version 1..1 MS
+* version 0..1 MS
 * versionAlgorithm[x] 0..0
 * name 0..0
 * title 1..1 MS
@@ -80,7 +79,21 @@ Description: "Test laboratoryjny według laboratorium"
 * qualifiedValue.extension contains
     ObservationDefinitionQualifiedValueSourceInfoReference named sourceInfo 0..* MS 
 * qualifiedValue.context 1..1 MS
-* qualifiedValue.context.coding 1..1 MS
+* qualifiedValue.context.coding 1..* MS
+* qualifiedValue.context.coding ^slicing.discriminator.type = #value
+* qualifiedValue.context.coding ^slicing.discriminator.path = "system"
+* qualifiedValue.context.coding ^slicing.rules = #open
+* qualifiedValue.context.coding ^slicing.description = ""
+* qualifiedValue.context.coding ^slicing.ordered = false
+* qualifiedValue.context.coding contains
+    fhirCode 1..1 MS and
+    ssidlCode 1..1 MS
+* qualifiedValue.context.coding[fhirCode] from SsidlRefRangeMeaningVS
+* qualifiedValue.context.coding[fhirCode].system 1..1 MS
+* qualifiedValue.context.coding[fhirCode].code 1..1 MS
+* qualifiedValue.context.coding[ssidlCode] from SsidlRefRangeTypeVS
+* qualifiedValue.context.coding[ssidlCode].system 1..1 MS
+* qualifiedValue.context.coding[ssidlCode].code 1..1 MS
 * qualifiedValue.context.coding.system 1..1 MS
 * qualifiedValue.context.coding.version 0..1 MS
 * qualifiedValue.context.coding.code 1..1 MS

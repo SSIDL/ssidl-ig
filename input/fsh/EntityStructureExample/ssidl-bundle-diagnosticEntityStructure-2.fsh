@@ -1,5 +1,5 @@
 Instance: SsidlBundleDiagnosticEntityStructure-2
-InstanceOf: Bundle
+InstanceOf: SsidlBundleEntityImport
 Title: "Struktura organizacyjna podmiotu diagnostycznego: Przykład LABO"
 Description: "Przykład struktury organizacyjnej podmiotu diagnostycznego wg SSIDL"
 Usage: #example
