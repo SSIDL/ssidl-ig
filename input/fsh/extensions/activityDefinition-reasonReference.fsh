@@ -3,4 +3,4 @@ Id: activityDefinition-reasonReference
 Title: "Referencja do celu badania (SSIDL)"
 Description: "Referencja do celu dla definicji usługi laboratoryjnej w bazie wiedzy SSIDL"
 Context: ActivityDefinition
-* value[x] only Reference(SsidlConditionDefinitionReasonForTestBW or SsidlConditionDefinitionReasonForTestKU)
+* value[x] only Canonical(SsidlConditionDefinitionReasonForTestBW or SsidlConditionDefinitionReasonForTestKU)
