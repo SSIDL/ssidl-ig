@@ -14,8 +14,6 @@ Description: "Punkt pobrań"
 * operationalStatus 0..0
 * name 1..1 MS
 * description 0..0
-* mode 1..1 MS
-* mode = #instance
 * type 1..1 MS
 * type.coding 1..1 MS
 * type.coding.system 1..1 MS

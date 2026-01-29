@@ -19,7 +19,7 @@ Description: "Definicja usługi laboratoryjnej w bazie wiedzy SSIDL"
 * date 0..0
 * publisher 0..0
 * contact 0..0
-* description 0..0
+* description 1..1
 * useContext 1..1
 * useContext.code 1..1 MS
 * useContext.code = $usage-context-type#workflow "Workflow Setting"
@@ -80,7 +80,7 @@ Description: "Definicja usługi laboratoryjnej w bazie wiedzy SSIDL"
 * dosage 0..0
 * bodySite 0..0
 * specimenRequirement 1..1 MS
-* specimenRequirement only Canonical(SsidlSpecimenDefinition)
+* specimenRequirement only Canonical(SsidlSpecimenDefinitionBW)
 * observationRequirement 0..0
 * observationResultRequirement 1..* MS
 * observationResultRequirement only Canonical(SsidlObservationDefinitionLabCatalogTest)

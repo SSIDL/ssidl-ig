@@ -1,5 +1,5 @@
 Profile: SsidlActivityDefinitionLabCatalogService
-Parent: ActivityDefinition
+Parent: PLBaseCatalogService
 Id: ssidl-activityDefinition-labCatalogService
 Title: "Usługa katalogowa laboratorium (SSIDL)"
 Description: "Usługa katalogowa laboratorium"
@@ -44,30 +44,6 @@ Description: "Usługa katalogowa laboratorium"
 * kind = #Task
 * profile 0..0
 * code 1..1 MS
-* code.coding 1..* MS
-* code.coding ^slicing.discriminator.type = #value
-* code.coding ^slicing.discriminator.path = "system"
-* code.coding ^slicing.rules = #closed
-* code.coding ^slicing.description = "Laboratory test definition type code choice"
-* code.coding ^slicing.ordered = false
-* code.coding contains
-    loincCode 1..1 MS and
-    icd9plCode 0..* MS
-* code.coding[loincCode] from LoincConceptVS
-* code.coding[loincCode].system 1..1 MS
-* code.coding[loincCode].system = $loinc
-* code.coding[loincCode].version 0..1 MS
-* code.coding[loincCode].code 1..1 MS
-* code.coding[loincCode].display 1..1 MS
-* code.coding[loincCode].userSelected 0..0
-* code.coding[icd9plCode] from Icd9PLLaboratoryServiceCodeVS
-* code.coding[icd9plCode].system 1..1 MS
-* code.coding[icd9plCode].system = $icd-9-pl
-* code.coding[icd9plCode].version 0..1 MS
-* code.coding[icd9plCode].code 1..1 MS
-* code.coding[icd9plCode].display 1..1 MS
-* code.coding[icd9plCode].userSelected 0..0
-* code.text 0..0
 * priority 0..0
 * doNotPerform 0..0
 * timing[x] 0..0
@@ -79,9 +55,9 @@ Description: "Usługa katalogowa laboratorium"
 * dosage 0..0
 * bodySite 0..0
 * specimenRequirement 1..1 MS
-* specimenRequirement only Canonical(SsidlSpecimenDefinition)
+* specimenRequirement only Canonical(SsidlSpecimenDefinitionKU)
 * observationRequirement 0..0
 * observationResultRequirement 1..* MS
-* observationResultRequirement only Canonical(SsidlObservationDefinitionLabCatalogTest)
+* observationResultRequirement only Canonical(SsidlObservationDefinitionLabTestDefinition)
 * transform 0..0
 * dynamicValue 0..0

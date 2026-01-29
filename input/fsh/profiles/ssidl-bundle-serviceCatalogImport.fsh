@@ -49,7 +49,7 @@ Description: "Pakiet zasobów katalogu usług laboratorium lub punktu pobrań"
 * entry[catalogTest].request.ifNoneExist 0..0
 * entry[preanalyticalFactors].fullUrl 1..1 MS
 * entry[preanalyticalFactors].resource 1..1 MS 
-* entry[preanalyticalFactors].resource only SsidlSpecimenDefinition
+* entry[preanalyticalFactors].resource only SsidlSpecimenDefinitionKU
 * entry[preanalyticalFactors].request 1..1 MS
 * entry[preanalyticalFactors].request.method 1..1 MS
 * entry[preanalyticalFactors].request.url 1..1 MS

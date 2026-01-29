@@ -2,7 +2,15 @@ ValueSet: AgeUnitVS
 Id: pl-base-ageUnit-VS
 Title: "Jednostki wieku"
 Description: "Kody jednostek wieku oparte na słowniku UCUM"
-* $ucum#a "rok(lat)"
-* $ucum#mo "miesiąc(miesięcy)"
-* $ucum#wk "tydzień(tygodni)"
-* $ucum#d "dzień(dni)"
+* $ucum#a "year"
+  * ^designation[0].language = #pl-PL
+  * ^designation[=].value = "rok(lat)"
+* $ucum#mo "month"
+  * ^designation[0].language = #pl-PL
+  * ^designation[=].value = "miesiąc(miesięcy)"
+* $ucum#wk "week"
+  * ^designation[0].language = #pl-PL
+  * ^designation[=].value = "tydzień(tygodni)"
+* $ucum#d "day"
+  * ^designation[0].language = #pl-PL
+  * ^designation[=].value = "dzień(dni)"

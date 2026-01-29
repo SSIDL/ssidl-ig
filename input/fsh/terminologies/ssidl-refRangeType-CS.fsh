@@ -6,7 +6,7 @@ Description: "Typy znaczeniowe wartości referencyjnych zdefiniowane w bazie wie
 * ^url = "http://loinc-ssidl.umed.pl/fhir/ig/ssidl/CodeSystem/ssidl-refRangeType-CS"
 * #ZAKRES "Zakres wartości"
 * #BINARNA "Wartość binarna"
-* #SLOWNIK "Wartość słowna"
+* #SLOWNIK "Wartość słownikowa"
 * #OPIS "Wartość opisowa"
 * #CUT-OFF "Cut-off do decyzji klinicznej"
 * #DOCSUBP "Wartości docelowe w subpopulacjach"

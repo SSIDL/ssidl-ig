@@ -63,3 +63,4 @@ Alias: $ref-range-type = http://loinc-ssidl.umed.pl/fhir/ig/ssidl/CodeSystem/ssi
 Alias: $specimen-handling = http://loinc-ssidl.umed.pl/fhir/ig/ssidl/CodeSystem/ssidl-specimenHandlingCode-CS
 Alias: $obs-normal-value = http://loinc-ssidl.umed.pl/fhir/ig/ssidl/CodeSystem/ssidl-observationNormalValue-CS
 Alias: $normal-valueSet-list = http://loinc-ssidl.umed.pl/fhir/ig/ssidl/CodeSystem/ssidl-normalValueSetList-CS
+Alias: $designation-use = http://loinc-ssidl.umed.pl/fhir/ig/ssidl/CodeSystem/ssidl-conceptDesignationUse-CS

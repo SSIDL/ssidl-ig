@@ -1,7 +1,7 @@
-Profile: SsidlSpecimenDefinition
+Profile: SsidlSpecimenDefinitionKU
 Parent: SpecimenDefinition
-Id: ssidl-specimenDefinition-alt
-Title: "Czynniki przedanalityczne (SSIDL)"
+Id: ssidl-specimenDefinition-KU
+Title: "Czynniki przedanalityczne (SSIDL Katalog usług)"
 Description: "Definicja czynników przedanalitycznych dla definicji badania laboratoryjnego"
 * ^version = "0.1.0"
 * url 1..1
@@ -20,7 +20,9 @@ Description: "Definicja czynników przedanalitycznych dla definicji badania labo
 * publisher 0..0
 * contact 0..0
 * description 0..1
-* useContext 0..0
+* useContext 1..1
+* useContext.code = $usage-context-type#workflow "Workflow Setting"
+* useContext.valueCodeableConcept = #KU
 * jurisdiction 0..0
 * purpose 0..0
 * copyright 0..0
