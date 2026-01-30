@@ -2,7 +2,6 @@ ValueSet: SsidlMethodTypeVS
 Id: ssidl-methodType-VS
 Title: "Kody metod oznaczeń laboratoryjnych (SSIDL)"
 Description: "Kody metod oznaczeń laboratoryjnych używane w bazie wiedzy SSIDL wyrażone za pomocą pozycji słownika LOINC Part typu Method lub słownika własnego SSIDL"
-* $ssidl-method#KOLOR "metoda kolorymetryczna"
 * $loinc-part#LP6429-7 "hodowla specyficzna dla organizmu"
 * $loinc-part#LP6209-3 "hodowla"
 * $loinc-part#LP217197-5 "metoda immunologiczna"
