@@ -8,9 +8,13 @@ Context: ObservationDefinition
 * extension ^slicing.rules = #closed
 * extension ^slicing.ordered = false
 * extension contains 
+    sourceUnit 1..1 MS and
     targetUnit 1..1 MS and
     conversionFactor 1..1 MS and
     description 0..1 MS
+* extension[sourceUnit].value[x] only Coding
+* extension[sourceUnit].valueCoding 1..1 MS
+* extension[sourceUnit].valueCoding from SsidlUcumUnitsVS
 * extension[targetUnit].value[x] only Coding
 * extension[targetUnit].valueCoding 1..1
 * extension[targetUnit].valueCoding from SsidlUcumUnitsVS
