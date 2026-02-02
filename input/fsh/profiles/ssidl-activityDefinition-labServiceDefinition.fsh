@@ -4,7 +4,9 @@ Id: ssidl-activityDefinition-labServiceDefinition
 Title: "Definicja usługi laboratoryjnej w bazie wiedzy (SSIDL)"
 Description: "Definicja usługi laboratoryjnej w bazie wiedzy SSIDL"
 * extension contains
+    ActivityDefinitionComment named comment 0..1 MS and
     ActivityDefinitionReasonReference named reason 0..* MS and
+    ActivityDefinitionReasonComment named reasonComment 0..1 MS and
     ActivityDefinitionNfzGuaranteedServiceCode named nfzGuaranteedServiceCode 0..* MS
 * url 1..1 MS
 * identifier 0..0
@@ -81,6 +83,8 @@ Description: "Definicja usługi laboratoryjnej w bazie wiedzy SSIDL"
 * bodySite 0..0
 * specimenRequirement 1..1 MS
 * specimenRequirement only Canonical(SsidlSpecimenDefinitionBW)
+* specimenRequirement.extension contains
+    ActivityDefinitionSpecimenRequirementComment named comment 0..1 MS
 * observationRequirement 0..0
 * observationResultRequirement 1..* MS
 * observationResultRequirement only Canonical(SsidlObservationDefinitionLabCatalogTest)
