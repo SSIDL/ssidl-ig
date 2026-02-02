@@ -2,7 +2,6 @@ ValueSet: SsidlPatientPreparationVS
 Id: ssidl-patientPreparation-VS
 Title: "Kody zasad przygotowania pacjenta do badania"
 Description: "Kody zasad przygotowania pacjenta do badania laboratoryjnego wg słownika własnego SSIDL"
-// dodać pozycje słownika własnego SSIDL
 * $patient-prep#NIECZCZO "Niewymagane bycie na czczo"
 * $patient-prep#DPORAD "Możliwe wykonanie o każdej porze dnia"
 * $patient-prep#CZCZO "Pobranie na czczo (8-12 godzin od posiłku)"

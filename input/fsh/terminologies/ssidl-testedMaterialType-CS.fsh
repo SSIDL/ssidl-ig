@@ -26,3 +26,6 @@ Description: "Uzupełniający (dla LOINC) słownik materiałów badanych (słown
 * #KRPHEPLIT "Krew pełna (heparyna litowa)"
 * #WYMNOSGARD "Wymaz z nosogardła"
 * #KRPHJW "Krew pełna (heparyna stabilizowana jonami wapnia)"
+* #WYMBSJU "Wymaz: z błony śluzowej jamy ustnej"
+* #BSZKHEPLIT "Bioptat: Szpik kostny (z heparyną litową)"
+
