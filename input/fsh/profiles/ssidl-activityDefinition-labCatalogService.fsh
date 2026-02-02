@@ -5,7 +5,7 @@ Title: "Usługa katalogowa laboratorium (SSIDL)"
 Description: "Usługa katalogowa laboratorium"
 * extension contains
     ActivityDefinitionReasonReference named reason 0..* MS and
-    ActivityDefinitionNfzGuaranteedServiceCode named nfzGuaranteedServiceCode 0..* MS
+    ActivityDefinitionNfzCode named nfzCode 0..* MS
 * url 1..1 MS
 * identifier 0..0
 * version 1..1 MS

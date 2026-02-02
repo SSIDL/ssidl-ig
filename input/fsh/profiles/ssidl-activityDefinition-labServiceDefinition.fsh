@@ -7,7 +7,7 @@ Description: "Definicja usługi laboratoryjnej w bazie wiedzy SSIDL"
     ActivityDefinitionComment named comment 0..1 MS and
     ActivityDefinitionReasonReference named reason 0..* MS and
     ActivityDefinitionReasonComment named reasonComment 0..1 MS and
-    ActivityDefinitionNfzGuaranteedServiceCode named nfzGuaranteedServiceCode 0..* MS
+    ActivityDefinitionNfzCode named nfzCode 0..* MS
 * url 1..1 MS
 * identifier 0..0
 * version 1..1 MS
