@@ -4,7 +4,8 @@ Id: ssidl-observationDefinition-labTestDefinition
 Title: "Definicja testu laboratoryjnego w bazie wiedzy (SSIDL)"
 Description: "Definicja testu laboratoryjnego w bazie wiedzy SSIDL"
 * extension contains
-    ObservationDefinitionUnitConversion named unitConversion 0..* MS
+    ObservationDefinitionUnitConversion named unitConversion 0..* MS and
+    ObservationDefinitionUnitConversionComment named unitConversionComment 0..1 MS
 * url 1..1 MS
 * identifier 0..0
 * version 0..1 MS
@@ -78,6 +79,7 @@ Description: "Definicja testu laboratoryjnego w bazie wiedzy SSIDL"
 * qualifiedValue 1..* MS
 * qualifiedValue.extension contains
     ObservationDefinitionQualifiedValueSourceInfoReference named sourceInfo 0..* MS and
+    ObservationDefinitionQualifiedValueComment named comment 0..1 MS and
     RecommendedNormalValueSet named recommendedNormalValueSet 0..1 MS
 * qualifiedValue.extension[recommendedNormalValueSet].valueUri from NormalValueSetListVS
 * qualifiedValue.context 1..1 MS
