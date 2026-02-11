@@ -8,6 +8,6 @@ Description: "Typy znaczeniowe wartości referencyjnych zdefiniowane w bazie wie
 * #BINARNA "Wartość binarna"
 * #SLOWNIK "Wartość słownikowa"
 * #OPIS "Wartość opisowa"
-* #CUT-OFF "Cut-off do decyzji klinicznej"
+* #CUTOFF "Cut-off do decyzji klinicznej"
 * #DOCSUBP "Wartości docelowe w subpopulacjach"
 * #STEZLEK "Monitorowanie stężenia leku"

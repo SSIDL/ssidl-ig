@@ -66,3 +66,4 @@ Description: "Jednostki wyrażania wyniku badania laboratoryjnego w systemuie UC
 * $ucum#fm "femtometr"
 * $ucum#kopii/mL "liczba kopii na mililitr"
 * $ucum#AU/mL "jednostki arbitralne na mililitr"
+* $ucum#mmol/mol "milimol na mol"
