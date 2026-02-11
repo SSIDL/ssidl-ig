@@ -79,9 +79,9 @@ Description: "Definicja testu laboratoryjnego w bazie wiedzy SSIDL"
 * qualifiedValue 1..* MS
 * qualifiedValue.extension contains
     ObservationDefinitionQualifiedValueSourceInfoReference named sourceInfo 0..* MS and
-    ObservationDefinitionQualifiedValueComment named comment 0..1 MS and
-    RecommendedNormalValueSet named recommendedNormalValueSet 0..1 MS
-* qualifiedValue.extension[recommendedNormalValueSet].valueUri from NormalValueSetListVS
+    ObservationDefinitionQualifiedValueComment named comment 0..1 MS
+//     RecommendedNormalValueSet named recommendedNormalValueSet 0..1 MS
+// * qualifiedValue.extension[recommendedNormalValueSet].valueUri from NormalValueSetListVS
 * qualifiedValue.context 1..1 MS
 * qualifiedValue.context.coding 1..* MS
 * qualifiedValue.context.coding ^slicing.discriminator.type = #value
