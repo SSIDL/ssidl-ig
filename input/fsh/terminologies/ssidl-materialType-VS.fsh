@@ -1,6 +1,6 @@
 ValueSet: SsidlMaterialTypeVS
 Id: ssidl-materialType-VS
-Title: "Kody materiału pobieranego do badania (SSIDL)"
+Title: "Kody materiału pobranego (SSIDL)"
 Description: "Kody materiału pobieranego do badania używane w bazie wiedzy SSIDL wyrażone za pomocą pozycji słownika LOINC Part typu System lub słownika własnego SSIDL"
 * $loinc-part#LP7057-5 "krew"
   * ^designation[0].use = $designation-use#BWApp "Identyfikator pozycji słownika w aplikacji do tworzenia bazy wiedzy SSIDL"
